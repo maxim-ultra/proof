@@ -13,6 +13,10 @@ This repository is a public proof shelf for buyer-safe examples prepared from MA
 
 ## Current Proof Examples
 
+Payment and offer page:
+
+- [Start a paid audit or diagnostic](/pay/)
+
 | Example | Purpose | Status |
 | --- | --- | --- |
 | [Repo readiness audit example](examples/repo-readiness-audit-anniebabs-create-mcp.md) | Shows how MAXIM packages public repository readiness gaps into a bounded audit artifact. | Public-source example |
@@ -28,8 +32,8 @@ It does **not** yet prove:
 - a paid customer
 - a merged PR
 - an accepted bounty
-- ENS/domain ownership
-- wallet ownership
+- ENS ownership
+- wallet-control proof beyond the listed receiving route
 - buyer acceptance
 
 Those proofs must be added only when real evidence exists.

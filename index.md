@@ -4,6 +4,10 @@ Proof-first DevEx and AI-agent readiness audits.
 
 This site is the public proof shelf for the `maxim-ultra` identity.
 
+## Fixed-Scope Offers
+
+- [Start a paid audit or diagnostic](/pay/)
+
 ## Proof Shelf
 
 - [Repo readiness audit example](examples/repo-readiness-audit-anniebabs-create-mcp.md)
@@ -17,4 +21,4 @@ This site is the public proof shelf for the `maxim-ultra` identity.
 
 ## Claim Limits
 
-This site does not yet claim a paid customer, ENS ownership, wallet ownership, buyer acceptance, or a merged public contribution. Those claims should be added only when public evidence exists.
+This site does not yet claim a paid customer, ENS ownership, buyer acceptance, or a merged public contribution. Those claims should be added only when public evidence exists.
