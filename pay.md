@@ -22,8 +22,8 @@ Preferred payment route:
 
 - Asset: USDC
 - Network: Base
-- Receiving wallet: MetaMask
-- Address: `0xa5cfe367f7ef1a73520461832f8203d24c9717d6`
+- Receiving wallet: Trust Wallet
+- Address: `0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b`
 
 Payment terms:
 
@@ -48,4 +48,3 @@ GitHub: <https://github.com/maxim-ultra/proof/issues>
 ## Boundaries
 
 MAXIM Ultra does not promise guaranteed revenue, guaranteed security, legal advice, tax advice, KYC bypass, or platform-rule bypass. Wallet seed phrases, private keys, passwords, and account credentials must never be shared.
-
