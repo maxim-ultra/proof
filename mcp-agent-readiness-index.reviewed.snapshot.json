@@ -6,7 +6,7 @@
     "status": "manual_contact_only_until_payment_route_greenlight"
   },
   "deployment_target": "maximultra.dev",
-  "generated_at": "2026-06-08T09:27:41+00:00",
+  "generated_at": "2026-06-08T09:31:58+00:00",
   "locks": {
     "auto_delivery_allowed": false,
     "badge_embed_allowed": false,
@@ -28,7 +28,7 @@
     "Keep payment collection locked until green payment-route evidence exists.",
     "Use manual contact only until an approved intake and payment flow exists."
   ],
-  "publication_state": "owner_review_required_before_public_launch",
+  "publication_state": "public_static_page_live_payment_locked",
   "purpose": "Reviewed public lead page for MCP and AI-agent readiness signals.",
   "rows": [
     {
@@ -118,6 +118,7 @@
     "kept_row_count": 8,
     "parked_row_count": 9,
     "payment_collection_allowed": false,
+    "public_deployment_completed": true,
     "public_launch_allowed": false,
     "source_row_count": 17
   },
