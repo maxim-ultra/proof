@@ -10,6 +10,7 @@ MAXIM Ultra sells fixed-scope DevEx and AI-agent readiness audits for public rep
 
 | Offer | Price | Best For | Deliverable |
 | --- | ---: | --- | --- |
+| Quick MCP Readiness Diagnostic | 30 USDC | One public MCP/server issue, broken setup path, or docs/runtime gap | Short diagnostic with 1 public evidence link, 3 likely causes, and 3 next fixes |
 | Starter Diagnostic | 49 USDC | A small repo, MCP server, docs gap, or broken setup flow | 1-page prioritized diagnostic with proof links and 3 fixes |
 | Repo Readiness Audit | 99 USDC | A public repo that needs better onboarding, docs, agent readiness, or contributor conversion | 5-8 page audit with repo-specific findings, severity, and fixes |
 | Proof Packet Sprint | 199 USDC | A team that wants before/after evidence, screenshots, and implementation-ready recommendations | Audit packet, issue-ready findings, and one follow-up revision |
@@ -38,6 +39,7 @@ Payment terms:
 Open a GitHub issue in this repository with:
 
 - target repository or app URL
+- the public issue, README, setup step, runtime failure, or docs gap to inspect
 - the offer you want
 - the specific pain or workflow you want reviewed
 - preferred turnaround time
