@@ -16,9 +16,13 @@ This repository is a public proof shelf for buyer-safe examples prepared from MA
 Payment and offer page:
 
 - [Start a paid audit or diagnostic](/pay/)
+- [MCP / Agent Readiness Index](https://maximultra.dev/)
+- [Agent-readiness methodology](https://maximultra.dev/methodology.html)
+- [Free MCP readiness starter pack](https://maximultra.dev/starter-pack/)
 
 | Example | Purpose | Status |
 | --- | --- | --- |
+| [MCP readiness starter pack](starter-pack/) | Copyable AGENTS.md template, readiness checklist, and sample report format. | Public starter pack |
 | [Repo readiness audit example](examples/repo-readiness-audit-anniebabs-create-mcp.md) | Shows how MAXIM packages public repository readiness gaps into a bounded audit artifact. | Public-source example |
 | [Visual bug proof format](examples/visual-bug-proof-format.md) | Shows the screenshot-driven proof format MAXIM uses before a UI/UX bug audit. | Format example |
 | [Payment-path checklist](examples/payment-path-checklist.md) | Shows how MAXIM separates offer proof from payment/wallet action. | Safety checklist |

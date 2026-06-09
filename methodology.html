@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAXIM Agent-Readiness Methodology</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f8fb;
+        --panel: #ffffff;
+        --line: #d8e2ec;
+        --text: #111827;
+        --muted: #526273;
+        --blue: #155a96;
+        --green: #087557;
+        --gold: #91650f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main { width: min(940px, calc(100vw - 32px)); margin: 0 auto; padding: 36px 0 64px; }
+      a { color: var(--blue); font-weight: 800; text-decoration: none; }
+      a:hover { text-decoration: underline; text-underline-offset: 3px; }
+      h1 { max-width: 780px; margin: 12px 0 14px; font-size: clamp(2.2rem, 5vw, 4rem); line-height: 1; letter-spacing: 0; }
+      h2 { margin: 0 0 10px; font-size: 1.05rem; }
+      p, li { color: var(--muted); line-height: 1.6; }
+      .pill {
+        display: inline-flex;
+        border: 1px solid rgba(145, 101, 15, 0.35);
+        background: #fff7dc;
+        color: var(--gold);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.77rem;
+        font-weight: 850;
+        text-transform: uppercase;
+      }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 24px 0; }
+      .panel {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: 8px;
+        padding: 18px;
+      }
+      .score { color: var(--green); font-weight: 900; }
+      .nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 22px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="./">&larr; Back to index</a>
+      <div class="pill">methodology / public evidence only</div>
+      <h1>How MAXIM scores MCP and AI-agent readiness</h1>
+      <p>
+        MAXIM looks for public signals that a repo may be hard for agents or maintainers to install,
+        configure, debug, or operate safely. The index is a triage aid, not a certification or endorsement.
+      </p>
+
+      <section class="grid" aria-label="Scoring dimensions">
+        <article class="panel">
+          <h2>Setup Path</h2>
+          <p>Can a new user find exact install, config, run, and smoke-test steps without guessing?</p>
+        </article>
+        <article class="panel">
+          <h2>Runtime Faults</h2>
+          <p>Do public issues show failures around auth, transports, tool calls, subprocesses, or model sessions?</p>
+        </article>
+        <article class="panel">
+          <h2>Schema And Tool Safety</h2>
+          <p>Are tool inputs, expected outputs, permission boundaries, and failure modes documented clearly?</p>
+        </article>
+        <article class="panel">
+          <h2>Agent Instructions</h2>
+          <p>Does the repo expose AGENTS.md, CLAUDE.md, or equivalent operating notes for agent workflows?</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Score meaning</h2>
+        <ul>
+          <li><span class="score">A</span>: strong public signal that the issue is specific, current, and useful for readiness triage.</li>
+          <li><span class="score">B</span>: useful public signal, but the repo may need more context before a paid diagnostic makes sense.</li>
+          <li>Rows are filtered out when the evidence is stale, crowded, security-sensitive, or mostly internal workflow bookkeeping.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>What maintainers can use now</h2>
+        <p>
+          The starter pack gives a copyable AGENTS.md template, readiness checklist, and sample report format.
+          It is designed to be useful even if no paid work happens.
+        </p>
+        <div class="nav">
+          <a href="./starter-pack/">Open starter pack</a>
+          <a href="./pay/">Start a scoped diagnostic</a>
+          <a href="https://github.com/maxim-ultra/proof/issues">Open a GitHub request</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
