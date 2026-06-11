@@ -11,6 +11,13 @@
         "network": "Tron / TRC20",
         "receive_address": "TEnNtpMeRubSZ71XWZdAHLh7XSVLYv1Hw7",
         "verification_status": "manual_or_future_tron_read_only_verifier_required"
+      },
+      {
+        "asset": "USDC",
+        "network": "Ethereum / ERC-20",
+        "receive_address": "0xa5cfe367f7ef1a73520461832f8203d24c9717d6",
+        "verification_status": "same_ethereum_erc20_verifier_can_validate_if_invoice_uses_this_address",
+        "wallet": "MetaMask"
       }
     ],
     "invoice_route": "/api/self-custody-usdc-checkout/create",
@@ -58,7 +65,7 @@
       "score": 100,
       "slug": "ai-deinai-creator-skill",
       "status": "active",
-      "title": "Creator SKILL — Influencer Discovery",
+      "title": "Creator SKILL \u2014 Influencer Discovery",
       "updated_at": "2026-06-05T10:16:43.633426Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.2"
@@ -68,7 +75,7 @@
       "checkout_invoice_ready": true,
       "deducted_points": 0,
       "deductions": [],
-      "description": "AI travel agent — book flights, hotels, activities, and events worldwide via autonomad.ai.",
+      "description": "AI travel agent \u2014 book flights, hotels, activities, and events worldwide via autonomad.ai.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -144,7 +151,7 @@
       "checkout_invoice_ready": true,
       "deducted_points": 0,
       "deductions": [],
-      "description": "Agent-native web hosting — deploy sites, manage DNS, register domains, scale infrastructure",
+      "description": "Agent-native web hosting \u2014 deploy sites, manage DNS, register domains, scale infrastructure",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -336,7 +343,7 @@
       "score": 92,
       "slug": "ai-dynsoft-sac",
       "status": "active",
-      "title": "SaC — Software as Content",
+      "title": "SaC \u2014 Software as Content",
       "updated_at": "2026-05-24T02:09:53.574937Z",
       "verified_paid_usd": 0.0,
       "version": "0.1.2"
@@ -546,7 +553,7 @@
       "score": 92,
       "slug": "ai-agenttrust-mcp-server",
       "status": "active",
-      "title": "AgentTrust — Identity & Trust for A2A Agents",
+      "title": "AgentTrust \u2014 Identity & Trust for A2A Agents",
       "updated_at": "2026-03-06T11:23:10.721165Z",
       "verified_paid_usd": 0.0,
       "version": "1.1.1"
@@ -729,7 +736,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Pre-computed navigation recipes for public websites — skip explore-and-discover.",
+      "description": "Pre-computed navigation recipes for public websites \u2014 skip explore-and-discover.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -882,7 +889,7 @@
       "score": 90,
       "slug": "ai-bareun-bareun",
       "status": "active",
-      "title": "Bareun — Korean NLP & Spell/Grammar Checking",
+      "title": "Bareun \u2014 Korean NLP & Spell/Grammar Checking",
       "updated_at": "2026-06-09T06:04:45.980117Z",
       "verified_paid_usd": 0.0,
       "version": "3.0.0"
@@ -924,7 +931,7 @@
       "score": 90,
       "slug": "ai-drillr-drillr",
       "status": "active",
-      "title": "Drillr — The financial MCP for AI agents",
+      "title": "Drillr \u2014 The financial MCP for AI agents",
       "updated_at": "2026-06-04T12:38:06.605598Z",
       "verified_paid_usd": 0.0,
       "version": "2.1.0"
@@ -1023,7 +1030,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT — search, verify, pay.",
+      "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT \u2014 search, verify, pay.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1065,7 +1072,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
+      "description": "Quant-research MCP \u2014 tradeable signals from public-company website stack changes. 7 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1107,7 +1114,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
+      "description": "Parallel regex across all Boolsai scans \u2014 discover new vendor patterns, niche signals. 4 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1149,7 +1156,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
+      "description": "Indexed ecommerce site directory \u2014 vendor lookups, brands by city/market/founder. 10 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1191,7 +1198,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
+      "description": "Live tech-stack scan of any public site \u2014 vendors, account IDs, scripts, JSON-LD. 2 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1680,7 +1687,7 @@
       "score": 90,
       "slug": "ai-example4-xmp4",
       "status": "active",
-      "title": "xmp4 — Semantic code knowledge for your stack",
+      "title": "xmp4 \u2014 Semantic code knowledge for your stack",
       "updated_at": "2026-04-23T22:09:33.915723Z",
       "verified_paid_usd": 0.0,
       "version": "1.2.6"
@@ -1779,7 +1786,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "AI-powered news intelligence — 21 tools for personalized monitoring, briefings, and semantic search",
+      "description": "AI-powered news intelligence \u2014 21 tools for personalized monitoring, briefings, and semantic search",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -2542,7 +2549,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Live, verifiable data for AI — 56 Ed25519-signed tools: weather, hazards, space, CVEs, markets.",
+      "description": "Live, verifiable data for AI \u2014 56 Ed25519-signed tools: weather, hazards, space, CVEs, markets.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -2883,7 +2890,7 @@
       "score": 78,
       "slug": "ai-deepledger-mcp",
       "status": "active",
-      "title": "DeepLedger — AI Accountant for QuickBooks",
+      "title": "DeepLedger \u2014 AI Accountant for QuickBooks",
       "updated_at": "2026-05-30T08:25:20.319133Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.4"
@@ -3037,7 +3044,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "MCP server registry — validated by live handshake, scored on reliability, monitored continuously.",
+      "description": "MCP server registry \u2014 validated by live handshake, scored on reliability, monitored continuously.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3172,7 +3179,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Search and enrich B2B people & companies — 70+ filters (funding, linkedin, industry, country, ...).",
+      "description": "Search and enrich B2B people & companies \u2014 70+ filters (funding, linkedin, industry, country, ...).",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3352,7 +3359,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Query Baselight's public catalog of 70,000+ datasets — finance, demographics, sports, and more.",
+      "description": "Query Baselight's public catalog of 70,000+ datasets \u2014 finance, demographics, sports, and more.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3442,7 +3449,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
+      "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5\u201312.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3487,7 +3494,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
+      "description": "Clinician-reviewed library on ADHD in children \u2014 evaluation, treatment, school, parenting.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3757,7 +3764,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Run 150+ AI apps — image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
+      "description": "Run 150+ AI apps \u2014 image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3828,7 +3835,7 @@
       "score": 78,
       "slug": "ai-adweave-meta-ads-mcp",
       "status": "active",
-      "title": "AdWeave — Meta Ads MCP Server",
+      "title": "AdWeave \u2014 Meta Ads MCP Server",
       "updated_at": "2026-04-10T16:46:57.731179Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.0"
@@ -3937,7 +3944,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Google Ads MCP server — manage campaigns, keywords, and metrics.",
+      "description": "Google Ads MCP server \u2014 manage campaigns, keywords, and metrics.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -4053,7 +4060,7 @@
       "score": 78,
       "slug": "ai-bezal-local-commerce",
       "status": "active",
-      "title": "Bezal — Local Business Intelligence for AI Agents",
+      "title": "Bezal \u2014 Local Business Intelligence for AI Agents",
       "updated_at": "2026-03-03T01:28:17.439049Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.0"
@@ -4072,7 +4079,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Query Meta Ads performance data — accounts, campaigns, ad sets, ads, metrics & settings.",
+      "description": "Query Meta Ads performance data \u2014 accounts, campaigns, ad sets, ads, metrics & settings.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
