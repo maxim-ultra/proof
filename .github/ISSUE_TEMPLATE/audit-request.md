@@ -17,6 +17,15 @@ Repository or app URL:
 - [ ] Repo Readiness Audit - 99 USDC
 - [ ] Proof Packet Sprint - 199 USDC
 
+## Payment / Receipt
+
+If you already paid for the 30 USDC Quick MCP Readiness Diagnostic, paste the
+public transaction hash here. Use USDC on Base only. Do not paste private wallet
+data, seed phrases, private keys, screenshots with sensitive balances, or
+account credentials.
+
+Transaction hash:
+
 ## Main Pain
 
 What should be reviewed?
@@ -41,4 +50,6 @@ Can sanitized before/after proof be cited publicly after delivery?
 
 ## Notes
 
-Scope is agreed in writing before any paid work starts.
+For the 30 USDC public-source quick diagnostic, work starts after the on-chain
+receipt and public scope are verified. Higher-scope or ambiguous work requires
+written scope before payment.

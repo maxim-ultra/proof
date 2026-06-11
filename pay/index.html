@@ -57,6 +57,18 @@
         border-radius: 8px;
         padding: 12px 14px;
       }
+      .fast {
+        border-color: rgba(8, 117, 87, 0.28);
+        background: #edfdf6;
+      }
+      .steps {
+        margin: 10px 0 0;
+        padding-left: 22px;
+      }
+      .warn {
+        border-color: rgba(145, 101, 15, 0.28);
+        background: #fffaf0;
+      }
     </style>
   </head>
   <body>
@@ -96,16 +108,36 @@
         <a class="button" href="https://github.com/maxim-ultra/proof/issues/new/choose">Open a diagnostic request</a>
       </section>
 
+      <section class="panel fast">
+        <h2>Fastest $30 Path</h2>
+        <p>For the Quick MCP Readiness Diagnostic only, you may use the self-serve path when the target is public and the task fits the published scope.</p>
+        <ol class="steps">
+          <li>Send exactly <strong>30 USDC on Base</strong> to the wallet below.</li>
+          <li>Open a diagnostic request with the public repo/app URL, public issue or setup path, and your public transaction hash.</li>
+          <li>Work starts after the on-chain receipt and public scope are verified.</li>
+        </ol>
+      </section>
+
       <section class="panel">
         <h2>Payment Route</h2>
-        <p>Preferred route after written scope is agreed:</p>
+        <p>Preferred route for eligible public-source diagnostics:</p>
         <ul>
           <li>Asset: USDC</li>
           <li>Network: Base</li>
           <li>Receiving wallet: Trust Wallet</li>
           <li>Address: <code>0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code></li>
         </ul>
-        <p>Delivery starts after on-chain receipt is confirmed. Do not share credentials, private logs, seed phrases, private keys, or account access.</p>
+        <p>Include the public transaction hash in your GitHub request. Delivery starts after the receipt is confirmed on-chain. Do not share credentials, private logs, seed phrases, private keys, or account access.</p>
+      </section>
+
+      <section class="panel warn">
+        <h2>Before Paying</h2>
+        <p>
+          Use the self-serve path only for public repositories, public docs, public setup failures,
+          or public MCP/agent-readiness issues. Private access, guaranteed security claims, legal/tax advice,
+          platform-rule bypass, KYC bypass, and secret material are out of scope.
+        </p>
+        <p>Sending the wrong asset, wrong network, or wrong address may be irreversible.</p>
       </section>
 
       <section class="panel">

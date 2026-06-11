@@ -19,7 +19,16 @@ Custom implementation work is scoped separately after the diagnostic.
 
 ## Payment Route
 
-Preferred payment route:
+For the Quick MCP Readiness Diagnostic only, a buyer may use the self-serve
+path when the target is public and the task fits the published scope:
+
+1. Send exactly **30 USDC on Base** to the wallet below.
+2. Open a diagnostic request with the public repo/app URL, public issue or setup
+   path, and the public transaction hash.
+3. MAXIM Ultra starts work after the on-chain receipt and public scope are
+   verified.
+
+Preferred payment route for eligible public-source diagnostics:
 
 - Asset: USDC
 - Network: Base
@@ -28,7 +37,9 @@ Preferred payment route:
 
 Payment terms:
 
-- Pay only after the scope is agreed in writing.
+- For 30 USDC public-source quick diagnostics, payment may come first if the
+  request clearly fits the public scope.
+- Higher-scope or ambiguous work requires written scope before payment.
 - Use USDC on Base only unless another route is confirmed in writing.
 - Delivery starts after on-chain receipt is confirmed.
 - Sending to the wrong network, wrong asset, or wrong address may be irreversible.
@@ -41,6 +52,7 @@ Open a GitHub issue in this repository with:
 - target repository or app URL
 - the public issue, README, setup step, runtime failure, or docs gap to inspect
 - the offer you want
+- public transaction hash if already paid
 - the specific pain or workflow you want reviewed
 - preferred turnaround time
 - whether public proof can be cited after delivery
