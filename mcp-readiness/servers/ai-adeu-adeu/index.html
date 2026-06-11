@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ai.adeu/adeu - MAXIM readiness score</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f7fb;
+        --panel: #ffffff;
+        --line: #d8e1ec;
+        --text: #101828;
+        --muted: #526173;
+        --accent: #165d9f;
+        --green: #087557;
+        --gold: #8a6112;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main { width: min(1120px, calc(100vw - 32px)); margin: 0 auto; padding: 32px 0 56px; }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 340px;
+        gap: 22px;
+        align-items: end;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--line);
+      }
+      .eyebrow {
+        width: fit-content;
+        margin: 0 0 12px;
+        border: 1px solid rgba(138, 97, 18, 0.35);
+        background: #fff6da;
+        color: var(--gold);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.75rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      h1, h2, p { margin: 0; }
+      h1 { max-width: 780px; font-size: clamp(2rem, 4vw, 4.4rem); line-height: 0.98; letter-spacing: 0; }
+      h2 { margin-bottom: 12px; font-size: 1rem; }
+      .lede { max-width: 760px; margin-top: 14px; color: var(--muted); line-height: 1.55; }
+      .cta, .score-card, .panel, .metrics article, .row {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .cta, .score-card { padding: 16px; display: grid; gap: 10px; }
+      .cta span, .score-card span, .metrics span, .row p, .fine { color: var(--muted); }
+      .cta strong, .score-card strong { font-size: 1.65rem; }
+      .address {
+        overflow-wrap: anywhere;
+        border: 1px solid #cfe5d8;
+        background: #eefaf3;
+        color: var(--green);
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: 850;
+      }
+      .metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 22px 0; }
+      .metrics article { padding: 16px; }
+      .metrics span { display: block; font-size: 0.75rem; font-weight: 900; text-transform: uppercase; }
+      .metrics strong { display: block; margin-top: 7px; font-size: 1.25rem; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 22px 0; }
+      .panel { padding: 18px; }
+      .rows { display: grid; gap: 10px; }
+      .row { display: grid; grid-template-columns: 42px minmax(0, 1fr) 90px 120px; gap: 14px; align-items: center; padding: 14px; }
+      .rank { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 8px; background: #eaf2fb; color: var(--accent); font-weight: 900; }
+      .name { color: var(--text); font-weight: 900; text-decoration: none; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; text-underline-offset: 3px; }
+      ul { margin: 0; padding-left: 19px; color: var(--muted); line-height: 1.55; }
+      .empty { padding: 16px; color: var(--muted); }
+      @media (max-width: 860px) {
+        .hero, .metrics, .grid, .row { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body><main>
+<header class="hero">
+  <div>
+    <p class="eyebrow">MCP Registry score page</p>
+    <h1>ai.adeu/adeu</h1>
+    <p class="lede">Automated DOCX Redlining Engine</p>
+  </div>
+  <aside class="score-card">
+    <span>Diagnostic score</span>
+    <strong>92/100</strong>
+    <p>A - strong public metadata</p>
+  </aside>
+</header>
+<section class="grid">
+  <article class="panel">
+    <h2>Evidence used</h2>
+    <ul><li>Registry status: active</li>
+<li>Latest version flag: True</li>
+<li>Version: 1.7.1</li>
+<li>Repository: https://github.com/dealfluence/adeu</li>
+<li>Package entries visible: 1</li></ul>
+  </article>
+  <article class="panel">
+    <h2>Point deductions</h2>
+    <ul><li><b>8 points:</b> No remote endpoint was visible in the registry row.</li></ul>
+  </article>
+</section>
+<section class="panel">
+  <h2>Optional deeper packet</h2>
+  <p>If this public score is useful, a buyer can request a fixed-scope deeper packet. MAXIM creates a local Base USDC invoice, verifies the public transaction hash read-only, then routes the report through quality gates.</p>
+  <div class="address">0x395577ce2a2461249cf8f1ec87dae462ee6cc84b</div>
+  <p class="fine">No payment is counted until a buyer-attributed Base USDC transaction hash verifies against a local MAXIM invoice. This page is not a guarantee, endorsement, certification, or official MCP Registry ranking.</p>
+</section>
+</main></body>
+</html>

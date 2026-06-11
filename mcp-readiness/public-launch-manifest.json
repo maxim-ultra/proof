@@ -1,0 +1,54 @@
+{
+  "blocked_claims": [
+    "official MCP affiliation",
+    "server endorsement",
+    "security certification",
+    "payment receipt without verified invoice",
+    "guaranteed revenue or guaranteed delivery outcome"
+  ],
+  "checkout": {
+    "asset": "USDC",
+    "invoice_route": "/api/self-custody-usdc-checkout/create",
+    "live_checkout_form_allowed": false,
+    "network": "Base",
+    "price_label": "$29 mini-score or $75 deep report",
+    "product_id": "mcp-registry-readiness-deep-packet",
+    "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b",
+    "revenue_count_requires_verified_invoice_receipt": true,
+    "verification_route": "/api/self-custody-usdc-checkout/verify-tx"
+  },
+  "conversion_events_to_log": [
+    "page_view",
+    "server_page_view",
+    "invoice_created",
+    "tx_hash_submitted",
+    "tx_verified",
+    "inbound_request",
+    "paid_receipt"
+  ],
+  "created_at": "2026-06-11T09:40:13+00:00",
+  "high_intent_page_count": 60,
+  "model_version": "mcp_registry_score_page_factory_v1_public_distribution_2026_06_11",
+  "page_count": 100,
+  "public_base_url": "https://maximultra.dev/mcp-readiness/",
+  "rules": {
+    "account_or_kyc_action_allowed": false,
+    "auto_delivery_allowed": false,
+    "certification_claim_allowed": false,
+    "endorsement_claim_allowed": false,
+    "external_action_allowed": false,
+    "local_artifact_write_allowed": true,
+    "official_mcp_affiliation_claim_allowed": false,
+    "payment_or_wallet_action_allowed": false,
+    "post_allowed": false,
+    "public_launch_requires_owner_review": true,
+    "publish_allowed": false,
+    "read_only_registry_scan_only": true,
+    "revenue_count_requires_verified_invoice_receipt": true,
+    "security_guarantee_claim_allowed": false,
+    "send_allowed": false,
+    "wallet_action_allowed": false
+  },
+  "safe_public_claim": "Public-safe diagnostic score pages generated from official MCP Registry metadata. Scores are readiness signals, not endorsements, certifications, partnerships, official rankings, or security guarantees.",
+  "title": "MAXIM MCP Registry Readiness Scores"
+}

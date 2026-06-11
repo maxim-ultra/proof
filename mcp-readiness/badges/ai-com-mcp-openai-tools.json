@@ -1,0 +1,10 @@
+{
+  "cacheSeconds": 21600,
+  "color": "green",
+  "isError": false,
+  "label": "MAXIM readiness signal",
+  "message": "90/100",
+  "namedLogo": "modelcontextprotocol",
+  "note": "Diagnostic signal only; not endorsement, certification, or guarantee.",
+  "schemaVersion": 1
+}

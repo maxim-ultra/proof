@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maximultra.dev/mcp-readiness/sitemap.xml
