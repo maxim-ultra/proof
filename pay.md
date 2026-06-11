@@ -22,7 +22,7 @@ Custom implementation work is scoped separately after the diagnostic.
 For the Quick MCP Readiness Diagnostic only, a buyer may use the self-serve
 path when the target is public and the task fits the published scope:
 
-1. Send exactly **30 USDC on Base** to the wallet below.
+1. Send exactly **30 USDC on Ethereum/ERC-20** to the wallet below.
 2. Open a diagnostic request with the public repo/app URL, public issue or setup
    path, and the public transaction hash.
 3. MAXIM Ultra starts work after the on-chain receipt and public scope are
@@ -31,16 +31,24 @@ path when the target is public and the task fits the published scope:
 Preferred payment route for eligible public-source diagnostics:
 
 - Asset: USDC
-- Network: Base
+- Network: Ethereum / ERC-20
 - Receiving wallet: Trust Wallet
 - Address: `0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b`
+
+Fallback route, only if agreed in writing before payment:
+
+- Asset: USDT
+- Network: Tron / TRC20
+- Receiving wallet: Trust Wallet
+- Address: `TEnNtpMeRubSZ71XWZdAHLh7XSVLYv1Hw7`
+- Note: include the public transaction hash; this route may require manual public explorer verification.
 
 Payment terms:
 
 - For 30 USDC public-source quick diagnostics, payment may come first if the
   request clearly fits the public scope.
 - Higher-scope or ambiguous work requires written scope before payment.
-- Use USDC on Base only unless another route is confirmed in writing.
+- Use USDC on Ethereum/ERC-20 unless another route is confirmed in writing.
 - Delivery starts after on-chain receipt is confirmed.
 - Sending to the wrong network, wrong asset, or wrong address may be irreversible.
 - Refunds or redos are handled according to the written scope and delivery boundary.

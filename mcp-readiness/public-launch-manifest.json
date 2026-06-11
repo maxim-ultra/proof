@@ -10,7 +10,7 @@
     "asset": "USDC",
     "invoice_route": "/api/self-custody-usdc-checkout/create",
     "live_checkout_form_allowed": false,
-    "network": "Base",
+    "network": "Ethereum / ERC-20",
     "price_label": "$29 mini-score or $75 deep report",
     "product_id": "mcp-registry-readiness-deep-packet",
     "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b",
