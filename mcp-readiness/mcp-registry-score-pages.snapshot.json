@@ -5,6 +5,14 @@
   "product_cta": {
     "asset": "USDC",
     "delivery_boundary": "No private repo access, no secrets, no guarantees, no wallet custody.",
+    "fallback_routes": [
+      {
+        "asset": "USDT",
+        "network": "Tron / TRC20",
+        "receive_address": "TEnNtpMeRubSZ71XWZdAHLh7XSVLYv1Hw7",
+        "verification_status": "manual_or_future_tron_read_only_verifier_required"
+      }
+    ],
     "invoice_route": "/api/self-custody-usdc-checkout/create",
     "live_checkout_form_allowed": false,
     "network": "Ethereum / ERC-20",
