@@ -270,14 +270,16 @@
           <div class="eyebrow">MAXIM proof slice - first milestone preview</div>
           <h1>Cross-platform food delivery MVP, scoped for fast escrow delivery.</h1>
           <p class="lead">
-            This is a small proof artifact for a delivery marketplace MVP: customer ordering,
-            driver dispatch, merchant status, state boundaries, and QA checks. It uses synthetic
-            data only and requires no private account access for the first milestone.
+            This is a small proof artifact for a Flutter/Dart delivery marketplace MVP:
+            customer ordering, Google Maps dispatch, Firebase order state, Stripe integration
+            boundaries, and QA checks. It uses synthetic data only and requires no production
+            credentials or private account access for the first milestone.
           </p>
           <div class="strip">
-            <span class="pill">React / React Native shape</span>
-            <span class="pill">Order state machine</span>
+            <span class="pill">Flutter / Dart app shape</span>
+            <span class="pill">Firebase order state</span>
             <span class="pill">Driver dispatch UX</span>
+            <span class="pill">Google Maps + Stripe boundary</span>
             <span class="pill">Escrow-friendly first milestone</span>
           </div>
         </div>
@@ -287,7 +289,7 @@
             <div class="metric"><span>Quote field</span><strong>$3,000</strong></div>
             <div class="metric"><span>First milestone</span><strong>$600</strong></div>
             <div class="metric"><span>Delivery</span><strong>3-5 days</strong></div>
-            <div class="metric"><span>Private access</span><strong>Not needed</strong></div>
+            <div class="metric"><span>Production secrets</span><strong>Not needed</strong></div>
           </div>
         </aside>
       </section>
@@ -343,10 +345,10 @@
         <aside class="panel">
           <h2>QA gates before expansion</h2>
           <ul class="qa-list">
-            <li><strong>Order state model</strong><span>Created -> accepted -> cooking -> ready -> picked up -> delivered -> disputed.</span></li>
-            <li><strong>Failure boundaries</strong><span>Restaurant timeout, courier decline, payment pending, stale location, network loss.</span></li>
-            <li><strong>Performance target</strong><span>Fast list rendering, cached merchant data, optimistic UI only where reversible.</span></li>
-            <li><strong>Security boundary</strong><span>No private keys, no custodial wallet access, no production credentials in milestone one.</span></li>
+            <li><strong>Firebase order model</strong><span>Created -> accepted -> cooking -> ready -> picked up -> delivered -> disputed.</span></li>
+            <li><strong>Google Maps boundaries</strong><span>Route preview, stale location, denied permission, driver reassignment, offline fallback.</span></li>
+            <li><strong>Stripe boundary</strong><span>Test-mode checkout/payment intent wiring only until the buyer provides approved production keys.</span></li>
+            <li><strong>Security boundary</strong><span>No private keys, custodial wallet access, production Stripe keys, or Firebase admin secrets in milestone one.</span></li>
           </ul>
         </aside>
       </section>
@@ -355,9 +357,9 @@
         <div class="panel">
           <h2>3-5 day delivery plan</h2>
           <div class="timeline">
-            <div class="step"><div class="num">1</div><div><strong>Day 1</strong><br />Confirm route map, entities, order state machine, and API contract assumptions.</div></div>
-            <div class="step"><div class="num">2</div><div><strong>Days 2-3</strong><br />Build the responsive customer and dispatch screens with synthetic data and typed state transitions.</div></div>
-            <div class="step"><div class="num">3</div><div><strong>Days 4-5</strong><br />Add error states, loading states, QA checklist, and handoff notes for the full MVP build.</div></div>
+            <div class="step"><div class="num">1</div><div><strong>Day 1</strong><br />Confirm Flutter route map, Firebase collections, order state machine, and API/key assumptions.</div></div>
+            <div class="step"><div class="num">2</div><div><strong>Days 2-3</strong><br />Build the customer ordering and dispatch screens with synthetic data and typed Dart state transitions.</div></div>
+            <div class="step"><div class="num">3</div><div><strong>Days 4-5</strong><br />Add Google Maps/Stripe test-mode boundaries, error states, QA checklist, and handoff notes for the full MVP build.</div></div>
           </div>
         </div>
         <div class="panel">
@@ -365,7 +367,7 @@
           <ul class="qa-list">
             <li><strong>Visible proof</strong><span>Buyer can inspect the app slice without giving private access.</span></li>
             <li><strong>Bounded scope</strong><span>Milestone one proves execution quality; full build starts only after acceptance.</span></li>
-            <li><strong>Stack flexibility</strong><span>Can implement with React web first, then React Native/Expo if mobile is required.</span></li>
+            <li><strong>Target stack</strong><span>Flutter, Dart, Firebase, Google Maps API, Stripe test-mode integration boundary.</span></li>
             <li><strong>Evidence receipt</strong><span>All changes ship with a short delivery note, screenshots, and test checklist.</span></li>
           </ul>
         </div>
