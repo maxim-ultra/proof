@@ -11,9 +11,11 @@
     "invoice_route": "/api/self-custody-usdc-checkout/create",
     "live_checkout_form_allowed": false,
     "network": "Ethereum / ERC-20",
+    "payment_instruction": "Request scope first. Do not send funds until the deliverable and invoice memo are confirmed.",
     "price_label": "$29 mini-score or $75 deep report",
     "product_id": "mcp-registry-readiness-deep-packet",
     "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b",
+    "request_url": "https://github.com/maxim-ultra/proof/issues/new?title=MCP+readiness+packet+request&body=I+want+a+scoped+MAXIM+MCP+%2F+AI-agent+readiness+packet.%0A%0AServer+or+repo%3A+%5Bpaste+MCP+server+or+repo+URL%5D%0APublic+score+page%3A+https%3A%2F%2Fmaximultra.dev%2Fmcp-readiness%2F%0A%0ARequested+option%3A%0A-+%5B+%5D+%2429+mini-score%0A-+%5B+%5D+%2475+deep+report%0A-+%5B+%5D+Custom+fixed-scope+readiness+sprint%0A%0APayment+note%3A%0APlease+confirm+scope+and+invoice+memo+before+any+transfer.",
     "revenue_count_requires_verified_invoice_receipt": true,
     "verification_route": "/api/self-custody-usdc-checkout/verify-tx"
   },
@@ -26,9 +28,9 @@
     "inbound_request",
     "paid_receipt"
   ],
-  "created_at": "2026-06-11T09:40:13+00:00",
-  "high_intent_page_count": 60,
-  "model_version": "mcp_registry_score_page_factory_v1_public_distribution_2026_06_11",
+  "created_at": "2026-06-12T06:57:51+00:00",
+  "high_intent_page_count": 58,
+  "model_version": "mcp_registry_score_page_factory_v3_buyer_intake_cta_2026_06_12",
   "page_count": 100,
   "public_base_url": "https://maximultra.dev/mcp-readiness/",
   "rules": {

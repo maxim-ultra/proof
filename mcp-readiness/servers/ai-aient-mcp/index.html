@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ai.explorium/mcp-explorium - MAXIM readiness score</title>
+    <title>ai.aient/mcp - MAXIM readiness score</title>
     <style>
       :root {
         color-scheme: light;
@@ -56,6 +56,19 @@
       .cta, .score-card { padding: 16px; display: grid; gap: 10px; }
       .cta span, .score-card span, .metrics span, .row p, .fine { color: var(--muted); }
       .cta strong, .score-card strong { font-size: 1.65rem; }
+      .button-link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 42px;
+        border-radius: 8px;
+        border: 1px solid #0f766e;
+        background: #0f766e;
+        color: #ffffff;
+        font-weight: 900;
+        text-decoration: none;
+      }
+      .button-link:hover { background: #0b5f59; text-decoration: none; }
       .address {
         overflow-wrap: anywhere;
         border: 1px solid #cfe5d8;
@@ -88,8 +101,8 @@
 <header class="hero">
   <div>
     <p class="eyebrow">MCP Registry score page</p>
-    <h1>ai.explorium/mcp-explorium</h1>
-    <p class="lede">Access live company and contact data from Explorium's AgentSource B2B platform.</p>
+    <h1>ai.aient/mcp</h1>
+    <p class="lede">MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.</p>
   </div>
   <aside class="score-card">
     <span>Diagnostic score</span>
@@ -102,8 +115,8 @@
     <h2>Evidence used</h2>
     <ul><li>Registry status: active</li>
 <li>Latest version flag: True</li>
-<li>Version: 1.0.1</li>
-<li>Repository: https://github.com/explorium-ai/mcp-explorium</li>
+<li>Version: 0.1.0</li>
+<li>Repository: https://github.com/haf/glimt</li>
 <li>Remote endpoints visible: 1</li></ul>
   </article>
   <article class="panel">
@@ -113,9 +126,11 @@
 </section>
 <section class="panel">
   <h2>Optional deeper packet</h2>
-  <p>If this public score is useful, a buyer can request a fixed-scope deeper packet. MAXIM creates a local Ethereum/ERC-20 USDC invoice, verifies the public transaction hash read-only, then routes the report through quality gates.</p>
+  <p>If this public score is useful, request a fixed-scope deeper packet. MAXIM confirms the scope first, creates a local Ethereum/ERC-20 USDC invoice memo, verifies the public transaction hash read-only, then routes the report through quality gates.</p>
+  <a class="button-link" href="https://github.com/maxim-ultra/proof/issues/new?title=MCP+readiness+packet+request%3A+ai.aient%2Fmcp&amp;body=I+want+a+scoped+MAXIM+MCP+%2F+AI-agent+readiness+packet.%0A%0AServer+or+repo%3A+ai.aient%2Fmcp%0APublic+score+page%3A+https%3A%2F%2Fmaximultra.dev%2Fmcp-readiness%2Fservers%2Fai-aient-mcp%2Findex.html%0ACurrent+public+score%3A+90%2F100%0ACurrent+grade%3A+A+-+strong+public+metadata%0ARepository%3A+https%3A%2F%2Fgithub.com%2Fhaf%2Fglimt%0A%0ARequested+option%3A%0A-+%5B+%5D+%2429+mini-score%0A-+%5B+%5D+%2475+deep+report%0A-+%5B+%5D+Custom+fixed-scope+readiness+sprint%0A%0APayment+note%3A%0APlease+confirm+scope+and+invoice+memo+before+any+transfer.">Request this server report</a>
+  <p class="fine">Request scope first. Do not send funds until the deliverable and invoice memo are confirmed.</p>
   <div class="address">0x395577ce2a2461249cf8f1ec87dae462ee6cc84b</div>
-    <div class="fallback"><span>Fallback by written agreement</span><ul><li>USDT on Tron / TRC20: <code>TEnNtpMeRubSZ71XWZdAHLh7XSVLYv1Hw7</code></li><li>USDC on Ethereum / ERC-20: <code>0xa5cfe367f7ef1a73520461832f8203d24c9717d6</code></li></ul></div>
+  <div class="fallback"><span>Fallback by written agreement</span><ul><li>USDT on Tron / TRC20: <code>TEnNtpMeRubSZ71XWZdAHLh7XSVLYv1Hw7</code></li><li>USDC on Ethereum / ERC-20: <code>0xa5cfe367f7ef1a73520461832f8203d24c9717d6</code></li></ul></div>
   <p class="fine">No payment is counted until a buyer-attributed Ethereum/ERC-20 USDC transaction hash verifies against a local MAXIM invoice. This page is not a guarantee, endorsement, certification, or official MCP Registry ranking.</p>
 </section>
 </main></body>

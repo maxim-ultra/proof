@@ -18,6 +18,7 @@
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-autoblocks-ctxl-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-autoblocks-ctxl/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-aliengiraffe-spotdb/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-aient-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-bowmark-bowmark/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-auralogs-auralogs/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-canaryusers-canaryusers/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -40,12 +41,10 @@
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-compeller-compel/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-bankee-inferventis-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-djwizard-tvwizard/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-example4-xmp4/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ac-tandem-docs-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-abmeter-abmeter/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-agentic-news-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-cookiy-cookiy/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-fiber-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-clarid-hmda/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-clarid-compliance/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/agency-lona-trading/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -59,8 +58,8 @@
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-com-mcp-petstore/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-cirra-salesforce-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-exa-exa/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-explorium-mcp-explorium/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-contextstudios-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-duvera-gateway/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-dynamicfeed-dynamic-feed/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-bluenexus-universal-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-calfeed-calfeed/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -84,10 +83,10 @@
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-childanxiety-library/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-childadhd-library/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-bringyour-bringyour/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-example4-xmp4/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-chinamarketing-intelligence/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-byteray-byteray-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-artidrop-artidrop/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-fathom-api-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ac-inference-sh-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-adweave-meta-ads-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-donethat-donethat/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -101,4 +100,5 @@
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-alpic-mcp-alpic-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-appdeploy-deploy-app/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-auteng-docs/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://maximultra.dev/mcp-readiness/servers/ai-auteng-mcp/index.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

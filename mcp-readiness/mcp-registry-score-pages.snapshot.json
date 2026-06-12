@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-11T09:40:13+00:00",
+  "created_at": "2026-06-12T05:55:22+00:00",
   "engine": "MCP Registry Score Page Factory Snapshot",
-  "model_version": "mcp_registry_score_page_factory_v1_public_distribution_2026_06_11",
+  "model_version": "mcp_registry_score_page_factory_v3_buyer_intake_cta_2026_06_12",
   "product_cta": {
     "asset": "USDC",
     "delivery_boundary": "No private repo access, no secrets, no guarantees, no wallet custody.",
@@ -23,11 +23,14 @@
     "invoice_route": "/api/self-custody-usdc-checkout/create",
     "live_checkout_form_allowed": false,
     "network": "Ethereum / ERC-20",
-    "offer_copy": "If this public score is useful, a buyer can request a fixed-scope deeper packet. MAXIM creates a local Ethereum/ERC-20 USDC invoice, verifies the public transaction hash read-only, then routes the report through quality gates.",
+    "offer_copy": "If this public score is useful, request a fixed-scope deeper packet. MAXIM confirms the scope first, creates a local Ethereum/ERC-20 USDC invoice memo, verifies the public transaction hash read-only, then routes the report through quality gates.",
     "payment_claim_allowed": false,
+    "payment_instruction": "Request scope first. Do not send funds until the deliverable and invoice memo are confirmed.",
     "price_label": "$29 mini-score or $75 deep report",
     "product_id": "mcp-registry-readiness-deep-packet",
     "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b",
+    "request_label": "Request a scoped readiness packet",
+    "request_url": "https://github.com/maxim-ultra/proof/issues/new?title=MCP+readiness+packet+request&body=I+want+a+scoped+MAXIM+MCP+%2F+AI-agent+readiness+packet.%0A%0AServer+or+repo%3A+%5Bpaste+MCP+server+or+repo+URL%5D%0APublic+score+page%3A+https%3A%2F%2Fmaximultra.dev%2Fmcp-readiness%2F%0A%0ARequested+option%3A%0A-+%5B+%5D+%2429+mini-score%0A-+%5B+%5D+%2475+deep+report%0A-+%5B+%5D+Custom+fixed-scope+readiness+sprint%0A%0APayment+note%3A%0APlease+confirm+scope+and+invoice+memo+before+any+transfer.",
     "verification_route": "/api/self-custody-usdc-checkout/verify-tx"
   },
   "public_base_url": "https://maximultra.dev/mcp-readiness/",
@@ -65,7 +68,7 @@
       "score": 100,
       "slug": "ai-deinai-creator-skill",
       "status": "active",
-      "title": "Creator SKILL \u2014 Influencer Discovery",
+      "title": "Creator SKILL — Influencer Discovery",
       "updated_at": "2026-06-05T10:16:43.633426Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.2"
@@ -75,7 +78,7 @@
       "checkout_invoice_ready": true,
       "deducted_points": 0,
       "deductions": [],
-      "description": "AI travel agent \u2014 book flights, hotels, activities, and events worldwide via autonomad.ai.",
+      "description": "AI travel agent — book flights, hotels, activities, and events worldwide via autonomad.ai.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -151,7 +154,7 @@
       "checkout_invoice_ready": true,
       "deducted_points": 0,
       "deductions": [],
-      "description": "Agent-native web hosting \u2014 deploy sites, manage DNS, register domains, scale infrastructure",
+      "description": "Agent-native web hosting — deploy sites, manage DNS, register domains, scale infrastructure",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -236,17 +239,17 @@
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
-        "Version: 0.1.4",
+        "Version: 0.1.6",
         "Repository: https://github.com/signaltech-org/bolthub-sdk",
         "Package entries visible: 1"
       ],
       "grade": "A - strong public metadata",
-      "id": "ba26385dec112b30",
+      "id": "4998e22268ad1eff",
       "is_latest": true,
       "name": "ai.bolthub/registry",
       "package_count": 1,
       "page_path": "servers/ai-bolthub-registry/index.html",
-      "published_at": "2026-06-11T04:01:37.760989Z",
+      "published_at": "2026-06-12T04:34:33.335941Z",
       "rank": 6,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 0,
@@ -260,9 +263,9 @@
       "slug": "ai-bolthub-registry",
       "status": "active",
       "title": "bolthub Marketplace",
-      "updated_at": "2026-06-11T04:01:37.760989Z",
+      "updated_at": "2026-06-12T04:34:33.335941Z",
       "verified_paid_usd": 0.0,
-      "version": "0.1.4"
+      "version": "0.1.6"
     },
     {
       "badge_path": "badges/ai-ankimcp-anki-mcp-server.json",
@@ -278,17 +281,17 @@
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
-        "Version: 0.19.2",
+        "Version: 0.20.0",
         "Repository: https://github.com/ankimcp/anki-mcp-server",
         "Package entries visible: 1"
       ],
       "grade": "A - strong public metadata",
-      "id": "1ed8877c2161e30e",
+      "id": "0d75b1b57b1d6e7b",
       "is_latest": true,
       "name": "ai.ankimcp/anki-mcp-server",
       "package_count": 1,
       "page_path": "servers/ai-ankimcp-anki-mcp-server/index.html",
-      "published_at": "2026-06-04T18:27:55.259037Z",
+      "published_at": "2026-06-11T16:05:02.654118Z",
       "rank": 7,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 0,
@@ -302,9 +305,9 @@
       "slug": "ai-ankimcp-anki-mcp-server",
       "status": "active",
       "title": "Anki MCP Server",
-      "updated_at": "2026-06-04T18:27:55.259037Z",
+      "updated_at": "2026-06-11T16:05:02.654118Z",
       "verified_paid_usd": 0.0,
-      "version": "0.19.2"
+      "version": "0.20.0"
     },
     {
       "badge_path": "badges/ai-dynsoft-sac.json",
@@ -343,7 +346,7 @@
       "score": 92,
       "slug": "ai-dynsoft-sac",
       "status": "active",
-      "title": "SaC \u2014 Software as Content",
+      "title": "SaC — Software as Content",
       "updated_at": "2026-05-24T02:09:53.574937Z",
       "verified_paid_usd": 0.0,
       "version": "0.1.2"
@@ -553,7 +556,7 @@
       "score": 92,
       "slug": "ai-agenttrust-mcp-server",
       "status": "active",
-      "title": "AgentTrust \u2014 Identity & Trust for A2A Agents",
+      "title": "AgentTrust — Identity & Trust for A2A Agents",
       "updated_at": "2026-03-06T11:23:10.721165Z",
       "verified_paid_usd": 0.0,
       "version": "1.1.1"
@@ -727,6 +730,48 @@
       "version": "0.1.0"
     },
     {
+      "badge_path": "badges/ai-aient-mcp.json",
+      "checkout_invoice_ready": true,
+      "deducted_points": 10,
+      "deductions": [
+        {
+          "points": 10,
+          "reason": "No package install surface was visible in the registry row."
+        }
+      ],
+      "description": "MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.",
+      "evidence": [
+        "Registry status: active",
+        "Latest version flag: True",
+        "Version: 0.1.0",
+        "Repository: https://github.com/haf/glimt",
+        "Remote endpoints visible: 1"
+      ],
+      "grade": "A - strong public metadata",
+      "id": "eceda737679f8058",
+      "is_latest": true,
+      "name": "ai.aient/mcp",
+      "package_count": 0,
+      "page_path": "servers/ai-aient-mcp/index.html",
+      "published_at": "2026-06-11T10:40:20.47951Z",
+      "rank": 18,
+      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
+      "remote_count": 1,
+      "repository_url": "https://github.com/haf/glimt",
+      "rules": {
+        "diagnostic_only": true,
+        "endorsement_claim_allowed": false,
+        "payment_claim_allowed": false
+      },
+      "score": 90,
+      "slug": "ai-aient-mcp",
+      "status": "active",
+      "title": "ai.aient/mcp",
+      "updated_at": "2026-06-11T10:40:20.47951Z",
+      "verified_paid_usd": 0.0,
+      "version": "0.1.0"
+    },
+    {
       "badge_path": "badges/ai-bowmark-bowmark.json",
       "checkout_invoice_ready": true,
       "deducted_points": 10,
@@ -736,7 +781,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Pre-computed navigation recipes for public websites \u2014 skip explore-and-discover.",
+      "description": "Pre-computed navigation recipes for public websites — skip explore-and-discover.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -751,7 +796,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bowmark-bowmark/index.html",
       "published_at": "2026-06-11T01:34:58.594887Z",
-      "rank": 18,
+      "rank": 19,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/bowmark-ai/skill",
@@ -793,7 +838,7 @@
       "package_count": 0,
       "page_path": "servers/ai-auralogs-auralogs/index.html",
       "published_at": "2026-06-10T05:44:10.419193Z",
-      "rank": 19,
+      "rank": 20,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/auralogs-ai/auralogs-mcp",
@@ -835,7 +880,7 @@
       "package_count": 0,
       "page_path": "servers/ai-canaryusers-canaryusers/index.html",
       "published_at": "2026-06-10T02:40:42.185548Z",
-      "rank": 20,
+      "rank": 21,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/BrettonB/canaryusers-mcp",
@@ -877,7 +922,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bareun-bareun/index.html",
       "published_at": "2026-06-09T06:04:45.980117Z",
-      "rank": 21,
+      "rank": 22,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/gih2yun/bareun-mcp",
@@ -889,7 +934,7 @@
       "score": 90,
       "slug": "ai-bareun-bareun",
       "status": "active",
-      "title": "Bareun \u2014 Korean NLP & Spell/Grammar Checking",
+      "title": "Bareun — Korean NLP & Spell/Grammar Checking",
       "updated_at": "2026-06-09T06:04:45.980117Z",
       "verified_paid_usd": 0.0,
       "version": "3.0.0"
@@ -919,7 +964,7 @@
       "package_count": 0,
       "page_path": "servers/ai-drillr-drillr/index.html",
       "published_at": "2026-06-04T12:38:06.605598Z",
-      "rank": 22,
+      "rank": 23,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Little-Grebe-Inc/drillr-mcp-server",
@@ -931,7 +976,7 @@
       "score": 90,
       "slug": "ai-drillr-drillr",
       "status": "active",
-      "title": "Drillr \u2014 The financial MCP for AI agents",
+      "title": "Drillr — The financial MCP for AI agents",
       "updated_at": "2026-06-04T12:38:06.605598Z",
       "verified_paid_usd": 0.0,
       "version": "2.1.0"
@@ -961,7 +1006,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bittlebits-bittlebits/index.html",
       "published_at": "2026-06-02T16:24:51.181889Z",
-      "rank": 23,
+      "rank": 24,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/bittlebitsai/bittlebits-plugin",
@@ -1003,7 +1048,7 @@
       "package_count": 0,
       "page_path": "servers/ai-calendarmcp-server/index.html",
       "published_at": "2026-05-20T07:09:04.298867Z",
-      "rank": 24,
+      "rank": 25,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Full-Vibe/calendarmcp-public",
@@ -1030,7 +1075,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT \u2014 search, verify, pay.",
+      "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT — search, verify, pay.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1045,7 +1090,7 @@
       "package_count": 0,
       "page_path": "servers/ai-agenticterminal-directory/index.html",
       "published_at": "2026-05-19T15:17:01.794422Z",
-      "rank": 25,
+      "rank": 26,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/observer-protocol/at-directory",
@@ -1072,7 +1117,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Quant-research MCP \u2014 tradeable signals from public-company website stack changes. 7 tools.",
+      "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1087,7 +1132,7 @@
       "package_count": 0,
       "page_path": "servers/ai-boolsai-signals/index.html",
       "published_at": "2026-05-19T13:30:36.922608Z",
-      "rank": 26,
+      "rank": 27,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Boolsai-ai/mcp",
@@ -1114,7 +1159,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Parallel regex across all Boolsai scans \u2014 discover new vendor patterns, niche signals. 4 tools.",
+      "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1129,7 +1174,7 @@
       "package_count": 0,
       "page_path": "servers/ai-boolsai-grep/index.html",
       "published_at": "2026-05-19T13:30:36.222224Z",
-      "rank": 27,
+      "rank": 28,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Boolsai-ai/mcp",
@@ -1156,7 +1201,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Indexed ecommerce site directory \u2014 vendor lookups, brands by city/market/founder. 10 tools.",
+      "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1171,7 +1216,7 @@
       "package_count": 0,
       "page_path": "servers/ai-boolsai-directory/index.html",
       "published_at": "2026-05-19T13:30:35.464226Z",
-      "rank": 28,
+      "rank": 29,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Boolsai-ai/mcp",
@@ -1198,7 +1243,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Live tech-stack scan of any public site \u2014 vendors, account IDs, scripts, JSON-LD. 2 tools.",
+      "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1213,7 +1258,7 @@
       "package_count": 0,
       "page_path": "servers/ai-boolsai-scan/index.html",
       "published_at": "2026-05-19T13:30:34.760247Z",
-      "rank": 29,
+      "rank": 30,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Boolsai-ai/mcp",
@@ -1255,7 +1300,7 @@
       "package_count": 0,
       "page_path": "servers/ai-auxen-auxen/index.html",
       "published_at": "2026-05-18T23:32:19.610277Z",
-      "rank": 30,
+      "rank": 31,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/auxen-ai/auxen-mcp",
@@ -1297,7 +1342,7 @@
       "package_count": 0,
       "page_path": "servers/ai-autorfp-mcp/index.html",
       "published_at": "2026-05-18T01:09:10.259215Z",
-      "rank": 31,
+      "rank": 32,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/AutoRFP/mcp",
@@ -1339,7 +1384,7 @@
       "package_count": 0,
       "page_path": "servers/ai-agentdm-agentdm/index.html",
       "published_at": "2026-05-10T02:12:16.907792Z",
-      "rank": 32,
+      "rank": 33,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/agentdmai/agentdm",
@@ -1381,7 +1426,7 @@
       "package_count": 0,
       "page_path": "servers/ai-dreamlit-mcp/index.html",
       "published_at": "2026-05-07T04:59:39.740016Z",
-      "rank": 33,
+      "rank": 34,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/dreamlit-ai/dreamlit-mcp",
@@ -1423,7 +1468,7 @@
       "package_count": 0,
       "page_path": "servers/ai-agenticshelf-mcp/index.html",
       "published_at": "2026-05-06T16:24:16.952518Z",
-      "rank": 34,
+      "rank": 35,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/vboykoCTO/agentic-shelf",
@@ -1465,7 +1510,7 @@
       "package_count": 0,
       "page_path": "servers/ai-buywhere-catalog-api/index.html",
       "published_at": "2026-05-05T09:47:07.387848Z",
-      "rank": 35,
+      "rank": 36,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/BuyWhere/buywhere",
@@ -1507,7 +1552,7 @@
       "package_count": 0,
       "page_path": "servers/ai-cosmonote-notes/index.html",
       "published_at": "2026-05-05T08:30:35.974817Z",
-      "rank": 36,
+      "rank": 37,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/cosmonote/pocketbase",
@@ -1549,7 +1594,7 @@
       "package_count": 0,
       "page_path": "servers/ai-compeller-compel/index.html",
       "published_at": "2026-05-05T03:21:40.918318Z",
-      "rank": 37,
+      "rank": 38,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Compellerai/compeller-mcp",
@@ -1591,7 +1636,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bankee-inferventis-mcp/index.html",
       "published_at": "2026-04-28T09:24:20.898632Z",
-      "rank": 38,
+      "rank": 39,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/Bankee-ai/inferventis",
@@ -1633,7 +1678,7 @@
       "package_count": 0,
       "page_path": "servers/ai-djwizard-tvwizard/index.html",
       "published_at": "2026-04-27T13:19:31.955204Z",
-      "rank": 39,
+      "rank": 40,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/fizzious1/TVWizard-mcp",
@@ -1649,48 +1694,6 @@
       "updated_at": "2026-04-27T13:19:31.955204Z",
       "verified_paid_usd": 0.0,
       "version": "0.7.0"
-    },
-    {
-      "badge_path": "badges/ai-example4-xmp4.json",
-      "checkout_invoice_ready": true,
-      "deducted_points": 10,
-      "deductions": [
-        {
-          "points": 10,
-          "reason": "No package install surface was visible in the registry row."
-        }
-      ],
-      "description": "OSS libs in your stack, really used: source, tests, callers. C#, Java, TS, Python, Rust, PHP+.",
-      "evidence": [
-        "Registry status: active",
-        "Latest version flag: True",
-        "Version: 1.2.6",
-        "Repository: https://github.com/0ics-srls/lsai-xmp4.public",
-        "Remote endpoints visible: 1"
-      ],
-      "grade": "A - strong public metadata",
-      "id": "e408e6d848fc2075",
-      "is_latest": true,
-      "name": "ai.example4/xmp4",
-      "package_count": 0,
-      "page_path": "servers/ai-example4-xmp4/index.html",
-      "published_at": "2026-04-23T22:09:33.915723Z",
-      "rank": 40,
-      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
-      "remote_count": 1,
-      "repository_url": "https://github.com/0ics-srls/lsai-xmp4.public",
-      "rules": {
-        "diagnostic_only": true,
-        "endorsement_claim_allowed": false,
-        "payment_claim_allowed": false
-      },
-      "score": 90,
-      "slug": "ai-example4-xmp4",
-      "status": "active",
-      "title": "xmp4 \u2014 Semantic code knowledge for your stack",
-      "updated_at": "2026-04-23T22:09:33.915723Z",
-      "verified_paid_usd": 0.0,
-      "version": "1.2.6"
     },
     {
       "badge_path": "badges/ac-tandem-docs-mcp.json",
@@ -1786,7 +1789,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "AI-powered news intelligence \u2014 21 tools for personalized monitoring, briefings, and semantic search",
+      "description": "AI-powered news intelligence — 21 tools for personalized monitoring, briefings, and semantic search",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -1861,48 +1864,6 @@
       "version": "1.7.19"
     },
     {
-      "badge_path": "badges/ai-fiber-mcp.json",
-      "checkout_invoice_ready": true,
-      "deducted_points": 10,
-      "deductions": [
-        {
-          "points": 10,
-          "reason": "No package install surface was visible in the registry row."
-        }
-      ],
-      "description": "Search companies, enrich contacts, and reveal emails and phones from your AI agent.",
-      "evidence": [
-        "Registry status: active",
-        "Latest version flag: True",
-        "Version: 1.0.0",
-        "Repository: https://github.com/fiber-ai/mcp",
-        "Remote endpoints visible: 2"
-      ],
-      "grade": "A - strong public metadata",
-      "id": "a68614e442167c9e",
-      "is_latest": true,
-      "name": "ai.fiber/mcp",
-      "package_count": 0,
-      "page_path": "servers/ai-fiber-mcp/index.html",
-      "published_at": "2026-03-05T17:07:19.663739Z",
-      "rank": 45,
-      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
-      "remote_count": 2,
-      "repository_url": "https://github.com/fiber-ai/mcp",
-      "rules": {
-        "diagnostic_only": true,
-        "endorsement_claim_allowed": false,
-        "payment_claim_allowed": false
-      },
-      "score": 90,
-      "slug": "ai-fiber-mcp",
-      "status": "active",
-      "title": "Fiber AI",
-      "updated_at": "2026-03-05T17:07:19.663739Z",
-      "verified_paid_usd": 0.0,
-      "version": "1.0.0"
-    },
-    {
       "badge_path": "badges/ai-clarid-hmda.json",
       "checkout_invoice_ready": true,
       "deducted_points": 10,
@@ -1927,7 +1888,7 @@
       "package_count": 0,
       "page_path": "servers/ai-clarid-hmda/index.html",
       "published_at": "2026-02-26T19:00:44.38512Z",
-      "rank": 46,
+      "rank": 45,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/clarid-ai/compliance-checker",
@@ -1969,7 +1930,7 @@
       "package_count": 0,
       "page_path": "servers/ai-clarid-compliance/index.html",
       "published_at": "2026-02-26T19:00:43.930817Z",
-      "rank": 47,
+      "rank": 46,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/clarid-ai/compliance-checker",
@@ -2011,7 +1972,7 @@
       "package_count": 0,
       "page_path": "servers/agency-lona-trading/index.html",
       "published_at": "2026-02-24T00:07:27.525636Z",
-      "rank": 48,
+      "rank": 47,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/mindsightventures/lona",
@@ -2053,7 +2014,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-strava/index.html",
       "published_at": "2026-02-19T16:39:20.668626Z",
-      "rank": 49,
+      "rank": 48,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2095,7 +2056,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-linkedin/index.html",
       "published_at": "2026-02-19T15:17:12.346134Z",
-      "rank": 50,
+      "rank": 49,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2137,7 +2098,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-skills-search/index.html",
       "published_at": "2026-02-04T12:46:39.858109Z",
-      "rank": 51,
+      "rank": 50,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/agentskills/agentskills",
@@ -2179,7 +2140,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-openai-tools/index.html",
       "published_at": "2026-01-22T02:35:00.021804Z",
-      "rank": 52,
+      "rank": 51,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2221,7 +2182,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-lenny-rachitsky-podcast/index.html",
       "published_at": "2026-01-16T11:08:36.481149Z",
-      "rank": 53,
+      "rank": 52,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2263,7 +2224,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-registry/index.html",
       "published_at": "2026-01-10T22:33:54.03436Z",
-      "rank": 54,
+      "rank": 53,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/modelcontextprotocol/registry",
@@ -2305,7 +2266,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-contabo/index.html",
       "published_at": "2026-01-08T13:19:46.430479Z",
-      "rank": 55,
+      "rank": 54,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2347,7 +2308,7 @@
       "package_count": 0,
       "page_path": "servers/ai-com-mcp-petstore/index.html",
       "published_at": "2026-01-07T14:13:05.674855Z",
-      "rank": 56,
+      "rank": 55,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/la-rebelion/hapimcp",
@@ -2389,7 +2350,7 @@
       "package_count": 0,
       "page_path": "servers/ai-cirra-salesforce-mcp/index.html",
       "published_at": "2025-12-13T01:53:10.483779Z",
-      "rank": 57,
+      "rank": 56,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/cirra-ai/mcp-server",
@@ -2431,7 +2392,7 @@
       "package_count": 0,
       "page_path": "servers/ai-exa-exa/index.html",
       "published_at": "2025-12-05T21:51:53.421065Z",
-      "rank": 58,
+      "rank": 57,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "https://github.com/exa-labs/exa-mcp-server",
@@ -2447,48 +2408,6 @@
       "updated_at": "2025-12-05T21:51:53.421065Z",
       "verified_paid_usd": 0.0,
       "version": "3.1.3"
-    },
-    {
-      "badge_path": "badges/ai-explorium-mcp-explorium.json",
-      "checkout_invoice_ready": true,
-      "deducted_points": 10,
-      "deductions": [
-        {
-          "points": 10,
-          "reason": "No package install surface was visible in the registry row."
-        }
-      ],
-      "description": "Access live company and contact data from Explorium's AgentSource B2B platform.",
-      "evidence": [
-        "Registry status: active",
-        "Latest version flag: True",
-        "Version: 1.0.1",
-        "Repository: https://github.com/explorium-ai/mcp-explorium",
-        "Remote endpoints visible: 1"
-      ],
-      "grade": "A - strong public metadata",
-      "id": "5a94053ba914e5df",
-      "is_latest": true,
-      "name": "ai.explorium/mcp-explorium",
-      "package_count": 0,
-      "page_path": "servers/ai-explorium-mcp-explorium/index.html",
-      "published_at": "2025-11-03T13:21:46.054906Z",
-      "rank": 59,
-      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
-      "remote_count": 1,
-      "repository_url": "https://github.com/explorium-ai/mcp-explorium",
-      "rules": {
-        "diagnostic_only": true,
-        "endorsement_claim_allowed": false,
-        "payment_claim_allowed": false
-      },
-      "score": 90,
-      "slug": "ai-explorium-mcp-explorium",
-      "status": "active",
-      "title": "ai.explorium/mcp-explorium",
-      "updated_at": "2025-11-03T13:21:46.054906Z",
-      "verified_paid_usd": 0.0,
-      "version": "1.0.1"
     },
     {
       "badge_path": "badges/ai-contextstudios-mcp.json",
@@ -2518,7 +2437,7 @@
       "package_count": 1,
       "page_path": "servers/ai-contextstudios-mcp/index.html",
       "published_at": "2026-04-02T14:12:47.594301Z",
-      "rank": 60,
+      "rank": 58,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 0,
       "repository_url": "",
@@ -2536,6 +2455,51 @@
       "version": "2.0.0"
     },
     {
+      "badge_path": "badges/ai-duvera-gateway.json",
+      "checkout_invoice_ready": true,
+      "deducted_points": 22,
+      "deductions": [
+        {
+          "points": 12,
+          "reason": "No public repository URL was exposed in the registry metadata."
+        },
+        {
+          "points": 10,
+          "reason": "No package install surface was visible in the registry row."
+        }
+      ],
+      "description": "Governed AI actions with signed, verifiable receipts: free keyless reads, human-approved writes.",
+      "evidence": [
+        "Registry status: active",
+        "Latest version flag: True",
+        "Version: 1.0.0",
+        "Remote endpoints visible: 1"
+      ],
+      "grade": "C - needs deeper review",
+      "id": "b1fe8da85c91c311",
+      "is_latest": true,
+      "name": "ai.duvera/gateway",
+      "package_count": 0,
+      "page_path": "servers/ai-duvera-gateway/index.html",
+      "published_at": "2026-06-11T19:25:28.904765Z",
+      "rank": 59,
+      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
+      "remote_count": 1,
+      "repository_url": "",
+      "rules": {
+        "diagnostic_only": true,
+        "endorsement_claim_allowed": false,
+        "payment_claim_allowed": false
+      },
+      "score": 78,
+      "slug": "ai-duvera-gateway",
+      "status": "active",
+      "title": "ai.duvera/gateway",
+      "updated_at": "2026-06-11T19:25:28.904765Z",
+      "verified_paid_usd": 0.0,
+      "version": "1.0.0"
+    },
+    {
       "badge_path": "badges/ai-dynamicfeed-dynamic-feed.json",
       "checkout_invoice_ready": true,
       "deducted_points": 22,
@@ -2549,7 +2513,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Live, verifiable data for AI \u2014 56 Ed25519-signed tools: weather, hazards, space, CVEs, markets.",
+      "description": "Live, verifiable data for AI — 56 Ed25519-signed tools: weather, hazards, space, CVEs, markets.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -2563,7 +2527,7 @@
       "package_count": 0,
       "page_path": "servers/ai-dynamicfeed-dynamic-feed/index.html",
       "published_at": "2026-06-10T04:35:05.664727Z",
-      "rank": 61,
+      "rank": 60,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 2,
       "repository_url": "",
@@ -2608,7 +2572,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bluenexus-universal-mcp/index.html",
       "published_at": "2026-06-10T00:49:47.884435Z",
-      "rank": 62,
+      "rank": 61,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2653,7 +2617,7 @@
       "package_count": 0,
       "page_path": "servers/ai-calfeed-calfeed/index.html",
       "published_at": "2026-06-05T19:00:28.019015Z",
-      "rank": 63,
+      "rank": 62,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2698,7 +2662,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bunzee-bunzee/index.html",
       "published_at": "2026-06-05T01:24:59.568246Z",
-      "rank": 64,
+      "rank": 63,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2743,7 +2707,7 @@
       "package_count": 0,
       "page_path": "servers/ai-edusignal-districts/index.html",
       "published_at": "2026-06-02T23:28:39.570503Z",
-      "rank": 65,
+      "rank": 64,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2788,7 +2752,7 @@
       "package_count": 0,
       "page_path": "servers/ai-canvora-canvora/index.html",
       "published_at": "2026-06-02T12:57:53.188528Z",
-      "rank": 66,
+      "rank": 65,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2833,7 +2797,7 @@
       "package_count": 0,
       "page_path": "servers/ai-complyhat-compliance/index.html",
       "published_at": "2026-05-31T17:28:15.351367Z",
-      "rank": 67,
+      "rank": 66,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2878,7 +2842,7 @@
       "package_count": 0,
       "page_path": "servers/ai-deepledger-mcp/index.html",
       "published_at": "2026-05-30T08:25:20.319133Z",
-      "rank": 68,
+      "rank": 67,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2890,7 +2854,7 @@
       "score": 78,
       "slug": "ai-deepledger-mcp",
       "status": "active",
-      "title": "DeepLedger \u2014 AI Accountant for QuickBooks",
+      "title": "DeepLedger — AI Accountant for QuickBooks",
       "updated_at": "2026-05-30T08:25:20.319133Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.4"
@@ -2923,7 +2887,7 @@
       "package_count": 0,
       "page_path": "servers/ai-butlerbrain-mcp/index.html",
       "published_at": "2026-05-26T06:33:02.85583Z",
-      "rank": 69,
+      "rank": 68,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -2968,7 +2932,7 @@
       "package_count": 0,
       "page_path": "servers/ai-delega-aws-pricing-calculator/index.html",
       "published_at": "2026-05-25T16:42:25.074565Z",
-      "rank": 70,
+      "rank": 69,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3013,7 +2977,7 @@
       "package_count": 0,
       "page_path": "servers/ai-constellationfinance-constellation-finance-mcp/index.html",
       "published_at": "2026-05-22T18:26:02.539221Z",
-      "rank": 71,
+      "rank": 70,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3044,7 +3008,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "MCP server registry \u2014 validated by live handshake, scored on reliability, monitored continuously.",
+      "description": "MCP server registry — validated by live handshake, scored on reliability, monitored continuously.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3058,7 +3022,7 @@
       "package_count": 0,
       "page_path": "servers/ai-arclan-registry/index.html",
       "published_at": "2026-05-19T16:59:50.65972Z",
-      "rank": 72,
+      "rank": 71,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3103,7 +3067,7 @@
       "package_count": 0,
       "page_path": "servers/ai-demanddiscovery-mcp/index.html",
       "published_at": "2026-05-19T10:54:31.540682Z",
-      "rank": 73,
+      "rank": 72,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3148,7 +3112,7 @@
       "package_count": 0,
       "page_path": "servers/ai-agenticshelf-graffeo/index.html",
       "published_at": "2026-05-14T20:40:06.442182Z",
-      "rank": 74,
+      "rank": 73,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3179,7 +3143,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Search and enrich B2B people & companies \u2014 70+ filters (funding, linkedin, industry, country, ...).",
+      "description": "Search and enrich B2B people & companies — 70+ filters (funding, linkedin, industry, country, ...).",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3193,7 +3157,7 @@
       "package_count": 0,
       "page_path": "servers/ai-dataforb2b-dataforb2b/index.html",
       "published_at": "2026-05-14T20:00:08.289344Z",
-      "rank": 75,
+      "rank": 74,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3238,7 +3202,7 @@
       "package_count": 0,
       "page_path": "servers/ai-dragoneye-mcp/index.html",
       "published_at": "2026-05-14T18:31:00.872003Z",
-      "rank": 76,
+      "rank": 75,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3283,7 +3247,7 @@
       "package_count": 0,
       "page_path": "servers/ai-conveo-conveo/index.html",
       "published_at": "2026-05-06T11:05:24.104018Z",
-      "rank": 77,
+      "rank": 76,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3328,7 +3292,7 @@
       "package_count": 0,
       "page_path": "servers/ai-buyersense-buyersense/index.html",
       "published_at": "2026-05-03T09:49:36.790849Z",
-      "rank": 78,
+      "rank": 77,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3359,7 +3323,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Query Baselight's public catalog of 70,000+ datasets \u2014 finance, demographics, sports, and more.",
+      "description": "Query Baselight's public catalog of 70,000+ datasets — finance, demographics, sports, and more.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3373,7 +3337,7 @@
       "package_count": 0,
       "page_path": "servers/ai-baselight-baselight/index.html",
       "published_at": "2026-04-30T15:33:16.859356Z",
-      "rank": 79,
+      "rank": 78,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3418,7 +3382,7 @@
       "package_count": 0,
       "page_path": "servers/ai-childpsychiatry-library/index.html",
       "published_at": "2026-04-26T00:04:20.484144Z",
-      "rank": 80,
+      "rank": 79,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3449,7 +3413,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5\u201312.",
+      "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3463,7 +3427,7 @@
       "package_count": 0,
       "page_path": "servers/ai-childanxiety-library/index.html",
       "published_at": "2026-04-26T00:04:17.518812Z",
-      "rank": 81,
+      "rank": 80,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3494,7 +3458,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Clinician-reviewed library on ADHD in children \u2014 evaluation, treatment, school, parenting.",
+      "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3508,7 +3472,7 @@
       "package_count": 0,
       "page_path": "servers/ai-childadhd-library/index.html",
       "published_at": "2026-04-26T00:04:13.381323Z",
-      "rank": 82,
+      "rank": 81,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3553,7 +3517,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bringyour-bringyour/index.html",
       "published_at": "2026-04-24T08:15:43.116321Z",
-      "rank": 83,
+      "rank": 82,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3569,6 +3533,52 @@
       "updated_at": "2026-04-24T08:15:43.116321Z",
       "verified_paid_usd": 0.0,
       "version": "1.1.0"
+    },
+    {
+      "badge_path": "badges/ai-example4-xmp4.json",
+      "checkout_invoice_ready": true,
+      "deducted_points": 22,
+      "deductions": [
+        {
+          "points": 10,
+          "reason": "No package install surface was visible in the registry row."
+        },
+        {
+          "points": 12,
+          "reason": "Registry row is not marked as the latest version."
+        }
+      ],
+      "description": "OSS libs in your stack, really used: source, tests, callers. C#, Java, TS, Python, Rust, PHP+.",
+      "evidence": [
+        "Registry status: active",
+        "Latest version flag: False",
+        "Version: 1.2.5",
+        "Repository: https://github.com/0ics-srls/lsai-xmp4.public",
+        "Remote endpoints visible: 1"
+      ],
+      "grade": "C - needs deeper review",
+      "id": "77376b0d912c0692",
+      "is_latest": false,
+      "name": "ai.example4/xmp4",
+      "package_count": 0,
+      "page_path": "servers/ai-example4-xmp4/index.html",
+      "published_at": "2026-04-23T22:06:13.791106Z",
+      "rank": 83,
+      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
+      "remote_count": 1,
+      "repository_url": "https://github.com/0ics-srls/lsai-xmp4.public",
+      "rules": {
+        "diagnostic_only": true,
+        "endorsement_claim_allowed": false,
+        "payment_claim_allowed": false
+      },
+      "score": 78,
+      "slug": "ai-example4-xmp4",
+      "status": "active",
+      "title": "xmp4 — Semantic Code Intelligence",
+      "updated_at": "2026-04-23T22:06:13.791106Z",
+      "verified_paid_usd": 0.0,
+      "version": "1.2.5"
     },
     {
       "badge_path": "badges/ai-chinamarketing-intelligence.json",
@@ -3706,51 +3716,6 @@
       "version": "1.1.0"
     },
     {
-      "badge_path": "badges/ai-fathom-api-mcp.json",
-      "checkout_invoice_ready": true,
-      "deducted_points": 22,
-      "deductions": [
-        {
-          "points": 12,
-          "reason": "No public repository URL was exposed in the registry metadata."
-        },
-        {
-          "points": 10,
-          "reason": "No package install surface was visible in the registry row."
-        }
-      ],
-      "description": "Give your AI assistant real meeting context via Fathom so every output grounded in your work",
-      "evidence": [
-        "Registry status: active",
-        "Latest version flag: True",
-        "Version: 1.0.0",
-        "Remote endpoints visible: 1"
-      ],
-      "grade": "C - needs deeper review",
-      "id": "efe0c36ba2f6cee5",
-      "is_latest": true,
-      "name": "ai.fathom.api/mcp",
-      "package_count": 0,
-      "page_path": "servers/ai-fathom-api-mcp/index.html",
-      "published_at": "2026-04-17T01:36:06.979854Z",
-      "rank": 87,
-      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
-      "remote_count": 1,
-      "repository_url": "",
-      "rules": {
-        "diagnostic_only": true,
-        "endorsement_claim_allowed": false,
-        "payment_claim_allowed": false
-      },
-      "score": 78,
-      "slug": "ai-fathom-api-mcp",
-      "status": "active",
-      "title": "ai.fathom.api/mcp",
-      "updated_at": "2026-04-17T01:36:06.979854Z",
-      "verified_paid_usd": 0.0,
-      "version": "1.0.0"
-    },
-    {
       "badge_path": "badges/ac-inference-sh-mcp.json",
       "checkout_invoice_ready": true,
       "deducted_points": 22,
@@ -3764,7 +3729,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Run 150+ AI apps \u2014 image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
+      "description": "Run 150+ AI apps — image, video, audio, LLMs, 3D and more. Browse, execute, stream results.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3778,7 +3743,7 @@
       "package_count": 0,
       "page_path": "servers/ac-inference-sh-mcp/index.html",
       "published_at": "2026-04-13T17:33:26.613537Z",
-      "rank": 88,
+      "rank": 87,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 2,
       "repository_url": "",
@@ -3823,7 +3788,7 @@
       "package_count": 0,
       "page_path": "servers/ai-adweave-meta-ads-mcp/index.html",
       "published_at": "2026-04-10T16:46:57.731179Z",
-      "rank": 89,
+      "rank": 88,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3835,7 +3800,7 @@
       "score": 78,
       "slug": "ai-adweave-meta-ads-mcp",
       "status": "active",
-      "title": "AdWeave \u2014 Meta Ads MCP Server",
+      "title": "AdWeave — Meta Ads MCP Server",
       "updated_at": "2026-04-10T16:46:57.731179Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.0"
@@ -3868,7 +3833,7 @@
       "package_count": 0,
       "page_path": "servers/ai-donethat-donethat/index.html",
       "published_at": "2026-04-08T10:14:41.080859Z",
-      "rank": 90,
+      "rank": 89,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3913,7 +3878,7 @@
       "package_count": 0,
       "page_path": "servers/ai-agentrapay-agentra/index.html",
       "published_at": "2026-03-22T18:16:07.628131Z",
-      "rank": 91,
+      "rank": 90,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -3944,7 +3909,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Google Ads MCP server \u2014 manage campaigns, keywords, and metrics.",
+      "description": "Google Ads MCP server — manage campaigns, keywords, and metrics.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -3958,7 +3923,7 @@
       "package_count": 0,
       "page_path": "servers/ai-adramp-google-ads/index.html",
       "published_at": "2026-03-20T11:16:36.853329Z",
-      "rank": 92,
+      "rank": 91,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4003,7 +3968,7 @@
       "package_count": 0,
       "page_path": "servers/ai-aarna-atars-mcp/index.html",
       "published_at": "2026-03-10T11:09:59.15927Z",
-      "rank": 93,
+      "rank": 92,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4048,7 +4013,7 @@
       "package_count": 0,
       "page_path": "servers/ai-bezal-local-commerce/index.html",
       "published_at": "2026-03-03T01:28:17.439049Z",
-      "rank": 94,
+      "rank": 93,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4060,7 +4025,7 @@
       "score": 78,
       "slug": "ai-bezal-local-commerce",
       "status": "active",
-      "title": "Bezal \u2014 Local Business Intelligence for AI Agents",
+      "title": "Bezal — Local Business Intelligence for AI Agents",
       "updated_at": "2026-03-03T01:28:17.439049Z",
       "verified_paid_usd": 0.0,
       "version": "1.0.0"
@@ -4079,7 +4044,7 @@
           "reason": "No package install surface was visible in the registry row."
         }
       ],
-      "description": "Query Meta Ads performance data \u2014 accounts, campaigns, ad sets, ads, metrics & settings.",
+      "description": "Query Meta Ads performance data — accounts, campaigns, ad sets, ads, metrics & settings.",
       "evidence": [
         "Registry status: active",
         "Latest version flag: True",
@@ -4093,7 +4058,7 @@
       "package_count": 0,
       "page_path": "servers/ai-adadvisor-mcp-server/index.html",
       "published_at": "2026-02-28T13:09:52.236521Z",
-      "rank": 95,
+      "rank": 94,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4138,7 +4103,7 @@
       "package_count": 0,
       "page_path": "servers/ai-datamerge-mcp/index.html",
       "published_at": "2026-02-27T11:50:11.005967Z",
-      "rank": 96,
+      "rank": 95,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4183,7 +4148,7 @@
       "package_count": 0,
       "page_path": "servers/ai-anzenna-anzenna/index.html",
       "published_at": "2026-02-21T23:53:55.798606Z",
-      "rank": 97,
+      "rank": 96,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4228,7 +4193,7 @@
       "package_count": 0,
       "page_path": "servers/ai-alpic-mcp-alpic-mcp/index.html",
       "published_at": "2026-02-18T15:32:32.672631Z",
-      "rank": 98,
+      "rank": 97,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 2,
       "repository_url": "",
@@ -4273,7 +4238,7 @@
       "package_count": 0,
       "page_path": "servers/ai-appdeploy-deploy-app/index.html",
       "published_at": "2026-02-09T15:16:30.60739Z",
-      "rank": 99,
+      "rank": 98,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4318,7 +4283,7 @@
       "package_count": 0,
       "page_path": "servers/ai-auteng-docs/index.html",
       "published_at": "2026-02-06T20:56:39.150934Z",
-      "rank": 100,
+      "rank": 99,
       "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
       "remote_count": 1,
       "repository_url": "",
@@ -4334,6 +4299,51 @@
       "updated_at": "2026-02-06T20:56:39.150934Z",
       "verified_paid_usd": 0.0,
       "version": "1.1.0"
+    },
+    {
+      "badge_path": "badges/ai-auteng-mcp.json",
+      "checkout_invoice_ready": true,
+      "deducted_points": 22,
+      "deductions": [
+        {
+          "points": 12,
+          "reason": "No public repository URL was exposed in the registry metadata."
+        },
+        {
+          "points": 10,
+          "reason": "No package install surface was visible in the registry row."
+        }
+      ],
+      "description": "Publish markdown documents as public share links with mermaid diagrams. Built by AutEng.ai",
+      "evidence": [
+        "Registry status: active",
+        "Latest version flag: True",
+        "Version: 1.0.1",
+        "Remote endpoints visible: 1"
+      ],
+      "grade": "C - needs deeper review",
+      "id": "dabec1879929eb1b",
+      "is_latest": true,
+      "name": "ai.auteng/mcp",
+      "package_count": 0,
+      "page_path": "servers/ai-auteng-mcp/index.html",
+      "published_at": "2026-02-06T17:18:22.957864Z",
+      "rank": 100,
+      "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers",
+      "remote_count": 1,
+      "repository_url": "",
+      "rules": {
+        "diagnostic_only": true,
+        "endorsement_claim_allowed": false,
+        "payment_claim_allowed": false
+      },
+      "score": 78,
+      "slug": "ai-auteng-mcp",
+      "status": "active",
+      "title": "AutEng MCP - Markdown Publishing & Document Share Links",
+      "updated_at": "2026-02-06T17:18:22.957864Z",
+      "verified_paid_usd": 0.0,
+      "version": "1.0.1"
     }
   ],
   "rules": {
@@ -4356,7 +4366,7 @@
   },
   "source": {
     "docs_url": "https://modelcontextprotocol.io/registry/registry-aggregators",
-    "next_cursor": "ai.fiber/mcp:1.0.0",
+    "next_cursor": "ai.example4/xmp4:1.2.5",
     "read_only_source": true,
     "registry_server_count": 200,
     "registry_url": "https://registry.modelcontextprotocol.io/v0.1/servers"
@@ -4364,7 +4374,7 @@
   "summary": {
     "certification_claim_allowed": false,
     "endorsement_claim_allowed": false,
-    "high_intent_page_count": 60,
+    "high_intent_page_count": 58,
     "payment_claim_allowed": false,
     "publish_allowed": false,
     "row_count": 100,
