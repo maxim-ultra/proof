@@ -57,6 +57,24 @@
         border-radius: 8px;
         padding: 12px 14px;
       }
+      .buttonrow { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+      .button.secondary {
+        background: #f8fafc;
+        border-color: rgba(82, 98, 115, 0.24);
+        color: var(--muted);
+      }
+      .copybox {
+        margin-top: 12px;
+        border: 1px dashed rgba(82, 98, 115, 0.36);
+        background: #f8fafc;
+        border-radius: 8px;
+        padding: 12px;
+        color: var(--text);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        white-space: pre-wrap;
+      }
       .fast {
         border-color: rgba(8, 117, 87, 0.28);
         background: #edfdf6;
@@ -104,16 +122,26 @@
 
       <section class="panel">
         <h2>Start</h2>
-        <p>Open a GitHub request with the target repo or app URL, the public issue or setup path to inspect, and the offer you want.</p>
-        <a class="button" href="https://github.com/maxim-ultra/proof/issues/new/choose">Open a diagnostic request</a>
+        <p>Open the prefilled request first so the public scope and any payment receipt can be attributed cleanly.</p>
+        <div class="buttonrow">
+          <a class="button" href="https://github.com/maxim-ultra/proof/issues/new?title=Quick%20MCP%20Readiness%20Diagnostic%20request&body=I%20want%20a%20MAXIM%20Ultra%20diagnostic.%0A%0AOffer%3A%20%2430%20Quick%20MCP%20Readiness%20Diagnostic%0ATarget%20repo%20or%20app%20URL%3A%20%5Bpaste%20public%20URL%5D%0APublic%20issue%20or%20setup%20path%3A%20%5Bpaste%20public%20URL%20or%20short%20description%5D%0APayment%20tx%20hash%20(if%20already%20sent)%3A%20%5Bpaste%20public%20tx%20hash%5D%0A%0ANotes%3A%20No%20private%20access%2C%20secrets%2C%20keys%2C%20or%20credentials.">Open prefilled $30 request</a>
+          <a class="button secondary" href="https://github.com/maxim-ultra/proof/issues/new/choose">Other request type</a>
+        </div>
+        <p>If GitHub sign-in blocks you, do not send funds yet. Copy the public request block below into the same channel where this page was shared.</p>
+        <div class="copybox">Offer: $30 Quick MCP Readiness Diagnostic
+Target repo or app URL: [paste public URL]
+Public issue or setup path: [paste public URL or short description]
+Payment tx hash, if already sent: [paste public tx hash]
+No private access, secrets, keys, credentials, legal advice, or security guarantee requested.</div>
       </section>
 
       <section class="panel fast">
         <h2>Fastest $30 Path</h2>
         <p>For the Quick MCP Readiness Diagnostic only, you may use the self-serve path when the target is public and the task fits the published scope.</p>
         <ol class="steps">
+          <li>Open the prefilled diagnostic request with the public repo/app URL and public issue or setup path.</li>
           <li>Send exactly <strong>30 USDC on Ethereum/ERC-20</strong> to the wallet below.</li>
-          <li>Open a diagnostic request with the public repo/app URL, public issue or setup path, and your public transaction hash.</li>
+          <li>Add the public transaction hash to the request.</li>
           <li>Work starts after the on-chain receipt and public scope are verified.</li>
         </ol>
       </section>
