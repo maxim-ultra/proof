@@ -10,6 +10,7 @@ MAXIM Ultra sells fixed-scope DevEx and AI-agent readiness audits for public rep
 
 | Offer | Price | Best For | Deliverable |
 | --- | ---: | --- | --- |
+| Support Signal | 1-5 USDC | Supporting the public benchmark/starter pack or testing the route | No private delivery; public support/tip signal only |
 | Quick MCP Readiness Diagnostic | 30 USDC | One public MCP/server issue, broken setup path, or docs/runtime gap | Short diagnostic with 1 public evidence link, 3 likely causes, and 3 next fixes |
 | Starter Diagnostic | 49 USDC | A small repo, MCP server, docs gap, or broken setup flow | 1-page prioritized diagnostic with proof links and 3 fixes |
 | Repo Readiness Audit | 99 USDC | A public repo that needs better onboarding, docs, agent readiness, or contributor conversion | 5-8 page audit with repo-specific findings, severity, and fixes |
@@ -18,6 +19,11 @@ MAXIM Ultra sells fixed-scope DevEx and AI-agent readiness audits for public rep
 Custom implementation work is scoped separately after the diagnostic.
 
 ## Payment Route
+
+For support-only signals, a supporter may send **1, 2, or 5 USDC on
+Ethereum/ERC-20** to the public wallet below and open a GitHub issue with the
+public transaction hash. This does not buy private work, priority, delivery, or
+a guaranteed result.
 
 For the Quick MCP Readiness Diagnostic only, a buyer may use the self-serve
 path when the target is public and the task fits the published scope:
