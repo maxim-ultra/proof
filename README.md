@@ -15,6 +15,7 @@ This repository is a public proof shelf for buyer-safe examples prepared from MA
 
 Payment and offer page:
 
+- [Support the public benchmark for 1-5 USDC](/pay/)
 - [Start a paid audit or diagnostic](/pay/)
 - [MCP / Agent Readiness Index](https://maximultra.dev/)
 - [Agent-readiness methodology](https://maximultra.dev/methodology.html)
@@ -39,6 +40,13 @@ It does **not** yet prove:
 - ENS ownership
 - wallet-control proof beyond the listed receiving route
 - buyer acceptance
+
+## Support Signal
+
+The payment page includes an optional 1-5 USDC support signal for the public
+benchmark and starter pack. This does not buy private delivery, priority, a
+guaranteed outcome, or account/wallet action. Revenue is counted only after a
+real owner-attributed receipt is confirmed.
 
 Those proofs must be added only when real evidence exists.
 
