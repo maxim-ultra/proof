@@ -4,12 +4,13 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `11`
-- Exported pages: `11`
+- Ready pages: `12`
+- Exported pages: `12`
 
 ## Pages
 - `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31
 - `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298
+- `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272
 - `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491
 - `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802
 - `creativeghq/material-kai-vision-platform#218` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218

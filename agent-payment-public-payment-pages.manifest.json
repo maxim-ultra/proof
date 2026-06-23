@@ -1,9 +1,9 @@
 {
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
-  "created_at": "2026-06-23T14:40:07.841344+00:00",
+  "created_at": "2026-06-23T16:02:11.834020+00:00",
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 11,
+  "exported_page_count": 12,
   "external_action_allowed": false,
   "pages": [
     {
@@ -21,6 +21,14 @@
       "path": "/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "target_ref": "huanlongAI/hl-dispatch#298"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272/index.html",
+      "packet_id": "agent_payment_proof_3943_deveunicee_pulsar_contracts_272",
+      "page_id": "agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
+      "path": "/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
+      "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491/index.html",
@@ -98,7 +106,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 11,
+  "ready_page_count": 12,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
