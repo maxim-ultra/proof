@@ -1,9 +1,9 @@
 {
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
-  "created_at": "2026-06-23T11:29:04.333444+00:00",
+  "created_at": "2026-06-23T12:04:04.129407+00:00",
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 9,
+  "exported_page_count": 10,
   "external_action_allowed": false,
   "pages": [
     {
@@ -71,6 +71,14 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524/index.html",
+      "packet_id": "agent_payment_proof_3750_dogstark_petchain_mobileapp_524",
+      "page_id": "agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
+      "path": "/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
+      "target_ref": "DogStark/PetChain-MobileApp#524"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28/index.html",
       "packet_id": "agent_payment_proof_3482_bitcoindefi_open_stellar_28",
       "page_id": "agent-payment-proof-3482-bitcoindefi-open-stellar-28",
@@ -82,7 +90,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 9,
+  "ready_page_count": 10,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
