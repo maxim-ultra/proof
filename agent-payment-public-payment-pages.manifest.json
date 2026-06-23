@@ -1,7 +1,7 @@
 {
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
-  "created_at": "2026-06-23T09:25:46.305863+00:00",
+  "created_at": "2026-06-23T10:57:54.244223+00:00",
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
   "exported_page_count": 8,
   "external_action_allowed": false,
