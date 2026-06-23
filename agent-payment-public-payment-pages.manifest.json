@@ -1,0 +1,80 @@
+{
+  "confirmed_revenue_usd": 0.0,
+  "counts_as_revenue": false,
+  "created_at": "2026-06-23T09:25:46.305863+00:00",
+  "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
+  "exported_page_count": 8,
+  "external_action_allowed": false,
+  "pages": [
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298/index.html",
+      "packet_id": "agent_payment_proof_3348_huanlongai_hl_dispatch_298",
+      "page_id": "agent-payment-proof-3348-huanlongai-hl-dispatch-298",
+      "path": "/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
+      "target_ref": "huanlongAI/hl-dispatch#298"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491/index.html",
+      "packet_id": "agent_payment_proof_2815_d_hinders_haven_ai_491",
+      "page_id": "agent-payment-proof-2815-d-hinders-haven-ai-491",
+      "path": "/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491",
+      "target_ref": "d-hinders/Haven-AI#491"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802/index.html",
+      "packet_id": "agent_payment_proof_1_crewaiinc_crewai_5802",
+      "page_id": "agent-payment-proof-1-crewaiinc-crewai-5802",
+      "path": "/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802",
+      "target_ref": "crewAIInc/crewAI#5802"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218/index.html",
+      "packet_id": "agent_payment_proof_5232_creativeghq_material_kai_vision_platform_218",
+      "page_id": "agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
+      "path": "/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
+      "target_ref": "creativeghq/material-kai-vision-platform#218"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235/index.html",
+      "packet_id": "agent_payment_proof_3338_ramc4685_academy_manager_235",
+      "page_id": "agent-payment-proof-3338-ramc4685-academy-manager-235",
+      "path": "/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235",
+      "target_ref": "Ramc4685/academy-manager#235"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24/index.html",
+      "packet_id": "agent_payment_proof_2516_ojamals_masest_24",
+      "page_id": "agent-payment-proof-2516-ojamals-masest-24",
+      "path": "/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24",
+      "target_ref": "OJamals/masest#24"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488/index.html",
+      "packet_id": "agent_payment_proof_3796_hazina_escrow_hazina_escrow_488",
+      "page_id": "agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
+      "path": "/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
+      "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28/index.html",
+      "packet_id": "agent_payment_proof_3482_bitcoindefi_open_stellar_28",
+      "page_id": "agent-payment-proof-3482-bitcoindefi-open-stellar-28",
+      "path": "/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28",
+      "target_ref": "Bitcoindefi/Open-Stellar#28"
+    }
+  ],
+  "payment_or_wallet_action_allowed": false,
+  "post_allowed": false,
+  "public_domain": "https://maximultra.dev",
+  "ready_page_count": 8,
+  "send_allowed": false,
+  "status": "agent_payment_public_payment_pages_exported_local_only"
+}
