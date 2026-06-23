@@ -1,9 +1,9 @@
 {
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
-  "created_at": "2026-06-23T10:57:54.244223+00:00",
+  "created_at": "2026-06-23T11:29:04.333444+00:00",
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 8,
+  "exported_page_count": 9,
   "external_action_allowed": false,
   "pages": [
     {
@@ -47,6 +47,14 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5/index.html",
+      "packet_id": "agent_payment_proof_2815_pidoko257_proxypay_5",
+      "page_id": "agent-payment-proof-2815-pidoko257-proxypay-5",
+      "path": "/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5",
+      "target_ref": "Pidoko257/proxypay#5"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24/index.html",
       "packet_id": "agent_payment_proof_2516_ojamals_masest_24",
       "page_id": "agent-payment-proof-2516-ojamals-masest-24",
@@ -74,7 +82,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 8,
+  "ready_page_count": 9,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
