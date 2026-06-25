@@ -4,12 +4,12 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `14`
-- Exported pages: `14`
-- Manifest digest: `b7ad768d3a32bb50`
+- Ready pages: `16`
+- Exported pages: `16`
+- Manifest digest: `0f3cdb644b2906d2`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy b7ad768d3a32bb50`
-- Local export refreshed at: `2026-06-24T11:15:23.584309+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 0f3cdb644b2906d2`
+- Local export refreshed at: `2026-06-25T13:06:39.691916+00:00`
 
 ## Pages
 - `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31
@@ -19,10 +19,12 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491
 - `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802
 - `creativeghq/material-kai-vision-platform#218` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218
+- `Stash-Mobile-App-Group-90/stash#3` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3
 - `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235
 - `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5
 - `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24
 - `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488
+- `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584
 - `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524
 - `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28

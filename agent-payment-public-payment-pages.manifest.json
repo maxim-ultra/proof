@@ -2,7 +2,7 @@
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 14,
+  "exported_page_count": 16,
   "external_action_allowed": false,
   "pages": [
     {
@@ -62,6 +62,14 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3/index.html",
+      "packet_id": "agent_payment_proof_3894_stash_mobile_app_group_90_stash_3",
+      "page_id": "agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
+      "path": "/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
+      "target_ref": "Stash-Mobile-App-Group-90/stash#3"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235/index.html",
       "packet_id": "agent_payment_proof_3338_ramc4685_academy_manager_235",
       "page_id": "agent-payment-proof-3338-ramc4685-academy-manager-235",
@@ -94,6 +102,14 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584/index.html",
+      "packet_id": "agent_payment_proof_2593_expensify_app_91584",
+      "page_id": "agent-payment-proof-2593-expensify-app-91584",
+      "path": "/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584",
+      "target_ref": "Expensify/App#91584"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524/index.html",
       "packet_id": "agent_payment_proof_3750_dogstark_petchain_mobileapp_524",
       "page_id": "agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
@@ -121,7 +137,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 14,
+  "ready_page_count": 16,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
