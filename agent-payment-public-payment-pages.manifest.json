@@ -1,9 +1,8 @@
 {
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
-  "created_at": "2026-06-23T16:02:11.834020+00:00",
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 12,
+  "exported_page_count": 14,
   "external_action_allowed": false,
   "pages": [
     {
@@ -21,6 +20,14 @@
       "path": "/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "target_ref": "huanlongAI/hl-dispatch#298"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4/index.html",
+      "packet_id": "agent_payment_proof_4_emrekayat_query402_4",
+      "page_id": "agent-payment-proof-4-emrekayat-query402-4",
+      "path": "/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4",
+      "target_ref": "emrekayat/Query402#4"
     },
     {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272/index.html",
@@ -95,6 +102,14 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23/index.html",
+      "packet_id": "agent_payment_proof_3589_ding_payments_ding_server_23",
+      "page_id": "agent-payment-proof-3589-ding-payments-ding-server-23",
+      "path": "/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23",
+      "target_ref": "Ding-Payments/ding-server#23"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28/index.html",
       "packet_id": "agent_payment_proof_3482_bitcoindefi_open_stellar_28",
       "page_id": "agent-payment-proof-3482-bitcoindefi-open-stellar-28",
@@ -106,7 +121,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 12,
+  "ready_page_count": 14,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
