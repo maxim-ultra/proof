@@ -8,6 +8,7 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
+      "html_sha256": "b9410562cef7b5fc48b26eb7f10ed2d9ba12b71aed17c9aaff977660424e8664",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -23,11 +24,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "strands-agents/harness-sdk#2884",
           "h1_text": "Public-only payment reliability check for Harness SDK issue #2884",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/strands-agents/harness-sdk/issues/2884",
-          "target_ref": "strands-agents/harness-sdk#2884"
+          "target_ref": "strands-agents/harness-sdk#2884",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -49,6 +53,7 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
+      "html_sha256": "c7f929d228b993be5b6f0639c5a49ddc8e75ba157c0e020a041b0c505db49310",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -64,11 +69,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
           "h1_text": "Public-only payment reliability check for Preview Checkout Streaming Bugs issue #31",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31",
-          "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
+          "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -90,6 +98,7 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
+      "html_sha256": "b6be15c9102974a131c9f6fea72618f21288cb5fd966381b5e2590737114d74f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -105,11 +114,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "mmd-rehan/textile-pos#32",
           "h1_text": "Public-only payment reliability check for Textile Pos issue #32",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/mmd-rehan/textile-pos/issues/32",
-          "target_ref": "mmd-rehan/textile-pos#32"
+          "target_ref": "mmd-rehan/textile-pos#32",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -131,6 +143,7 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
+      "html_sha256": "631177795c24b217116bcb5b2dd742b1322c804990867ee2bd7e922ea34d73c4",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -146,11 +159,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "huanlongAI/hl-dispatch#298",
           "h1_text": "Public-only payment reliability check for Hl Dispatch issue #298",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/huanlongAI/hl-dispatch/issues/298",
-          "target_ref": "huanlongAI/hl-dispatch#298"
+          "target_ref": "huanlongAI/hl-dispatch#298",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -172,6 +188,7 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
+      "html_sha256": "6c28c430ddddb8b8d4cc0ad565718d4c34c7366795c589f650bc461def69b531",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -187,11 +204,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "emrekayat/Query402#4",
           "h1_text": "Public-only payment reliability check for Query402 issue #4",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/emrekayat/Query402/issues/4",
-          "target_ref": "emrekayat/Query402#4"
+          "target_ref": "emrekayat/Query402#4",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -213,6 +233,7 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
+      "html_sha256": "394c631f8bbcffebd0515065488f93cd8daedf328353d9e9ca4402a72ad0f96c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -228,11 +249,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "devEunicee/pulsar-contracts#272",
           "h1_text": "Public-only payment reliability check for Pulsar Contracts issue #272",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/devEunicee/pulsar-contracts/issues/272",
-          "target_ref": "devEunicee/pulsar-contracts#272"
+          "target_ref": "devEunicee/pulsar-contracts#272",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -254,6 +278,7 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
+      "html_sha256": "ccc89049da1a21ddd4070e5963e807c806251ab85b59496820aeffd3445543c7",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -269,11 +294,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "d-hinders/Haven-AI#491",
           "h1_text": "Public-only payment reliability check for Haven Ai issue #491",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/d-hinders/Haven-AI/issues/491",
-          "target_ref": "d-hinders/Haven-AI#491"
+          "target_ref": "d-hinders/Haven-AI#491",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -295,6 +323,7 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
+      "html_sha256": "d8e2377d4bc113a01fc2425146aad010cf836dafdcec52cdbacbffd0f79e8138",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -310,11 +339,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "crewAIInc/crewAI#5802",
           "h1_text": "Public-only payment reliability check for Crewai issue #5802",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/crewAIInc/crewAI/issues/5802",
-          "target_ref": "crewAIInc/crewAI#5802"
+          "target_ref": "crewAIInc/crewAI#5802",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -336,6 +368,7 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
+      "html_sha256": "cfc10f33c17c403f760b0fbb23ee3af91b14ba516476be18871c553d5b022546",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -351,11 +384,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
           "h1_text": "Public-only payment reliability check for Material Kai Vision Platform issue #218",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/creativeghq/material-kai-vision-platform/issues/218",
-          "target_ref": "creativeghq/material-kai-vision-platform#218"
+          "target_ref": "creativeghq/material-kai-vision-platform#218",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -377,6 +413,7 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
+      "html_sha256": "ada3346cfe7e623aaa89dd389f767132432b31e4ef573d0cb05c51737d11d345",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -392,11 +429,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
           "h1_text": "Public-only payment reliability check for Stash issue #3",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Stash-Mobile-App-Group-90/stash/issues/3",
-          "target_ref": "Stash-Mobile-App-Group-90/stash#3"
+          "target_ref": "Stash-Mobile-App-Group-90/stash#3",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -418,6 +458,7 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
+      "html_sha256": "b93758a3b5873a8d5367eee4faecb902ef728b6125cda823423d8ae56ad16590",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -433,11 +474,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Ramc4685/academy-manager#235",
           "h1_text": "Public-only payment reliability check for Academy Manager issue #235",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Ramc4685/academy-manager/issues/235",
-          "target_ref": "Ramc4685/academy-manager#235"
+          "target_ref": "Ramc4685/academy-manager#235",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -459,6 +503,7 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
+      "html_sha256": "4bfb48eb3d9d9de77f12bf7d5d9a9c59c61fc76032da9cdbcc1ff1511d29f774",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -474,11 +519,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Pidoko257/proxypay#5",
           "h1_text": "Public-only payment reliability check for Proxypay issue #5",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Pidoko257/proxypay/issues/5",
-          "target_ref": "Pidoko257/proxypay#5"
+          "target_ref": "Pidoko257/proxypay#5",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -500,6 +548,7 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
+      "html_sha256": "5442d1abe479811038b121348a5968e550a654419441b42718019cc8503c0f4e",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -515,11 +564,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "OJamals/masest#24",
           "h1_text": "Public-only payment reliability check for Masest issue #24",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/OJamals/masest/issues/24",
-          "target_ref": "OJamals/masest#24"
+          "target_ref": "OJamals/masest#24",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -541,6 +593,7 @@
       "target_ref": "OJamals/masest#24"
     },
     {
+      "html_sha256": "8d03d6f28dd1fe37f58d39d4afb5bccd2ca82edb2bf708f2d52e94206d3699d5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -556,11 +609,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "JustineDevs/E-Commerce#12",
           "h1_text": "Public-only payment reliability check for E Commerce issue #12",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/JustineDevs/E-Commerce/issues/12",
-          "target_ref": "JustineDevs/E-Commerce#12"
+          "target_ref": "JustineDevs/E-Commerce#12",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -582,6 +638,7 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
+      "html_sha256": "ef16e69f30deec0bf0b91e9d6ac995eb333d8670a92807a8227b03f7e30743ba",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -597,11 +654,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
           "h1_text": "Public-only payment reliability check for Hazina Escrow issue #488",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488",
-          "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
+          "target_ref": "Hazina-Escrow/Hazina-Escrow#488",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -623,6 +683,7 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
+      "html_sha256": "220613688911dfe841d7c83568bc58d50724b5e01b5de5e1f7d244626c55a2ee",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -638,11 +699,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Expensify/App#91584",
           "h1_text": "Public-only payment reliability check for App issue #91584",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Expensify/App/issues/91584",
-          "target_ref": "Expensify/App#91584"
+          "target_ref": "Expensify/App#91584",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -664,6 +728,7 @@
       "target_ref": "Expensify/App#91584"
     },
     {
+      "html_sha256": "f6e0c292ec1a823edfa48a4fa56a97ebbc9e9a2bc0c465addd6132da2becd526",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -679,11 +744,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "DogStark/PetChain-MobileApp#524",
           "h1_text": "Public-only payment reliability check for Petchain Mobileapp issue #524",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/DogStark/PetChain-MobileApp/issues/524",
-          "target_ref": "DogStark/PetChain-MobileApp#524"
+          "target_ref": "DogStark/PetChain-MobileApp#524",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -705,6 +773,7 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
+      "html_sha256": "08970156f533fd79d78e133692b8aea4698e9b0087bc72227aca17d3df2b4f41",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -720,11 +789,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Ding-Payments/ding-server#23",
           "h1_text": "Public-only payment reliability check for Ding Server issue #23",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Ding-Payments/ding-server/issues/23",
-          "target_ref": "Ding-Payments/ding-server#23"
+          "target_ref": "Ding-Payments/ding-server#23",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -746,6 +818,7 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
+      "html_sha256": "00a9bce1921469da3737fe72b5108e5403607550fabf68fe0e69bb919f7c3093",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -761,11 +834,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
           "h1_text": "Public-only payment reliability check for Open Stellar issue #28",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "https://github.com/Bitcoindefi/Open-Stellar/issues/28",
-          "target_ref": "Bitcoindefi/Open-Stellar#28"
+          "target_ref": "Bitcoindefi/Open-Stellar#28",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
@@ -787,6 +863,7 @@
       "target_ref": "Bitcoindefi/Open-Stellar#28"
     },
     {
+      "html_sha256": "f428d084e746b09f2abcd58a11270fcf8aa9ad47885b09e2174f2c1c494df992",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -802,11 +879,14 @@
           "deliverable_clarity": true,
           "expected_target_ref": "",
           "h1_text": "Public-only payment reliability check for Synergy Effect N8n Community Hiring Post",
+          "payment_options": true,
+          "privacy_boundary": true,
           "private_access_boundary": true,
           "public_only_boundary": true,
           "receipt_next_step": true,
           "source_url": "mailto:info@s-e.lt",
-          "target_ref": "Synergy Effect / n8n Community hiring post"
+          "target_ref": "Synergy Effect / n8n Community hiring post",
+          "trust_proof": true
         },
         "status": "landing_page_quality_ready",
         "warning_count": 0,
