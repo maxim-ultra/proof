@@ -2,18 +2,47 @@
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 20,
+  "exported_page_count": 19,
   "external_action_allowed": false,
   "landing_page_quality_blocker_count": 0,
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "f041c3d730e4e26fe198a2e05f79abd4e7e8358c738685a7320e3103dd2f3da1",
+      "html_sha256": "797917a5e4a9901e845643c723818517d2fbd0473293c8805d83c15dd687f8ee",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -27,6 +56,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -57,17 +88,46 @@
         "context_label": "Strands Agents / Harness SDK",
         "expected_target_ref": "strands-agents/harness-sdk#2884",
         "short_label": "Harness SDK issue #2884",
-        "source_label": "strands-agents/harness-sdk#2884"
+        "source_label": "Harness SDK issue #2884"
       },
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "67052f7a39749d5e5a72cd6b477518f78100f492bf9e5de9ce64ed82e50a2fc3",
+      "html_sha256": "dbb5f09570021825bd8d4486fa12d6e4df45a3a45154831f1b6ea26fe42e90f3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -81,6 +141,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -111,17 +173,46 @@
         "context_label": "Shahnawaz Cmd / Preview Checkout Streaming Bugs",
         "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
         "short_label": "Preview Checkout Streaming Bugs issue #31",
-        "source_label": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
+        "source_label": "Preview Checkout Streaming Bugs issue #31"
       },
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "9acede3600db50195b73e2787f84253783e044880d3d909eb8943479e17034d5",
+      "html_sha256": "0590f17621bb04950b19377b29c6c756a81ba702a5b25baa7100bdef92dd76a5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -135,6 +226,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -165,17 +258,46 @@
         "context_label": "Mmd Rehan / Textile Pos",
         "expected_target_ref": "mmd-rehan/textile-pos#32",
         "short_label": "Textile Pos issue #32",
-        "source_label": "mmd-rehan/textile-pos#32"
+        "source_label": "Textile Pos issue #32"
       },
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "0839a7a7ee81d62dd8110280f18831d069b54fb2618b0da1863d8b35a0add190",
+      "html_sha256": "ba16d4bc8c05a12a333180211b74c67888d5e6265d412c58699c149628ebfd1c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -189,6 +311,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -219,17 +343,46 @@
         "context_label": "Huanlongai / Hl Dispatch",
         "expected_target_ref": "huanlongAI/hl-dispatch#298",
         "short_label": "Hl Dispatch issue #298",
-        "source_label": "huanlongAI/hl-dispatch#298"
+        "source_label": "Hl Dispatch issue #298"
       },
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "03cbd0e39d705d6034faeae1e1b30abf930c7fc9b772e11b810bf6f76870e6fc",
+      "html_sha256": "c00b9ca7f00800cb4cdb5857f88b121b4d6edda238942729b0abeaff78ca5b40",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -243,6 +396,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -273,17 +428,46 @@
         "context_label": "Emrekayat / Query402",
         "expected_target_ref": "emrekayat/Query402#4",
         "short_label": "Query402 issue #4",
-        "source_label": "emrekayat/Query402#4"
+        "source_label": "Query402 issue #4"
       },
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "6c565aa99e5937e8039a017a37d6412a4bf1fcaa626f71ed28ce1361670f3ecc",
+      "html_sha256": "63b2a08b9527c4f8ca971a07a3692eb345a65a3709fa9ddd9c7977851015d9b4",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -297,6 +481,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -327,17 +513,46 @@
         "context_label": "Deveunicee / Pulsar Contracts",
         "expected_target_ref": "devEunicee/pulsar-contracts#272",
         "short_label": "Pulsar Contracts issue #272",
-        "source_label": "devEunicee/pulsar-contracts#272"
+        "source_label": "Pulsar Contracts issue #272"
       },
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "9f589fc2b26bf30ef5e3e5980a980f9f67aa6adff4a739d60c0951c90f716733",
+      "html_sha256": "378b87bd04b034d00904522b6e34d948923137d7c39cef1b5b008068c2fb7546",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -351,6 +566,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -381,17 +598,46 @@
         "context_label": "D Hinders / Haven Ai",
         "expected_target_ref": "d-hinders/Haven-AI#491",
         "short_label": "Haven Ai issue #491",
-        "source_label": "d-hinders/Haven-AI#491"
+        "source_label": "Haven Ai issue #491"
       },
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "5be1f4232ffb583befea3e9d79fcd43fc11f0eea98b0ca6c6e9c682ddea7f0c9",
+      "html_sha256": "f69ae7ad40c08174b5b0accd68700a2e96ece555814ba29094ddfb5433d4efd2",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -405,6 +651,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -435,17 +683,46 @@
         "context_label": "Crewaiinc / Crewai",
         "expected_target_ref": "crewAIInc/crewAI#5802",
         "short_label": "Crewai issue #5802",
-        "source_label": "crewAIInc/crewAI#5802"
+        "source_label": "Crewai issue #5802"
       },
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "618d46b2979b24b58a2eae07283fe38fb886d8dad38150176a16a205a80d2af5",
+      "html_sha256": "591dcaefced7788ba637fb30fa7f9817d5b5ed534785e18c57d44b933f5b2cfe",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -459,6 +736,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -489,17 +768,46 @@
         "context_label": "Creativeghq / Material Kai Vision Platform",
         "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
         "short_label": "Material Kai Vision Platform issue #218",
-        "source_label": "creativeghq/material-kai-vision-platform#218"
+        "source_label": "Material Kai Vision Platform issue #218"
       },
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "7bc5e2762ebf8275508ae0a5503682ecf444d7c82e07e76fb46c2b4975ab01c8",
+      "html_sha256": "be745f0bc8f1adf47cb99b090d84ee2f498d2a60daea2e0b430fc796202d9aca",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -513,6 +821,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -543,17 +853,46 @@
         "context_label": "Stash Mobile App Group 90 / Stash",
         "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
         "short_label": "Stash issue #3",
-        "source_label": "Stash-Mobile-App-Group-90/stash#3"
+        "source_label": "Stash issue #3"
       },
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "9202ee819a71321bfe5ea2eb02dafd187f5a4c52a3c3a334cb21addfa85da799",
+      "html_sha256": "978a36e2842026a63932bfce7e0daa92ac69b5c7e1186e5e961640636c9de739",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -567,6 +906,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -597,17 +938,46 @@
         "context_label": "Ramc4685 / Academy Manager",
         "expected_target_ref": "Ramc4685/academy-manager#235",
         "short_label": "Academy Manager issue #235",
-        "source_label": "Ramc4685/academy-manager#235"
+        "source_label": "Academy Manager issue #235"
       },
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "d6e1e3e27fa7c8889c1779e24379406ec30180159497d17a1ebd086c7442564f",
+      "html_sha256": "334c3d14af4a85631267ef09a779e964bc2f6b12d873067ff12d671716c67cf4",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -621,6 +991,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -651,17 +1023,46 @@
         "context_label": "Pidoko257 / Proxypay",
         "expected_target_ref": "Pidoko257/proxypay#5",
         "short_label": "Proxypay issue #5",
-        "source_label": "Pidoko257/proxypay#5"
+        "source_label": "Proxypay issue #5"
       },
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "138d6471aa68a43745520ff146816f7e97630e0a6f2c5a52c9eae6eebd57b101",
+      "html_sha256": "e07969f7f9ed6c0ca0adcce60067220800a58f463183cf689aed8276f20aefdf",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -675,6 +1076,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -705,17 +1108,46 @@
         "context_label": "Ojamals / Masest",
         "expected_target_ref": "OJamals/masest#24",
         "short_label": "Masest issue #24",
-        "source_label": "OJamals/masest#24"
+        "source_label": "Masest issue #24"
       },
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "1279b9159b702cdf9a45189e4fc14421c45946f5f89d1006165993368593a532",
+      "html_sha256": "e32dba718def9e28032145c1cce43f73c99a63dad713e14c6b11c0b66cc8c6e7",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -729,6 +1161,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -759,17 +1193,46 @@
         "context_label": "Justinedevs / E Commerce",
         "expected_target_ref": "JustineDevs/E-Commerce#12",
         "short_label": "E Commerce issue #12",
-        "source_label": "JustineDevs/E-Commerce#12"
+        "source_label": "E Commerce issue #12"
       },
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "1f18870950160e232c27c65ef7f8e470aa8c19bd4c5145b368d8e82c7bcd86ec",
+      "html_sha256": "f53a24f2b766600d6a7db614afdc691d2f6bb2afa54e1d18b31ed9ca6fb28739",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -783,6 +1246,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -813,17 +1278,46 @@
         "context_label": "Hazina Escrow / Hazina Escrow",
         "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
         "short_label": "Hazina Escrow issue #488",
-        "source_label": "Hazina-Escrow/Hazina-Escrow#488"
+        "source_label": "Hazina Escrow issue #488"
       },
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "38f0cf7a1e3f7bb770850e311a00060c7b68eedf5cf47532c17e23296f32eea0",
+      "html_sha256": "6b9f9f837de5fa420bae64b7f1f835cdefe4a149844c92b218d7e324a7a3f2d8",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -837,6 +1331,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -867,17 +1363,46 @@
         "context_label": "Expensify / App",
         "expected_target_ref": "Expensify/App#91584",
         "short_label": "App issue #91584",
-        "source_label": "Expensify/App#91584"
+        "source_label": "App issue #91584"
       },
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "864129e42baf145879bcbdcc941aec3aaa4141804566226ef06963f56406837f",
+      "html_sha256": "d1e6ab1a5388874c7dbff083e922616b0f04caad85bab2e4d15fe9263b6db600",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -891,6 +1416,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -921,17 +1448,46 @@
         "context_label": "Dogstark / Petchain Mobileapp",
         "expected_target_ref": "DogStark/PetChain-MobileApp#524",
         "short_label": "Petchain Mobileapp issue #524",
-        "source_label": "DogStark/PetChain-MobileApp#524"
+        "source_label": "Petchain Mobileapp issue #524"
       },
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "f98d200207de5c87eb13ed13429fd4f6ee1a9548504aadd7e0fc5787eff75a82",
+      "html_sha256": "23d2e444cca906dc05a30b87ed743103ecefb226eb3b2d235cb9e57591382fa1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -945,6 +1501,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -975,17 +1533,46 @@
         "context_label": "Ding Payments / Ding Server",
         "expected_target_ref": "Ding-Payments/ding-server#23",
         "short_label": "Ding Server issue #23",
-        "source_label": "Ding-Payments/ding-server#23"
+        "source_label": "Ding Server issue #23"
       },
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "60e7c4b03eb447efb5218838ab3f46a13564b31c72eb94b4dfd8e3bd26c9ccdb",
+      "html_sha256": "8e1ebd78e791467e5c6516cd9e662b11577247e743960e35cf53d644c7e2930a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "low_risk_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get",
+            "why_trust_this"
+          ],
+          "rules": {
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": []
+        },
         "rules": {
           "buyer_trust_boundaries_required": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
@@ -999,6 +1586,8 @@
         "score": 100,
         "signals": {
           "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
           "confidence_frame": true,
           "deliverable_clarity": true,
           "direct_cta": true,
@@ -1029,69 +1618,15 @@
         "context_label": "Bitcoindefi / Open Stellar",
         "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
         "short_label": "Open Stellar issue #28",
-        "source_label": "Bitcoindefi/Open-Stellar#28"
+        "source_label": "Open Stellar issue #28"
       },
       "target_ref": "Bitcoindefi/Open-Stellar#28"
-    },
-    {
-      "html_sha256": "846b54b06d5f7f58ca907eeda5e0f6a68da30de48395d3634d115f64bf320aef",
-      "landing_page_quality_audit": {
-        "blocker_count": 0,
-        "blockers": [],
-        "rules": {
-          "buyer_trust_boundaries_required": true,
-          "generic_internal_payment_copy_blocks_export": true,
-          "internal_artifact_language_blocks_export": true,
-          "landing_page_copy_must_read_buyer_first": true,
-          "landing_page_must_have_buyer_outcome": true,
-          "landing_page_must_have_direct_cta": true,
-          "public_url_must_not_use_internal_packet_id": true,
-          "raw_internal_target_ref_must_not_be_hero_copy": true,
-          "source_url_target_ref_must_match": true,
-          "target_specific_pages_should_be_noindex": true
-        },
-        "score": 100,
-        "signals": {
-          "buyer_outcome": true,
-          "confidence_frame": true,
-          "deliverable_clarity": true,
-          "direct_cta": true,
-          "expected_target_ref": "",
-          "h1_text": "De-risk payment retries in Synergy Effect N8n Community Hiring Post",
-          "path": "/pay/agent-payment/private-scan-50e17cd2",
-          "payment_options": true,
-          "privacy_boundary": true,
-          "private_access_boundary": true,
-          "public_only_boundary": true,
-          "receipt_next_step": true,
-          "source_url": "mailto:info@s-e.lt",
-          "target_ref": "Synergy Effect / n8n Community hiring post",
-          "trust_proof": true
-        },
-        "status": "landing_page_quality_ready",
-        "warning_count": 0,
-        "warnings": []
-      },
-      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/private-scan-50e17cd2/index.html",
-      "packet_id": "active_buyer_request_n8n_synergy_effect_294904",
-      "page_id": "private-scan-50e17cd2",
-      "path": "/pay/agent-payment/private-scan-50e17cd2",
-      "public_url": "https://maximultra.dev/pay/agent-payment/private-scan-50e17cd2",
-      "source": "live_deal_positive_reply_close",
-      "source_url": "mailto:info@s-e.lt",
-      "target_display": {
-        "context_label": "Public source",
-        "expected_target_ref": "",
-        "short_label": "Synergy Effect N8n Community Hiring Post",
-        "source_label": "Synergy Effect / n8n Community hiring post"
-      },
-      "target_ref": "Synergy Effect / n8n Community hiring post"
     }
   ],
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 20,
+  "ready_page_count": 19,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }

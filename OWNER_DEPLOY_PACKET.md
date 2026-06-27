@@ -4,13 +4,13 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `20`
-- Exported pages: `20`
+- Ready pages: `19`
+- Exported pages: `19`
 - Landing page quality blockers: `0`
-- Manifest digest: `febbfba70cc633f5`
+- Manifest digest: `f2aa866ba46ee8eb`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy febbfba70cc633f5`
-- Local export refreshed at: `2026-06-27T22:19:45.992802+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy f2aa866ba46ee8eb`
+- Local export refreshed at: `2026-06-27T23:26:45.677914+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad
@@ -32,7 +32,6 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2
 - `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/ding-server-issue-23-42e1e240
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/open-stellar-issue-28-518b2d45
-- `Synergy Effect / n8n Community hiring post` -> https://maximultra.dev/pay/agent-payment/private-scan-50e17cd2
 
 ## Manual Deploy Gate
 
