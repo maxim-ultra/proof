@@ -8,14 +8,17 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "44a34ab4abf3d935557f1a8388f312926faa2107f390bfbd20c0f4bd6ec28dbc",
+      "html_sha256": "f041c3d730e4e26fe198a2e05f79abd4e7e8358c738685a7320e3103dd2f3da1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -23,9 +26,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "strands-agents/harness-sdk#2884",
-          "h1_text": "Public-only payment reliability check for Harness SDK issue #2884",
+          "h1_text": "De-risk payment retries in Harness SDK issue #2884",
           "path": "/pay/agent-payment/harness-sdk-issue-2884-980dbdad",
           "payment_options": true,
           "privacy_boundary": true,
@@ -56,14 +62,17 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "98eaaf300a3c6a1d2b9324e4913c4818f42317f08b92f52b4f21e677f4e0e63d",
+      "html_sha256": "67052f7a39749d5e5a72cd6b477518f78100f492bf9e5de9ce64ed82e50a2fc3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -71,9 +80,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
-          "h1_text": "Public-only payment reliability check for Preview Checkout Streaming Bugs issue #31",
+          "h1_text": "De-risk payment retries in Preview Checkout Streaming Bugs issue #31",
           "path": "/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5",
           "payment_options": true,
           "privacy_boundary": true,
@@ -104,14 +116,17 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "167f5920b70e90cba684bfdf00e3acdee4b1b4aea27caa541ae8c534233501e9",
+      "html_sha256": "9acede3600db50195b73e2787f84253783e044880d3d909eb8943479e17034d5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -119,9 +134,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "mmd-rehan/textile-pos#32",
-          "h1_text": "Public-only payment reliability check for Textile Pos issue #32",
+          "h1_text": "De-risk payment retries in Textile Pos issue #32",
           "path": "/pay/agent-payment/textile-pos-issue-32-290bffcc",
           "payment_options": true,
           "privacy_boundary": true,
@@ -152,14 +170,17 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "5ead656bc1473ba64816840873c3c8ca8262a5780ef893204ef931a7b4a70b20",
+      "html_sha256": "0839a7a7ee81d62dd8110280f18831d069b54fb2618b0da1863d8b35a0add190",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -167,9 +188,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "huanlongAI/hl-dispatch#298",
-          "h1_text": "Public-only payment reliability check for Hl Dispatch issue #298",
+          "h1_text": "De-risk payment retries in Hl Dispatch issue #298",
           "path": "/pay/agent-payment/hl-dispatch-issue-298-b286433f",
           "payment_options": true,
           "privacy_boundary": true,
@@ -200,14 +224,17 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "460915a5e1036738af254c46ada632eddc088ad0e5801c1610155baf8336b357",
+      "html_sha256": "03cbd0e39d705d6034faeae1e1b30abf930c7fc9b772e11b810bf6f76870e6fc",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -215,9 +242,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "emrekayat/Query402#4",
-          "h1_text": "Public-only payment reliability check for Query402 issue #4",
+          "h1_text": "De-risk payment retries in Query402 issue #4",
           "path": "/pay/agent-payment/query402-issue-4-6e27c9b8",
           "payment_options": true,
           "privacy_boundary": true,
@@ -248,14 +278,17 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "7516581c9e9b41f81bf098e8584434a6f0f180c5ce4232be5f70b73460111d10",
+      "html_sha256": "6c565aa99e5937e8039a017a37d6412a4bf1fcaa626f71ed28ce1361670f3ecc",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -263,9 +296,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "devEunicee/pulsar-contracts#272",
-          "h1_text": "Public-only payment reliability check for Pulsar Contracts issue #272",
+          "h1_text": "De-risk payment retries in Pulsar Contracts issue #272",
           "path": "/pay/agent-payment/pulsar-contracts-issue-272-6fb60a81",
           "payment_options": true,
           "privacy_boundary": true,
@@ -296,14 +332,17 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "cb6b9145a02ba4de3b5fe1957b0b21d14287613350e8557f2b63014b14b00e01",
+      "html_sha256": "9f589fc2b26bf30ef5e3e5980a980f9f67aa6adff4a739d60c0951c90f716733",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -311,9 +350,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "d-hinders/Haven-AI#491",
-          "h1_text": "Public-only payment reliability check for Haven Ai issue #491",
+          "h1_text": "De-risk payment retries in Haven Ai issue #491",
           "path": "/pay/agent-payment/haven-ai-issue-491-85dfb36c",
           "payment_options": true,
           "privacy_boundary": true,
@@ -344,14 +386,17 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "0e3c7d19ca3e2fd2fcd069f17fc230b0cdb0dbce827e751681ddc5259abf9b6b",
+      "html_sha256": "5be1f4232ffb583befea3e9d79fcd43fc11f0eea98b0ca6c6e9c682ddea7f0c9",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -359,9 +404,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "crewAIInc/crewAI#5802",
-          "h1_text": "Public-only payment reliability check for Crewai issue #5802",
+          "h1_text": "De-risk payment retries in Crewai issue #5802",
           "path": "/pay/agent-payment/crewai-issue-5802-735861da",
           "payment_options": true,
           "privacy_boundary": true,
@@ -392,14 +440,17 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "3f6530df86aa362f3ea0880eaa87f2744380e945bc662f3513d918c76a21e2ba",
+      "html_sha256": "618d46b2979b24b58a2eae07283fe38fb886d8dad38150176a16a205a80d2af5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -407,9 +458,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
-          "h1_text": "Public-only payment reliability check for Material Kai Vision Platform issue #218",
+          "h1_text": "De-risk payment retries in Material Kai Vision Platform issue #218",
           "path": "/pay/agent-payment/material-kai-vision-platform-issue-218-78f52cb0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -440,14 +494,17 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "ce6f2e6402ea457ae052b3a3b15b86be7a781541c1005b419507604e2663da77",
+      "html_sha256": "7bc5e2762ebf8275508ae0a5503682ecf444d7c82e07e76fb46c2b4975ab01c8",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -455,9 +512,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
-          "h1_text": "Public-only payment reliability check for Stash issue #3",
+          "h1_text": "De-risk payment retries in Stash issue #3",
           "path": "/pay/agent-payment/stash-issue-3-9e5fcae7",
           "payment_options": true,
           "privacy_boundary": true,
@@ -488,14 +548,17 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "4d0bb3164f0e0782d29031ca9f200d722fcdd470494060e2dea48fd86bfe5845",
+      "html_sha256": "9202ee819a71321bfe5ea2eb02dafd187f5a4c52a3c3a334cb21addfa85da799",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -503,9 +566,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Ramc4685/academy-manager#235",
-          "h1_text": "Public-only payment reliability check for Academy Manager issue #235",
+          "h1_text": "De-risk payment retries in Academy Manager issue #235",
           "path": "/pay/agent-payment/academy-manager-issue-235-f7268f3a",
           "payment_options": true,
           "privacy_boundary": true,
@@ -536,14 +602,17 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "00d4044a85e4ba371451839665539064fab0b7391aedd029dcfaa3455fa31a2c",
+      "html_sha256": "d6e1e3e27fa7c8889c1779e24379406ec30180159497d17a1ebd086c7442564f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -551,9 +620,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Pidoko257/proxypay#5",
-          "h1_text": "Public-only payment reliability check for Proxypay issue #5",
+          "h1_text": "De-risk payment retries in Proxypay issue #5",
           "path": "/pay/agent-payment/proxypay-issue-5-b37d68e0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -584,14 +656,17 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "717e49c13d1c7ec9438d26700bcb4a6484cf520d9530798943a59c9b3f568f2a",
+      "html_sha256": "138d6471aa68a43745520ff146816f7e97630e0a6f2c5a52c9eae6eebd57b101",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -599,9 +674,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "OJamals/masest#24",
-          "h1_text": "Public-only payment reliability check for Masest issue #24",
+          "h1_text": "De-risk payment retries in Masest issue #24",
           "path": "/pay/agent-payment/masest-issue-24-17f01e69",
           "payment_options": true,
           "privacy_boundary": true,
@@ -632,14 +710,17 @@
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "73a05c7d9cb54e90b07818fb51b77979173a6b1557255e7e460a43f1109ae571",
+      "html_sha256": "1279b9159b702cdf9a45189e4fc14421c45946f5f89d1006165993368593a532",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -647,9 +728,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "JustineDevs/E-Commerce#12",
-          "h1_text": "Public-only payment reliability check for E Commerce issue #12",
+          "h1_text": "De-risk payment retries in E Commerce issue #12",
           "path": "/pay/agent-payment/e-commerce-issue-12-1ac1c44e",
           "payment_options": true,
           "privacy_boundary": true,
@@ -680,14 +764,17 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "6eaa6b8aa4e7c49b999f6af25ad886d490fd4feab27edc2e629fd051efc05f3a",
+      "html_sha256": "1f18870950160e232c27c65ef7f8e470aa8c19bd4c5145b368d8e82c7bcd86ec",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -695,9 +782,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
-          "h1_text": "Public-only payment reliability check for Hazina Escrow issue #488",
+          "h1_text": "De-risk payment retries in Hazina Escrow issue #488",
           "path": "/pay/agent-payment/hazina-escrow-issue-488-8ec4a928",
           "payment_options": true,
           "privacy_boundary": true,
@@ -728,14 +818,17 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "1e111ba6292abfaac24681df52c6a4f980f19ad30010380d0f5bf1321a4c9a73",
+      "html_sha256": "38f0cf7a1e3f7bb770850e311a00060c7b68eedf5cf47532c17e23296f32eea0",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -743,9 +836,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Expensify/App#91584",
-          "h1_text": "Public-only payment reliability check for App issue #91584",
+          "h1_text": "De-risk payment retries in App issue #91584",
           "path": "/pay/agent-payment/app-issue-91584-b63420f0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -776,14 +872,17 @@
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "5e36d3a38395a9bad8898430145ecba99dd9dd8ba10588f92bbde0256c26ae94",
+      "html_sha256": "864129e42baf145879bcbdcc941aec3aaa4141804566226ef06963f56406837f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -791,9 +890,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "DogStark/PetChain-MobileApp#524",
-          "h1_text": "Public-only payment reliability check for Petchain Mobileapp issue #524",
+          "h1_text": "De-risk payment retries in Petchain Mobileapp issue #524",
           "path": "/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2",
           "payment_options": true,
           "privacy_boundary": true,
@@ -824,14 +926,17 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "77eaa30857aa5a2f2d38b243229e598a0cfcea15f1360cbf65380eb6918cb34a",
+      "html_sha256": "f98d200207de5c87eb13ed13429fd4f6ee1a9548504aadd7e0fc5787eff75a82",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -839,9 +944,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Ding-Payments/ding-server#23",
-          "h1_text": "Public-only payment reliability check for Ding Server issue #23",
+          "h1_text": "De-risk payment retries in Ding Server issue #23",
           "path": "/pay/agent-payment/ding-server-issue-23-42e1e240",
           "payment_options": true,
           "privacy_boundary": true,
@@ -872,14 +980,17 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "8f802cccc2271c02259c52e3cc9658ced4cd87e6f3c831ab93e81f73e6dceebf",
+      "html_sha256": "60e7c4b03eb447efb5218838ab3f46a13564b31c72eb94b4dfd8e3bd26c9ccdb",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -887,9 +998,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
-          "h1_text": "Public-only payment reliability check for Open Stellar issue #28",
+          "h1_text": "De-risk payment retries in Open Stellar issue #28",
           "path": "/pay/agent-payment/open-stellar-issue-28-518b2d45",
           "payment_options": true,
           "privacy_boundary": true,
@@ -920,14 +1034,17 @@
       "target_ref": "Bitcoindefi/Open-Stellar#28"
     },
     {
-      "html_sha256": "dad589caf8f78fdb62466f5d03811cb76649c8bfec7c67a24aa4efcc0380a115",
+      "html_sha256": "846b54b06d5f7f58ca907eeda5e0f6a68da30de48395d3634d115f64bf320aef",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
         "rules": {
           "buyer_trust_boundaries_required": true,
           "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
           "raw_internal_target_ref_must_not_be_hero_copy": true,
           "source_url_target_ref_must_match": true,
@@ -935,9 +1052,12 @@
         },
         "score": 100,
         "signals": {
+          "buyer_outcome": true,
+          "confidence_frame": true,
           "deliverable_clarity": true,
+          "direct_cta": true,
           "expected_target_ref": "",
-          "h1_text": "Public-only payment reliability check for Synergy Effect N8n Community Hiring Post",
+          "h1_text": "De-risk payment retries in Synergy Effect N8n Community Hiring Post",
           "path": "/pay/agent-payment/private-scan-50e17cd2",
           "payment_options": true,
           "privacy_boundary": true,
