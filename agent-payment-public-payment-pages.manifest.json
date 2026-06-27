@@ -2,7 +2,7 @@
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 19,
+  "exported_page_count": 20,
   "external_action_allowed": false,
   "pages": [
     {
@@ -11,6 +11,8 @@
       "page_id": "agent-payment-proof-3-strands-agents-harness-sdk-2884",
       "path": "/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/strands-agents/harness-sdk/issues/2884",
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
@@ -19,6 +21,8 @@
       "page_id": "agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
       "path": "/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31",
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
@@ -27,6 +31,8 @@
       "page_id": "agent-payment-proof-3222-mmd-rehan-textile-pos-32",
       "path": "/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/mmd-rehan/textile-pos/issues/32",
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
@@ -35,6 +41,8 @@
       "page_id": "agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "path": "/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/huanlongAI/hl-dispatch/issues/298",
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
@@ -43,6 +51,8 @@
       "page_id": "agent-payment-proof-4-emrekayat-query402-4",
       "path": "/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/emrekayat/Query402/issues/4",
       "target_ref": "emrekayat/Query402#4"
     },
     {
@@ -51,6 +61,8 @@
       "page_id": "agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
       "path": "/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/devEunicee/pulsar-contracts/issues/272",
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
@@ -59,6 +71,8 @@
       "page_id": "agent-payment-proof-2815-d-hinders-haven-ai-491",
       "path": "/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/d-hinders/Haven-AI/issues/491",
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
@@ -67,6 +81,8 @@
       "page_id": "agent-payment-proof-1-crewaiinc-crewai-5802",
       "path": "/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/crewAIInc/crewAI/issues/5802",
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
@@ -75,6 +91,8 @@
       "page_id": "agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
       "path": "/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/creativeghq/material-kai-vision-platform/issues/218",
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
@@ -83,6 +101,8 @@
       "page_id": "agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
       "path": "/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Stash-Mobile-App-Group-90/stash/issues/3",
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
@@ -91,6 +111,8 @@
       "page_id": "agent-payment-proof-3338-ramc4685-academy-manager-235",
       "path": "/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Ramc4685/academy-manager/issues/235",
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
@@ -99,6 +121,8 @@
       "page_id": "agent-payment-proof-2815-pidoko257-proxypay-5",
       "path": "/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Pidoko257/proxypay/issues/5",
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
@@ -107,6 +131,8 @@
       "page_id": "agent-payment-proof-2516-ojamals-masest-24",
       "path": "/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/OJamals/masest/issues/24",
       "target_ref": "OJamals/masest#24"
     },
     {
@@ -115,6 +141,8 @@
       "page_id": "agent-payment-proof-3246-justinedevs-e-commerce-12",
       "path": "/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/JustineDevs/E-Commerce/issues/12",
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
@@ -123,6 +151,8 @@
       "page_id": "agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
       "path": "/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488",
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
@@ -131,6 +161,8 @@
       "page_id": "agent-payment-proof-2593-expensify-app-91584",
       "path": "/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Expensify/App/issues/91584",
       "target_ref": "Expensify/App#91584"
     },
     {
@@ -139,6 +171,8 @@
       "page_id": "agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
       "path": "/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/DogStark/PetChain-MobileApp/issues/524",
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
@@ -147,6 +181,8 @@
       "page_id": "agent-payment-proof-3589-ding-payments-ding-server-23",
       "path": "/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Ding-Payments/ding-server/issues/23",
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
@@ -155,13 +191,25 @@
       "page_id": "agent-payment-proof-3482-bitcoindefi-open-stellar-28",
       "path": "/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28",
+      "source": "emergency_recovery_queue",
+      "source_url": "https://github.com/Bitcoindefi/Open-Stellar/issues/28",
       "target_ref": "Bitcoindefi/Open-Stellar#28"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee/index.html",
+      "packet_id": "active_buyer_request_n8n_targetpatientsmd_299853",
+      "page_id": "active-buyer-request-n8n-targetpatientsmd-299853",
+      "path": "/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee",
+      "public_url": "https://maximultra.dev/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee",
+      "source": "live_deal_positive_reply_close",
+      "source_url": "mailto:kat@targetpatientsmd.com",
+      "target_ref": "TargetPatientsMD / n8n Community katkat"
     }
   ],
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 19,
+  "ready_page_count": 20,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }

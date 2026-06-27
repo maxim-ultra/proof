@@ -4,12 +4,12 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `19`
-- Exported pages: `19`
-- Manifest digest: `a01c72b528fdfca2`
+- Ready pages: `20`
+- Exported pages: `20`
+- Manifest digest: `63ec94b3e40250cd`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy a01c72b528fdfca2`
-- Local export refreshed at: `2026-06-27T13:55:06.995640+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 63ec94b3e40250cd`
+- Local export refreshed at: `2026-06-27T15:51:24.707392+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884
@@ -31,6 +31,7 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524
 - `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28
+- `TargetPatientsMD / n8n Community katkat` -> https://maximultra.dev/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee
 
 ## Manual Deploy Gate
 
