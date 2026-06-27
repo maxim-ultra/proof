@@ -4,15 +4,17 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `16`
-- Exported pages: `16`
-- Manifest digest: `0f3cdb644b2906d2`
+- Ready pages: `19`
+- Exported pages: `19`
+- Manifest digest: `a01c72b528fdfca2`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 0f3cdb644b2906d2`
-- Local export refreshed at: `2026-06-25T13:06:39.691916+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy a01c72b528fdfca2`
+- Local export refreshed at: `2026-06-27T13:55:06.995640+00:00`
 
 ## Pages
+- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884
 - `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31
+- `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32
 - `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298
 - `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4
 - `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272
@@ -23,6 +25,7 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235
 - `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5
 - `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24
+- `JustineDevs/E-Commerce#12` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12
 - `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488
 - `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584
 - `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524

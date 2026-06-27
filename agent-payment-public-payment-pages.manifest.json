@@ -2,9 +2,17 @@
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 16,
+  "exported_page_count": 19,
   "external_action_allowed": false,
   "pages": [
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884/index.html",
+      "packet_id": "agent_payment_proof_3_strands_agents_harness_sdk_2884",
+      "page_id": "agent-payment-proof-3-strands-agents-harness-sdk-2884",
+      "path": "/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884",
+      "target_ref": "strands-agents/harness-sdk#2884"
+    },
     {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31/index.html",
       "packet_id": "agent_payment_proof_0_shahnawaz_cmd_preview_checkout_streaming_bugs_31",
@@ -12,6 +20,14 @@
       "path": "/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
+    },
+    {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32/index.html",
+      "packet_id": "agent_payment_proof_3222_mmd_rehan_textile_pos_32",
+      "page_id": "agent-payment-proof-3222-mmd-rehan-textile-pos-32",
+      "path": "/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32",
+      "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298/index.html",
@@ -94,6 +110,14 @@
       "target_ref": "OJamals/masest#24"
     },
     {
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12/index.html",
+      "packet_id": "agent_payment_proof_3246_justinedevs_e_commerce_12",
+      "page_id": "agent-payment-proof-3246-justinedevs-e-commerce-12",
+      "path": "/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12",
+      "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12",
+      "target_ref": "JustineDevs/E-Commerce#12"
+    },
+    {
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488/index.html",
       "packet_id": "agent_payment_proof_3796_hazina_escrow_hazina_escrow_488",
       "page_id": "agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
@@ -137,7 +161,7 @@
   "payment_or_wallet_action_allowed": false,
   "post_allowed": false,
   "public_domain": "https://maximultra.dev",
-  "ready_page_count": 16,
+  "ready_page_count": 19,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only"
 }
