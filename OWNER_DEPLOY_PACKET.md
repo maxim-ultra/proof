@@ -7,32 +7,32 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Ready pages: `20`
 - Exported pages: `20`
 - Landing page quality blockers: `0`
-- Manifest digest: `ddd969973536e19e`
+- Manifest digest: `a434089949883029`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy ddd969973536e19e`
-- Local export refreshed at: `2026-06-27T19:01:27.576959+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy a434089949883029`
+- Local export refreshed at: `2026-06-27T21:08:45.018567+00:00`
 
 ## Pages
-- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884
-- `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31
-- `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32
-- `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298
-- `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4
-- `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272
-- `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491
-- `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802
-- `creativeghq/material-kai-vision-platform#218` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218
-- `Stash-Mobile-App-Group-90/stash#3` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3
-- `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235
-- `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5
-- `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24
-- `JustineDevs/E-Commerce#12` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12
-- `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488
-- `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584
-- `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524
-- `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23
-- `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28
-- `Synergy Effect / n8n Community hiring post` -> https://maximultra.dev/pay/agent-payment/active-buyer-request-n8n-synergy-effect-294904-50e17cd2cb
+- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad
+- `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5
+- `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/textile-pos-issue-32-290bffcc
+- `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/hl-dispatch-issue-298-b286433f
+- `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/query402-issue-4-6e27c9b8
+- `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/pulsar-contracts-issue-272-6fb60a81
+- `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/haven-ai-issue-491-85dfb36c
+- `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/crewai-issue-5802-735861da
+- `creativeghq/material-kai-vision-platform#218` -> https://maximultra.dev/pay/agent-payment/material-kai-vision-platform-issue-218-78f52cb0
+- `Stash-Mobile-App-Group-90/stash#3` -> https://maximultra.dev/pay/agent-payment/stash-issue-3-9e5fcae7
+- `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/academy-manager-issue-235-f7268f3a
+- `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/proxypay-issue-5-b37d68e0
+- `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/masest-issue-24-17f01e69
+- `JustineDevs/E-Commerce#12` -> https://maximultra.dev/pay/agent-payment/e-commerce-issue-12-1ac1c44e
+- `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/hazina-escrow-issue-488-8ec4a928
+- `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/app-issue-91584-b63420f0
+- `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2
+- `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/ding-server-issue-23-42e1e240
+- `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/open-stellar-issue-28-518b2d45
+- `Synergy Effect / n8n Community hiring post` -> https://maximultra.dev/pay/agent-payment/private-scan-50e17cd2
 
 ## Manual Deploy Gate
 
