@@ -8,7 +8,7 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "797917a5e4a9901e845643c723818517d2fbd0473293c8805d83c15dd687f8ee",
+      "html_sha256": "3e4842b4990e068103c4b806c0baaa4bd38956503c74545d10cd1a3b97943439",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -93,7 +93,7 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "dbb5f09570021825bd8d4486fa12d6e4df45a3a45154831f1b6ea26fe42e90f3",
+      "html_sha256": "4a09ed8aae560a2546d6b6e3afa071a5b08b1cd5f0819dab0d462824537b2273",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -178,7 +178,7 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "0590f17621bb04950b19377b29c6c756a81ba702a5b25baa7100bdef92dd76a5",
+      "html_sha256": "6c22b59730886259ca0246a3e269dfd473a6cd38113fefe26e918e44973e7714",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -263,7 +263,7 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "ba16d4bc8c05a12a333180211b74c67888d5e6265d412c58699c149628ebfd1c",
+      "html_sha256": "f8921e87e836fbc1d3d29c06a9ecbd74f692e5be6eecdf737efeb5022a4c7aae",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -348,7 +348,7 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "c00b9ca7f00800cb4cdb5857f88b121b4d6edda238942729b0abeaff78ca5b40",
+      "html_sha256": "722ea4563b17e70f9885b1ead69e107ed4e691da630cb5d3f43263ed3e51c87d",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -433,7 +433,7 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "63b2a08b9527c4f8ca971a07a3692eb345a65a3709fa9ddd9c7977851015d9b4",
+      "html_sha256": "c6556e73ea1e6d5b959b7ca23b0387c4b1b50e9cf179a0431c3d60edc5ba7f0a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -518,7 +518,7 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "378b87bd04b034d00904522b6e34d948923137d7c39cef1b5b008068c2fb7546",
+      "html_sha256": "3ead40d5f9953551a1ab30708c5bc64bb429b79dd50b0d92100755183d7568de",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -603,7 +603,7 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "f69ae7ad40c08174b5b0accd68700a2e96ece555814ba29094ddfb5433d4efd2",
+      "html_sha256": "f7479f6a3bc098fa11e3e568ece785ce20ed2c24c06ba0069e63a44b55fda742",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -688,7 +688,7 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "591dcaefced7788ba637fb30fa7f9817d5b5ed534785e18c57d44b933f5b2cfe",
+      "html_sha256": "5cdf4e89589f31eb6fe4df0bb8563abab59464f4dfbec7844f4768d5533a8c10",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -773,7 +773,7 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "be745f0bc8f1adf47cb99b090d84ee2f498d2a60daea2e0b430fc796202d9aca",
+      "html_sha256": "04cae0311a34a1ed97ea4a1d3a13e4e9e10cdb1df37544a947077f17810aa092",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -858,7 +858,7 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "978a36e2842026a63932bfce7e0daa92ac69b5c7e1186e5e961640636c9de739",
+      "html_sha256": "ad946b6de8594547d91f57e0f22b5405ef081cb97bb685f16d37ec7c7b8d6c2a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -943,7 +943,7 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "334c3d14af4a85631267ef09a779e964bc2f6b12d873067ff12d671716c67cf4",
+      "html_sha256": "ab17df1d939b27427026affb433f49f2f1bcd032d738891512adea432f3dd56c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1028,7 +1028,7 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "e07969f7f9ed6c0ca0adcce60067220800a58f463183cf689aed8276f20aefdf",
+      "html_sha256": "35f83286fd4066f4396a14d140f8d5e1379b7370b00eaa85480b0c55176d6a82",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1113,7 +1113,7 @@
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "e32dba718def9e28032145c1cce43f73c99a63dad713e14c6b11c0b66cc8c6e7",
+      "html_sha256": "e32833c10b2c66770f83d981da9a5c44da3ea8e5d3f41206347b8d6a5f657d12",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1198,7 +1198,7 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "f53a24f2b766600d6a7db614afdc691d2f6bb2afa54e1d18b31ed9ca6fb28739",
+      "html_sha256": "28c7b012b5a691038df02bf44f8db85116eb74182aacbce9c71c380fd4084a72",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1283,7 +1283,7 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "6b9f9f837de5fa420bae64b7f1f835cdefe4a149844c92b218d7e324a7a3f2d8",
+      "html_sha256": "7b41c485a819843acdef24682eec032dd6baf301bf9d82f70213779aa2a6d85d",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1368,7 +1368,7 @@
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "d1e6ab1a5388874c7dbff083e922616b0f04caad85bab2e4d15fe9263b6db600",
+      "html_sha256": "5360784b9f075773569c1887d68d8db2c06d7a16d8b7109d8e029c8ff6afb65e",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1453,7 +1453,7 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "23d2e444cca906dc05a30b87ed743103ecefb226eb3b2d235cb9e57591382fa1",
+      "html_sha256": "829ffce5c21cebebedd0e26ad0f0e2d4513e6b5e243c6b663b97af4602e77c45",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1538,7 +1538,7 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "8e1ebd78e791467e5c6516cd9e662b11577247e743960e35cf53d644c7e2930a",
+      "html_sha256": "d2e5fc9dd56f622f50dc24989ecd00a9b3dd59321c108d5fcfc21e0862f2310f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
