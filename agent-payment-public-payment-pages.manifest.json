@@ -4,8 +4,35 @@
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
   "exported_page_count": 20,
   "external_action_allowed": false,
+  "landing_page_quality_blocker_count": 0,
+  "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "strands-agents/harness-sdk#2884",
+          "h1_text": "Public-only payment reliability check for Harness SDK issue #2884",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/strands-agents/harness-sdk/issues/2884",
+          "target_ref": "strands-agents/harness-sdk#2884"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884/index.html",
       "packet_id": "agent_payment_proof_3_strands_agents_harness_sdk_2884",
       "page_id": "agent-payment-proof-3-strands-agents-harness-sdk-2884",
@@ -13,9 +40,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3-strands-agents-harness-sdk-2884",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/strands-agents/harness-sdk/issues/2884",
+      "target_display": {
+        "context_label": "Strands Agents / Harness SDK",
+        "expected_target_ref": "strands-agents/harness-sdk#2884",
+        "short_label": "Harness SDK issue #2884",
+        "source_label": "strands-agents/harness-sdk#2884"
+      },
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
+          "h1_text": "Public-only payment reliability check for Preview Checkout Streaming Bugs issue #31",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31",
+          "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31/index.html",
       "packet_id": "agent_payment_proof_0_shahnawaz_cmd_preview_checkout_streaming_bugs_31",
       "page_id": "agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
@@ -23,9 +81,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-0-shahnawaz-cmd-preview-checkout-streaming-bugs-31",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31",
+      "target_display": {
+        "context_label": "Shahnawaz Cmd / Preview Checkout Streaming Bugs",
+        "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
+        "short_label": "Preview Checkout Streaming Bugs issue #31",
+        "source_label": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
+      },
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "mmd-rehan/textile-pos#32",
+          "h1_text": "Public-only payment reliability check for Textile Pos issue #32",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/mmd-rehan/textile-pos/issues/32",
+          "target_ref": "mmd-rehan/textile-pos#32"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32/index.html",
       "packet_id": "agent_payment_proof_3222_mmd_rehan_textile_pos_32",
       "page_id": "agent-payment-proof-3222-mmd-rehan-textile-pos-32",
@@ -33,9 +122,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3222-mmd-rehan-textile-pos-32",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/mmd-rehan/textile-pos/issues/32",
+      "target_display": {
+        "context_label": "Mmd Rehan / Textile Pos",
+        "expected_target_ref": "mmd-rehan/textile-pos#32",
+        "short_label": "Textile Pos issue #32",
+        "source_label": "mmd-rehan/textile-pos#32"
+      },
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "huanlongAI/hl-dispatch#298",
+          "h1_text": "Public-only payment reliability check for Hl Dispatch issue #298",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/huanlongAI/hl-dispatch/issues/298",
+          "target_ref": "huanlongAI/hl-dispatch#298"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298/index.html",
       "packet_id": "agent_payment_proof_3348_huanlongai_hl_dispatch_298",
       "page_id": "agent-payment-proof-3348-huanlongai-hl-dispatch-298",
@@ -43,9 +163,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3348-huanlongai-hl-dispatch-298",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/huanlongAI/hl-dispatch/issues/298",
+      "target_display": {
+        "context_label": "Huanlongai / Hl Dispatch",
+        "expected_target_ref": "huanlongAI/hl-dispatch#298",
+        "short_label": "Hl Dispatch issue #298",
+        "source_label": "huanlongAI/hl-dispatch#298"
+      },
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "emrekayat/Query402#4",
+          "h1_text": "Public-only payment reliability check for Query402 issue #4",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/emrekayat/Query402/issues/4",
+          "target_ref": "emrekayat/Query402#4"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4/index.html",
       "packet_id": "agent_payment_proof_4_emrekayat_query402_4",
       "page_id": "agent-payment-proof-4-emrekayat-query402-4",
@@ -53,9 +204,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-4-emrekayat-query402-4",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/emrekayat/Query402/issues/4",
+      "target_display": {
+        "context_label": "Emrekayat / Query402",
+        "expected_target_ref": "emrekayat/Query402#4",
+        "short_label": "Query402 issue #4",
+        "source_label": "emrekayat/Query402#4"
+      },
       "target_ref": "emrekayat/Query402#4"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "devEunicee/pulsar-contracts#272",
+          "h1_text": "Public-only payment reliability check for Pulsar Contracts issue #272",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/devEunicee/pulsar-contracts/issues/272",
+          "target_ref": "devEunicee/pulsar-contracts#272"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272/index.html",
       "packet_id": "agent_payment_proof_3943_deveunicee_pulsar_contracts_272",
       "page_id": "agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
@@ -63,9 +245,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3943-deveunicee-pulsar-contracts-272",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/devEunicee/pulsar-contracts/issues/272",
+      "target_display": {
+        "context_label": "Deveunicee / Pulsar Contracts",
+        "expected_target_ref": "devEunicee/pulsar-contracts#272",
+        "short_label": "Pulsar Contracts issue #272",
+        "source_label": "devEunicee/pulsar-contracts#272"
+      },
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "d-hinders/Haven-AI#491",
+          "h1_text": "Public-only payment reliability check for Haven Ai issue #491",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/d-hinders/Haven-AI/issues/491",
+          "target_ref": "d-hinders/Haven-AI#491"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491/index.html",
       "packet_id": "agent_payment_proof_2815_d_hinders_haven_ai_491",
       "page_id": "agent-payment-proof-2815-d-hinders-haven-ai-491",
@@ -73,9 +286,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-d-hinders-haven-ai-491",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/d-hinders/Haven-AI/issues/491",
+      "target_display": {
+        "context_label": "D Hinders / Haven Ai",
+        "expected_target_ref": "d-hinders/Haven-AI#491",
+        "short_label": "Haven Ai issue #491",
+        "source_label": "d-hinders/Haven-AI#491"
+      },
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "crewAIInc/crewAI#5802",
+          "h1_text": "Public-only payment reliability check for Crewai issue #5802",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/crewAIInc/crewAI/issues/5802",
+          "target_ref": "crewAIInc/crewAI#5802"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802/index.html",
       "packet_id": "agent_payment_proof_1_crewaiinc_crewai_5802",
       "page_id": "agent-payment-proof-1-crewaiinc-crewai-5802",
@@ -83,9 +327,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-1-crewaiinc-crewai-5802",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/crewAIInc/crewAI/issues/5802",
+      "target_display": {
+        "context_label": "Crewaiinc / Crewai",
+        "expected_target_ref": "crewAIInc/crewAI#5802",
+        "short_label": "Crewai issue #5802",
+        "source_label": "crewAIInc/crewAI#5802"
+      },
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
+          "h1_text": "Public-only payment reliability check for Material Kai Vision Platform issue #218",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/creativeghq/material-kai-vision-platform/issues/218",
+          "target_ref": "creativeghq/material-kai-vision-platform#218"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218/index.html",
       "packet_id": "agent_payment_proof_5232_creativeghq_material_kai_vision_platform_218",
       "page_id": "agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
@@ -93,9 +368,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-5232-creativeghq-material-kai-vision-platform-218",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/creativeghq/material-kai-vision-platform/issues/218",
+      "target_display": {
+        "context_label": "Creativeghq / Material Kai Vision Platform",
+        "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
+        "short_label": "Material Kai Vision Platform issue #218",
+        "source_label": "creativeghq/material-kai-vision-platform#218"
+      },
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
+          "h1_text": "Public-only payment reliability check for Stash issue #3",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Stash-Mobile-App-Group-90/stash/issues/3",
+          "target_ref": "Stash-Mobile-App-Group-90/stash#3"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3/index.html",
       "packet_id": "agent_payment_proof_3894_stash_mobile_app_group_90_stash_3",
       "page_id": "agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
@@ -103,9 +409,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3894-stash-mobile-app-group-90-stash-3",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Stash-Mobile-App-Group-90/stash/issues/3",
+      "target_display": {
+        "context_label": "Stash Mobile App Group 90 / Stash",
+        "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
+        "short_label": "Stash issue #3",
+        "source_label": "Stash-Mobile-App-Group-90/stash#3"
+      },
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Ramc4685/academy-manager#235",
+          "h1_text": "Public-only payment reliability check for Academy Manager issue #235",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Ramc4685/academy-manager/issues/235",
+          "target_ref": "Ramc4685/academy-manager#235"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235/index.html",
       "packet_id": "agent_payment_proof_3338_ramc4685_academy_manager_235",
       "page_id": "agent-payment-proof-3338-ramc4685-academy-manager-235",
@@ -113,9 +450,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3338-ramc4685-academy-manager-235",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Ramc4685/academy-manager/issues/235",
+      "target_display": {
+        "context_label": "Ramc4685 / Academy Manager",
+        "expected_target_ref": "Ramc4685/academy-manager#235",
+        "short_label": "Academy Manager issue #235",
+        "source_label": "Ramc4685/academy-manager#235"
+      },
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Pidoko257/proxypay#5",
+          "h1_text": "Public-only payment reliability check for Proxypay issue #5",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Pidoko257/proxypay/issues/5",
+          "target_ref": "Pidoko257/proxypay#5"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5/index.html",
       "packet_id": "agent_payment_proof_2815_pidoko257_proxypay_5",
       "page_id": "agent-payment-proof-2815-pidoko257-proxypay-5",
@@ -123,9 +491,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2815-pidoko257-proxypay-5",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Pidoko257/proxypay/issues/5",
+      "target_display": {
+        "context_label": "Pidoko257 / Proxypay",
+        "expected_target_ref": "Pidoko257/proxypay#5",
+        "short_label": "Proxypay issue #5",
+        "source_label": "Pidoko257/proxypay#5"
+      },
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "OJamals/masest#24",
+          "h1_text": "Public-only payment reliability check for Masest issue #24",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/OJamals/masest/issues/24",
+          "target_ref": "OJamals/masest#24"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24/index.html",
       "packet_id": "agent_payment_proof_2516_ojamals_masest_24",
       "page_id": "agent-payment-proof-2516-ojamals-masest-24",
@@ -133,9 +532,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2516-ojamals-masest-24",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/OJamals/masest/issues/24",
+      "target_display": {
+        "context_label": "Ojamals / Masest",
+        "expected_target_ref": "OJamals/masest#24",
+        "short_label": "Masest issue #24",
+        "source_label": "OJamals/masest#24"
+      },
       "target_ref": "OJamals/masest#24"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "JustineDevs/E-Commerce#12",
+          "h1_text": "Public-only payment reliability check for E Commerce issue #12",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/JustineDevs/E-Commerce/issues/12",
+          "target_ref": "JustineDevs/E-Commerce#12"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12/index.html",
       "packet_id": "agent_payment_proof_3246_justinedevs_e_commerce_12",
       "page_id": "agent-payment-proof-3246-justinedevs-e-commerce-12",
@@ -143,9 +573,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3246-justinedevs-e-commerce-12",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/JustineDevs/E-Commerce/issues/12",
+      "target_display": {
+        "context_label": "Justinedevs / E Commerce",
+        "expected_target_ref": "JustineDevs/E-Commerce#12",
+        "short_label": "E Commerce issue #12",
+        "source_label": "JustineDevs/E-Commerce#12"
+      },
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
+          "h1_text": "Public-only payment reliability check for Hazina Escrow issue #488",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488",
+          "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488/index.html",
       "packet_id": "agent_payment_proof_3796_hazina_escrow_hazina_escrow_488",
       "page_id": "agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
@@ -153,9 +614,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3796-hazina-escrow-hazina-escrow-488",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488",
+      "target_display": {
+        "context_label": "Hazina Escrow / Hazina Escrow",
+        "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
+        "short_label": "Hazina Escrow issue #488",
+        "source_label": "Hazina-Escrow/Hazina-Escrow#488"
+      },
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Expensify/App#91584",
+          "h1_text": "Public-only payment reliability check for App issue #91584",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Expensify/App/issues/91584",
+          "target_ref": "Expensify/App#91584"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584/index.html",
       "packet_id": "agent_payment_proof_2593_expensify_app_91584",
       "page_id": "agent-payment-proof-2593-expensify-app-91584",
@@ -163,9 +655,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-2593-expensify-app-91584",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Expensify/App/issues/91584",
+      "target_display": {
+        "context_label": "Expensify / App",
+        "expected_target_ref": "Expensify/App#91584",
+        "short_label": "App issue #91584",
+        "source_label": "Expensify/App#91584"
+      },
       "target_ref": "Expensify/App#91584"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "DogStark/PetChain-MobileApp#524",
+          "h1_text": "Public-only payment reliability check for Petchain Mobileapp issue #524",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/DogStark/PetChain-MobileApp/issues/524",
+          "target_ref": "DogStark/PetChain-MobileApp#524"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524/index.html",
       "packet_id": "agent_payment_proof_3750_dogstark_petchain_mobileapp_524",
       "page_id": "agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
@@ -173,9 +696,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3750-dogstark-petchain-mobileapp-524",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/DogStark/PetChain-MobileApp/issues/524",
+      "target_display": {
+        "context_label": "Dogstark / Petchain Mobileapp",
+        "expected_target_ref": "DogStark/PetChain-MobileApp#524",
+        "short_label": "Petchain Mobileapp issue #524",
+        "source_label": "DogStark/PetChain-MobileApp#524"
+      },
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Ding-Payments/ding-server#23",
+          "h1_text": "Public-only payment reliability check for Ding Server issue #23",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Ding-Payments/ding-server/issues/23",
+          "target_ref": "Ding-Payments/ding-server#23"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23/index.html",
       "packet_id": "agent_payment_proof_3589_ding_payments_ding_server_23",
       "page_id": "agent-payment-proof-3589-ding-payments-ding-server-23",
@@ -183,9 +737,40 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3589-ding-payments-ding-server-23",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Ding-Payments/ding-server/issues/23",
+      "target_display": {
+        "context_label": "Ding Payments / Ding Server",
+        "expected_target_ref": "Ding-Payments/ding-server#23",
+        "short_label": "Ding Server issue #23",
+        "source_label": "Ding-Payments/ding-server#23"
+      },
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
+          "h1_text": "Public-only payment reliability check for Open Stellar issue #28",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/Bitcoindefi/Open-Stellar/issues/28",
+          "target_ref": "Bitcoindefi/Open-Stellar#28"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28/index.html",
       "packet_id": "agent_payment_proof_3482_bitcoindefi_open_stellar_28",
       "page_id": "agent-payment-proof-3482-bitcoindefi-open-stellar-28",
@@ -193,17 +778,54 @@
       "public_url": "https://maximultra.dev/pay/agent-payment/agent-payment-proof-3482-bitcoindefi-open-stellar-28",
       "source": "emergency_recovery_queue",
       "source_url": "https://github.com/Bitcoindefi/Open-Stellar/issues/28",
+      "target_display": {
+        "context_label": "Bitcoindefi / Open Stellar",
+        "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
+        "short_label": "Open Stellar issue #28",
+        "source_label": "Bitcoindefi/Open-Stellar#28"
+      },
       "target_ref": "Bitcoindefi/Open-Stellar#28"
     },
     {
-      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee/index.html",
-      "packet_id": "active_buyer_request_n8n_targetpatientsmd_299853",
-      "page_id": "active-buyer-request-n8n-targetpatientsmd-299853",
-      "path": "/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee",
-      "public_url": "https://maximultra.dev/pay/agent-payment/active-buyer-request-n8n-targetpatientsmd-299853-a7ad034dee",
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "rules": {
+          "buyer_trust_boundaries_required": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 100,
+        "signals": {
+          "deliverable_clarity": true,
+          "expected_target_ref": "",
+          "h1_text": "Public-only payment reliability check for Synergy Effect N8n Community Hiring Post",
+          "private_access_boundary": true,
+          "public_only_boundary": true,
+          "receipt_next_step": true,
+          "source_url": "mailto:info@s-e.lt",
+          "target_ref": "Synergy Effect / n8n Community hiring post"
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 0,
+        "warnings": []
+      },
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/active-buyer-request-n8n-synergy-effect-294904-50e17cd2cb/index.html",
+      "packet_id": "active_buyer_request_n8n_synergy_effect_294904",
+      "page_id": "active-buyer-request-n8n-synergy-effect-294904",
+      "path": "/pay/agent-payment/active-buyer-request-n8n-synergy-effect-294904-50e17cd2cb",
+      "public_url": "https://maximultra.dev/pay/agent-payment/active-buyer-request-n8n-synergy-effect-294904-50e17cd2cb",
       "source": "live_deal_positive_reply_close",
-      "source_url": "mailto:kat@targetpatientsmd.com",
-      "target_ref": "TargetPatientsMD / n8n Community katkat"
+      "source_url": "mailto:info@s-e.lt",
+      "target_display": {
+        "context_label": "Public source",
+        "expected_target_ref": "",
+        "short_label": "Synergy Effect N8n Community Hiring Post",
+        "source_label": "Synergy Effect / n8n Community hiring post"
+      },
+      "target_ref": "Synergy Effect / n8n Community hiring post"
     }
   ],
   "payment_or_wallet_action_allowed": false,
