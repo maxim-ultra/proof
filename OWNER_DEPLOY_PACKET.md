@@ -7,10 +7,10 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Ready pages: `19`
 - Exported pages: `19`
 - Landing page quality blockers: `0`
-- Manifest digest: `d9a670b614f4c13c`
+- Manifest digest: `70c87d96daec049a`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy d9a670b614f4c13c`
-- Local export refreshed at: `2026-06-28T01:06:55.184980+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 70c87d96daec049a`
+- Local export refreshed at: `2026-06-28T02:40:15.749290+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad

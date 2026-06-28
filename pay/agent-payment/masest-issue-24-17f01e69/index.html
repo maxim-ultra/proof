@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
-  <title>De-risk payment retries in Masest issue #24</title>
+  <title>Prevent retry, receipt, and duplicate-charge failures in Masest issue #24</title>
   <style>
     :root {
       color-scheme: light;
@@ -54,18 +54,18 @@
 <body>
   <main>
     <div class="hero">
-      <p class="eyebrow">Private buyer page · fixed-scope review</p>
-      <h1>De-risk payment retries in Masest issue #24</h1>
-      <p class="lede">A same-day public-context review for the retry, receipt, idempotency, and duplicate-charge failure modes that can break buyer trust in agent-payment flows. The scope is intentionally small so the team can judge usefulness before any deeper work.</p>
+      <p class="eyebrow">Issue-specific reliability review</p>
+      <h1>Prevent retry, receipt, and duplicate-charge failures in Masest issue #24</h1>
+      <p class="lede">A small public-source review that pinpoints where retries, receipts, idempotency, or duplicate-charge handling can break buyer trust. Start small, verify usefulness fast, and avoid private access entirely.</p>
       <div class="context">
         <span class="pill">For: Masest issue #24</span>
         <span class="pill">Context: Ojamals / Masest</span>
         <span class="pill">Verified public source: Masest issue #24</span>
       </div>
       <div class="trust-strip">
-        <div><strong>Source matched</strong><span>Generated from one public issue, not a customer directory.</span></div>
-        <div><strong>No private access</strong><span>No credentials, production access, wallet connection, secrets, or customer data.</span></div>
-        <div><strong>Receipt gated</strong><span>Work starts after a public transaction hash or owner-attributed receipt is logged.</span></div>
+        <div><strong>Evidence first</strong><span>Generated from one verified public source, not a customer directory.</span></div>
+        <div><strong>Private by design</strong><span>No public list of buyers, emails, repositories, or payment pages.</span></div>
+        <div><strong>No sensitive access</strong><span>No credentials, production access, wallet connection, secrets, or customer data.</span></div>
       </div>
     </div>
 
@@ -77,9 +77,9 @@
       <section>
         <h2>What you get</h2>
         <ul>
-          <li>A concise public-context risk note tied to this issue.</li>
-          <li>Checks for payment retry, duplicate charge, receipt, and settlement ambiguity.</li>
-          <li>A practical next-fix direction, not a request for private access.</li>
+          <li>A concise failure map tied to the public issue.</li>
+          <li>Checks for payment retry, duplicate-charge, receipt, and settlement ambiguity.</li>
+          <li>One practical fix direction and an acceptance checklist, not a request for private access.</li>
         </ul>
       </section>
       <section>
@@ -88,7 +88,7 @@
       </section>
       <section>
         <h2>How to pay</h2>
-        <p class="muted">How it works: pick a small scope, pay only if the public evidence is useful, then post the transaction hash so the receipt can be verified.</p>
+        <p class="muted">How it works: choose the smallest useful scope, send USDC only if the public evidence is useful, then reply with the public transaction hash so the receipt can be verified.</p>
         <ol>
           <li>Choose the smallest useful scope below.</li>
           <li>Send USDC to the listed receive-only address.</li>

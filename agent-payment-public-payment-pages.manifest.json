@@ -8,7 +8,7 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "bc83c2674ebc9df1a06789b84969c2b91e28481a08782fdcdef5cb23d844e56c",
+      "html_sha256": "cd33a2522a1ba581981db49b9192772e0b5e902ea8ed926a1f444573136cd8e1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -63,7 +63,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "strands-agents/harness-sdk#2884",
-          "h1_text": "De-risk payment retries in Harness SDK issue #2884",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Harness SDK issue #2884",
           "path": "/pay/agent-payment/harness-sdk-issue-2884-980dbdad",
           "payment_options": true,
           "privacy_boundary": true,
@@ -94,7 +94,7 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "e0213eba35f913d9c4bacf025aa3967290c3ea30a1b495c594de2a7ac358d47f",
+      "html_sha256": "0c530119a97fa97d3342b0aad3e473e2ac521b069b073127a7a8d921cb159253",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -125,7 +125,9 @@
           },
           "score": 100,
           "status": "commercial_copy_ready",
-          "warnings": []
+          "warnings": [
+            "landing_headline_too_long"
+          ]
         },
         "rules": {
           "buyer_trust_boundaries_required": true,
@@ -140,7 +142,7 @@
           "source_url_target_ref_must_match": true,
           "target_specific_pages_should_be_noindex": true
         },
-        "score": 100,
+        "score": 94,
         "signals": {
           "buyer_outcome": true,
           "commercial_copy_score": 100,
@@ -149,7 +151,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
-          "h1_text": "De-risk payment retries in Preview Checkout Streaming Bugs issue #31",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Preview Checkout Streaming Bugs issue #31",
           "path": "/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5",
           "payment_options": true,
           "privacy_boundary": true,
@@ -161,8 +163,10 @@
           "trust_proof": true
         },
         "status": "landing_page_quality_ready",
-        "warning_count": 0,
-        "warnings": []
+        "warning_count": 1,
+        "warnings": [
+          "commercial_copy_landing_headline_too_long"
+        ]
       },
       "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5/index.html",
       "packet_id": "agent_payment_proof_0_shahnawaz_cmd_preview_checkout_streaming_bugs_31",
@@ -180,7 +184,7 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "f4352eff68d493cb57d0080e4f53557087380027695bf8936e261cb47b41a6f9",
+      "html_sha256": "ba0c99d866c48550d0daa0bc3b3d816bdea561549eddc58ae05d40b5d30dec9f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -235,7 +239,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "mmd-rehan/textile-pos#32",
-          "h1_text": "De-risk payment retries in Textile Pos issue #32",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Textile Pos issue #32",
           "path": "/pay/agent-payment/textile-pos-issue-32-290bffcc",
           "payment_options": true,
           "privacy_boundary": true,
@@ -266,7 +270,7 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "182603ce817da5f68ae9356245a27e8591263b59263d1233eefb323b6fb6d9e7",
+      "html_sha256": "aed1f82d87eeae741a52548b540b8cb9b97b99eee34eb3d493e8c29174074830",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -321,7 +325,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "huanlongAI/hl-dispatch#298",
-          "h1_text": "De-risk payment retries in Hl Dispatch issue #298",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Hl Dispatch issue #298",
           "path": "/pay/agent-payment/hl-dispatch-issue-298-b286433f",
           "payment_options": true,
           "privacy_boundary": true,
@@ -352,7 +356,7 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "ebec0d5f108ef0be7519d739a459b454510c9beca23715b556c0b89f4ae6d81c",
+      "html_sha256": "642ce542494132485e0d10a5f7e6e038d7cf820c331c81b50e8db5ed55f48678",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -407,7 +411,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "emrekayat/Query402#4",
-          "h1_text": "De-risk payment retries in Query402 issue #4",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Query402 issue #4",
           "path": "/pay/agent-payment/query402-issue-4-6e27c9b8",
           "payment_options": true,
           "privacy_boundary": true,
@@ -438,7 +442,7 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "bbba35d5ed15afcffe7950f64daf7a9c9fad24f4ff5014a03dfe5022fc1c9499",
+      "html_sha256": "1ebd870024013596dea29759f23008fca1937eecb24a5f75d12d4bd5bb864670",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -493,7 +497,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "devEunicee/pulsar-contracts#272",
-          "h1_text": "De-risk payment retries in Pulsar Contracts issue #272",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Pulsar Contracts issue #272",
           "path": "/pay/agent-payment/pulsar-contracts-issue-272-6fb60a81",
           "payment_options": true,
           "privacy_boundary": true,
@@ -524,7 +528,7 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "7e7bd8f6430ba19d2f09896056543d507deee1b0468a39592892c84a61f2b94a",
+      "html_sha256": "1e80a76d477c971f0ab53cbd1c7772afa58c0c8555fc35f89c35f98daf6647f2",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -579,7 +583,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "d-hinders/Haven-AI#491",
-          "h1_text": "De-risk payment retries in Haven Ai issue #491",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Haven Ai issue #491",
           "path": "/pay/agent-payment/haven-ai-issue-491-85dfb36c",
           "payment_options": true,
           "privacy_boundary": true,
@@ -610,7 +614,7 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "ff57e00b063c7736c0b5a1c7f6fc96a381f2e204622b36b21138ceec9917c9b3",
+      "html_sha256": "b1e1761d2a209f6cc45f4c0606ab9980ff22c2435912c87d53bf33c6b3ccceb1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -665,7 +669,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "crewAIInc/crewAI#5802",
-          "h1_text": "De-risk payment retries in Crewai issue #5802",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Crewai issue #5802",
           "path": "/pay/agent-payment/crewai-issue-5802-735861da",
           "payment_options": true,
           "privacy_boundary": true,
@@ -696,7 +700,7 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "4f31d727c2c1c2bdaa89ab358e1c95ec6c90e01dc67d5612adc90ad6586b8f0b",
+      "html_sha256": "f0e4e2fdcb47181e3c5210daa29c3d54e996b3633f7ca1079408ad099b229e97",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -751,7 +755,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
-          "h1_text": "De-risk payment retries in Material Kai Vision Platform issue #218",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Material Kai Vision Platform issue #218",
           "path": "/pay/agent-payment/material-kai-vision-platform-issue-218-78f52cb0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -782,7 +786,7 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "549311cc018e13bbda5b991077dcbbb986bfd515c3ecd86b321b90652314ae65",
+      "html_sha256": "516cd2a7f07d2a941c53861c513870538f8a4b2adb0681802798ea8ab52aa10a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -837,7 +841,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
-          "h1_text": "De-risk payment retries in Stash issue #3",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Stash issue #3",
           "path": "/pay/agent-payment/stash-issue-3-9e5fcae7",
           "payment_options": true,
           "privacy_boundary": true,
@@ -868,7 +872,7 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "66a5ce1bc68f914bbd560ab00d13a568d3115feeedb7077cac6705a1fd653570",
+      "html_sha256": "5edac81b40d38f5669efe77e55fbab9d3f979338d1f14e9b41adba722685acf5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -923,7 +927,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Ramc4685/academy-manager#235",
-          "h1_text": "De-risk payment retries in Academy Manager issue #235",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Academy Manager issue #235",
           "path": "/pay/agent-payment/academy-manager-issue-235-f7268f3a",
           "payment_options": true,
           "privacy_boundary": true,
@@ -954,7 +958,7 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "d332e87cb808520542ed4f7804e5174ff38247c332c385c52f5add430b7fa126",
+      "html_sha256": "9719fd9cc7940dba1908e38ca761e45671732c833f5669e56e2c95196a212bbc",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1009,7 +1013,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Pidoko257/proxypay#5",
-          "h1_text": "De-risk payment retries in Proxypay issue #5",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Proxypay issue #5",
           "path": "/pay/agent-payment/proxypay-issue-5-b37d68e0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1040,7 +1044,7 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "82bb2af3665f4aed911510aa0bf26ecd2e98dba64f96c4310a64ba02032d6b3a",
+      "html_sha256": "8d8f662585f10745d483a12a88b4bfb9f73bdcabeb7e939b2f26c2a4a213c8ba",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1095,7 +1099,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "OJamals/masest#24",
-          "h1_text": "De-risk payment retries in Masest issue #24",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Masest issue #24",
           "path": "/pay/agent-payment/masest-issue-24-17f01e69",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1126,7 +1130,7 @@
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "ca167d434630ee63a414489b2e41ca0cee24b5b9977e5512dd7da7c242465208",
+      "html_sha256": "a57bdaee0f93c2a28b25d9aaff898686492cbc883aaa6e1ab6574277c0fe1cc5",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1181,7 +1185,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "JustineDevs/E-Commerce#12",
-          "h1_text": "De-risk payment retries in E Commerce issue #12",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in E Commerce issue #12",
           "path": "/pay/agent-payment/e-commerce-issue-12-1ac1c44e",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1212,7 +1216,7 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "11deb2c8fae5499f3e81f10c44b3697bfd7119f7fc54146aed8b2b337787b4fc",
+      "html_sha256": "b68b038c8201274d6170e63cf55a8604ff4296f458d03ec9067b59ed935b2236",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1267,7 +1271,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
-          "h1_text": "De-risk payment retries in Hazina Escrow issue #488",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Hazina Escrow issue #488",
           "path": "/pay/agent-payment/hazina-escrow-issue-488-8ec4a928",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1298,7 +1302,7 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "20170e0c713db6f56c9891c29036a26df91ab28e2f9cfca6989f25ff33f93d99",
+      "html_sha256": "69ba6432de954abe5fba50206703b2264aaec2d0e00fe9606935b22ce1f45f96",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1353,7 +1357,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Expensify/App#91584",
-          "h1_text": "De-risk payment retries in App issue #91584",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in App issue #91584",
           "path": "/pay/agent-payment/app-issue-91584-b63420f0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1384,7 +1388,7 @@
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "25693855c00c6273c3ef7aeb89d18163d74d409a246d228dd8cc04973baf255f",
+      "html_sha256": "d180a885baf38bb8a0dcdb11d1c8bb56532006eebb4c69680ff039f105fd1326",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1439,7 +1443,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "DogStark/PetChain-MobileApp#524",
-          "h1_text": "De-risk payment retries in Petchain Mobileapp issue #524",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Petchain Mobileapp issue #524",
           "path": "/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1470,7 +1474,7 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "d1b8c61105d26b95ab35f50e0888043d02db08735cf2589a97a751404fcbcaec",
+      "html_sha256": "79e526efafe2cf7a86ec5c94b6d0b7e95ce9811c0fc5b5c06f06d7897a6c1090",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1525,7 +1529,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Ding-Payments/ding-server#23",
-          "h1_text": "De-risk payment retries in Ding Server issue #23",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Ding Server issue #23",
           "path": "/pay/agent-payment/ding-server-issue-23-42e1e240",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1556,7 +1560,7 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "ba1efca0051c0636e885122eee268e888872d0aa8ea5368aafc9210908b2d2b3",
+      "html_sha256": "5f0c23811d2e1d61c3f2472f56a349c1e72bb6e928b8f62fd19e475fafcd19bb",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1611,7 +1615,7 @@
           "deliverable_clarity": true,
           "direct_cta": true,
           "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
-          "h1_text": "De-risk payment retries in Open Stellar issue #28",
+          "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Open Stellar issue #28",
           "path": "/pay/agent-payment/open-stellar-issue-28-518b2d45",
           "payment_options": true,
           "privacy_boundary": true,
