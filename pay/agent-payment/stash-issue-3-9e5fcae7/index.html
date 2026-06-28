@@ -47,7 +47,8 @@
     a { color: #1956d8; overflow-wrap: anywhere; }
     .cta { margin-top: 18px; border-color: #b7d7d3; background: #f5fbfa; }
     .cta h2 { color: var(--accent-strong); }
-    .buttonish { display: inline-block; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 800; margin-top: 8px; }
+    .primary-cta { display: inline-block; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 800; margin-top: 8px; text-decoration: none; }
+    .primary-cta:focus, .primary-cta:hover { background: var(--accent-strong); }
     .muted { color: var(--muted); }
   </style>
 </head>
@@ -64,12 +65,16 @@
       </div>
       <div class="trust-strip">
         <div><strong>Evidence first</strong><span>Generated from one verified public source, not a customer directory.</span></div>
-        <div><strong>Private by design</strong><span>No public list of buyers, emails, repositories, or payment pages.</span></div>
+        <div><strong>Private by design</strong><span>No public directory of prospects, emails, or payment pages.</span></div>
         <div><strong>No sensitive access</strong><span>No credentials, production access, wallet connection, secrets, or customer data.</span></div>
       </div>
     </div>
 
     <div class="section-grid">
+      <section>
+        <h2>Why you're seeing this</h2>
+        <p class="muted">This page exists because one public source showed a small agent-payment reliability risk. If that context is not useful, ignore this. There is no obligation, no subscription, and no hidden follow-up.</p>
+      </section>
       <section>
         <h2>Why trust this?</h2>
         <p class="muted">This page is tied to one verified public source only, not a public buyer directory. The proof before payment is the source match, the fixed scope below, and a receipt-evidence trail that only counts revenue after verification.</p>
@@ -132,8 +137,8 @@
       <p>Asset: <code>USDC</code></p>
       <p>Network: <code>Ethereum / ERC-20</code></p>
       <p>Receive address: <code>0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code></p>
-      <p>Send USDC only if this fixed scope is useful. After payment, paste the public transaction hash into the owner-reviewed receipt flow. This page does not verify or count revenue by itself.</p>
-      <span class="buttonish">Start with $9, $15, or $30</span>
+      <p>Start with $9, $15, or $30 only if this fixed scope is useful. No subscription, no hidden charge, and no wallet connection is requested. After payment, paste the public transaction hash into the owner-reviewed receipt flow. This page does not verify or count revenue by itself.</p>
+      <a class="primary-cta" href="https://github.com/Stash-Mobile-App-Group-90/stash/issues/3" rel="noopener noreferrer">Reply with transaction hash after payment</a>
     </section>
     <section>
       <strong>Reply on the original issue</strong>

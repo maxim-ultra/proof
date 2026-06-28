@@ -8,7 +8,7 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "cd33a2522a1ba581981db49b9192772e0b5e902ea8ed926a1f444573136cd8e1",
+      "html_sha256": "f197141d859868e1ae95dd8bf709b3a24af9f8bc322b6402d822e72fd98481ef",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -20,7 +20,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -28,9 +30,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -47,6 +51,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -56,6 +61,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -64,6 +70,7 @@
           "direct_cta": true,
           "expected_target_ref": "strands-agents/harness-sdk#2884",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Harness SDK issue #2884",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/harness-sdk-issue-2884-980dbdad",
           "payment_options": true,
           "privacy_boundary": true,
@@ -94,7 +101,7 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "0c530119a97fa97d3342b0aad3e473e2ac521b069b073127a7a8d921cb159253",
+      "html_sha256": "ee74589af561d0be0f9a2dcc427ff4b0517b85f9c47cac43d89a599cd9fa6a5f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -106,7 +113,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -114,9 +123,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -135,6 +146,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -144,6 +156,7 @@
         },
         "score": 94,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -152,6 +165,7 @@
           "direct_cta": true,
           "expected_target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Preview Checkout Streaming Bugs issue #31",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5",
           "payment_options": true,
           "privacy_boundary": true,
@@ -184,7 +198,7 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "ba0c99d866c48550d0daa0bc3b3d816bdea561549eddc58ae05d40b5d30dec9f",
+      "html_sha256": "3facc670b39fca59fa088b0291811146e5459ff94ffb6bb807bbc3bab0893cc0",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -196,7 +210,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -204,9 +220,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -223,6 +241,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -232,6 +251,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -240,6 +260,7 @@
           "direct_cta": true,
           "expected_target_ref": "mmd-rehan/textile-pos#32",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Textile Pos issue #32",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/textile-pos-issue-32-290bffcc",
           "payment_options": true,
           "privacy_boundary": true,
@@ -270,7 +291,7 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "aed1f82d87eeae741a52548b540b8cb9b97b99eee34eb3d493e8c29174074830",
+      "html_sha256": "7ae012f835f8f4e4e98f2e2e0cf97afc5de03d7fc2bc73bb02f7786fff638986",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -282,7 +303,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -290,9 +313,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -309,6 +334,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -318,6 +344,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -326,6 +353,7 @@
           "direct_cta": true,
           "expected_target_ref": "huanlongAI/hl-dispatch#298",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Hl Dispatch issue #298",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/hl-dispatch-issue-298-b286433f",
           "payment_options": true,
           "privacy_boundary": true,
@@ -356,7 +384,7 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "642ce542494132485e0d10a5f7e6e038d7cf820c331c81b50e8db5ed55f48678",
+      "html_sha256": "8a1c3aa6d0e4a3616b3f8d53ba1605ad89c567268cbc30c435f7f1f4d98ecb13",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -368,7 +396,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -376,9 +406,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -395,6 +427,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -404,6 +437,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -412,6 +446,7 @@
           "direct_cta": true,
           "expected_target_ref": "emrekayat/Query402#4",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Query402 issue #4",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/query402-issue-4-6e27c9b8",
           "payment_options": true,
           "privacy_boundary": true,
@@ -442,7 +477,7 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "1ebd870024013596dea29759f23008fca1937eecb24a5f75d12d4bd5bb864670",
+      "html_sha256": "0d1e4ef3e7772b254c03bf085d1a45754aae81cbd5949aff901dbda14e51c8b1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -454,7 +489,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -462,9 +499,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -481,6 +520,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -490,6 +530,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -498,6 +539,7 @@
           "direct_cta": true,
           "expected_target_ref": "devEunicee/pulsar-contracts#272",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Pulsar Contracts issue #272",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/pulsar-contracts-issue-272-6fb60a81",
           "payment_options": true,
           "privacy_boundary": true,
@@ -528,7 +570,7 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "1e80a76d477c971f0ab53cbd1c7772afa58c0c8555fc35f89c35f98daf6647f2",
+      "html_sha256": "3a3bcb57f8ab013d327192c4a11197cf1cace268d18199e9cdaea9bf80f524ee",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -540,7 +582,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -548,9 +592,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -567,6 +613,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -576,6 +623,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -584,6 +632,7 @@
           "direct_cta": true,
           "expected_target_ref": "d-hinders/Haven-AI#491",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Haven Ai issue #491",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/haven-ai-issue-491-85dfb36c",
           "payment_options": true,
           "privacy_boundary": true,
@@ -614,7 +663,7 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "b1e1761d2a209f6cc45f4c0606ab9980ff22c2435912c87d53bf33c6b3ccceb1",
+      "html_sha256": "9ec0a1b0fffade0ce77786c694ac66db5d040b98a3370ef75b336288f2748796",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -626,7 +675,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -634,9 +685,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -653,6 +706,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -662,6 +716,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -670,6 +725,7 @@
           "direct_cta": true,
           "expected_target_ref": "crewAIInc/crewAI#5802",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Crewai issue #5802",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/crewai-issue-5802-735861da",
           "payment_options": true,
           "privacy_boundary": true,
@@ -700,7 +756,7 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "f0e4e2fdcb47181e3c5210daa29c3d54e996b3633f7ca1079408ad099b229e97",
+      "html_sha256": "1e4911646caeab4c99d53b154b5918d2bff95b4f057a70a60f14f6ea9f2d2b39",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -712,7 +768,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -720,9 +778,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -739,6 +799,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -748,6 +809,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -756,6 +818,7 @@
           "direct_cta": true,
           "expected_target_ref": "creativeghq/material-kai-vision-platform#218",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Material Kai Vision Platform issue #218",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/material-kai-vision-platform-issue-218-78f52cb0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -786,7 +849,7 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "516cd2a7f07d2a941c53861c513870538f8a4b2adb0681802798ea8ab52aa10a",
+      "html_sha256": "1655cdd5a8ae7061f03f34ff307557798fd74343908844596c571d0f3a999715",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -798,7 +861,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -806,9 +871,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -825,6 +892,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -834,6 +902,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -842,6 +911,7 @@
           "direct_cta": true,
           "expected_target_ref": "Stash-Mobile-App-Group-90/stash#3",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Stash issue #3",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/stash-issue-3-9e5fcae7",
           "payment_options": true,
           "privacy_boundary": true,
@@ -872,7 +942,7 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "5edac81b40d38f5669efe77e55fbab9d3f979338d1f14e9b41adba722685acf5",
+      "html_sha256": "7b075703c3ac9cbec45ee9973ff189d9256f658c269d081ce1ec2635fae15d3a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -884,7 +954,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -892,9 +964,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -911,6 +985,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -920,6 +995,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -928,6 +1004,7 @@
           "direct_cta": true,
           "expected_target_ref": "Ramc4685/academy-manager#235",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Academy Manager issue #235",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/academy-manager-issue-235-f7268f3a",
           "payment_options": true,
           "privacy_boundary": true,
@@ -958,7 +1035,7 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "9719fd9cc7940dba1908e38ca761e45671732c833f5669e56e2c95196a212bbc",
+      "html_sha256": "86475c3a8f0d81cc77351e852b3e32664df922980a8551efc109cc417832d81f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -970,7 +1047,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -978,9 +1057,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -997,6 +1078,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1006,6 +1088,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1014,6 +1097,7 @@
           "direct_cta": true,
           "expected_target_ref": "Pidoko257/proxypay#5",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Proxypay issue #5",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/proxypay-issue-5-b37d68e0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1044,7 +1128,7 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "8d8f662585f10745d483a12a88b4bfb9f73bdcabeb7e939b2f26c2a4a213c8ba",
+      "html_sha256": "03af11b9818ea52f134e0bf8ce07ee47901e83d715b3ca9f29c060a7394c6c33",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1056,7 +1140,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1064,9 +1150,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1083,6 +1171,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1092,6 +1181,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1100,6 +1190,7 @@
           "direct_cta": true,
           "expected_target_ref": "OJamals/masest#24",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Masest issue #24",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/masest-issue-24-17f01e69",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1130,7 +1221,7 @@
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "a57bdaee0f93c2a28b25d9aaff898686492cbc883aaa6e1ab6574277c0fe1cc5",
+      "html_sha256": "1a093a0fac5b25fff776033bb042ffd9567088a90f62dfc386592f9007a56fe8",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1142,7 +1233,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1150,9 +1243,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1169,6 +1264,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1178,6 +1274,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1186,6 +1283,7 @@
           "direct_cta": true,
           "expected_target_ref": "JustineDevs/E-Commerce#12",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in E Commerce issue #12",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/e-commerce-issue-12-1ac1c44e",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1216,7 +1314,7 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "b68b038c8201274d6170e63cf55a8604ff4296f458d03ec9067b59ed935b2236",
+      "html_sha256": "413b185b1bc3c47d6642e38288f8e2a9002bda782f3fa32d4d45d03e8044c52f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1228,7 +1326,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1236,9 +1336,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1255,6 +1357,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1264,6 +1367,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1272,6 +1376,7 @@
           "direct_cta": true,
           "expected_target_ref": "Hazina-Escrow/Hazina-Escrow#488",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Hazina Escrow issue #488",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/hazina-escrow-issue-488-8ec4a928",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1302,7 +1407,7 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "69ba6432de954abe5fba50206703b2264aaec2d0e00fe9606935b22ce1f45f96",
+      "html_sha256": "5dcf9fd1e2e68a210ff228a994df1293a2e158a3137c528941f259b1f8154333",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1314,7 +1419,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1322,9 +1429,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1341,6 +1450,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1350,6 +1460,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1358,6 +1469,7 @@
           "direct_cta": true,
           "expected_target_ref": "Expensify/App#91584",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in App issue #91584",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/app-issue-91584-b63420f0",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1388,7 +1500,7 @@
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "d180a885baf38bb8a0dcdb11d1c8bb56532006eebb4c69680ff039f105fd1326",
+      "html_sha256": "4e13eef77c6af56ff47356f52a1bcca4704df1f6a8b961a8d7f8df7e3c27e9a3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1400,7 +1512,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1408,9 +1522,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1427,6 +1543,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1436,6 +1553,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1444,6 +1562,7 @@
           "direct_cta": true,
           "expected_target_ref": "DogStark/PetChain-MobileApp#524",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Petchain Mobileapp issue #524",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1474,7 +1593,7 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "79e526efafe2cf7a86ec5c94b6d0b7e95ce9811c0fc5b5c06f06d7897a6c1090",
+      "html_sha256": "50d97dbaa3aad1553d083a3dc44fa2548a5d67c08773d443878bb63bead6d046",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1486,7 +1605,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1494,9 +1615,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1513,6 +1636,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1522,6 +1646,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1530,6 +1655,7 @@
           "direct_cta": true,
           "expected_target_ref": "Ding-Payments/ding-server#23",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Ding Server issue #23",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/ding-server-issue-23-42e1e240",
           "payment_options": true,
           "privacy_boundary": true,
@@ -1560,7 +1686,7 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "5f0c23811d2e1d61c3f2472f56a349c1e72bb6e928b8f62fd19e475fafcd19bb",
+      "html_sha256": "2ff3c9de4897a47092c68205a4bb5d0ae33c0f19d8895844bd0afe93af80e307",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1572,7 +1698,9 @@
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
+            "human_specificity",
             "low_risk_boundary",
+            "no_pressure_boundary",
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
@@ -1580,9 +1708,11 @@
             "specific_outcome",
             "speed_or_scope",
             "what_you_get",
-            "why_trust_this"
+            "why_trust_this",
+            "why_you_are_seeing_this"
           ],
           "rules": {
+            "cta_must_be_real_link_not_fake_button": true,
             "hero_must_sell_buyer_outcome": true,
             "must_offer_low_friction_entry_ladder": true,
             "must_show_trust_privacy_deliverable_payment_and_receipt_flow": true,
@@ -1599,6 +1729,7 @@
           "generic_internal_payment_copy_blocks_export": true,
           "internal_artifact_language_blocks_export": true,
           "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
           "landing_page_must_have_buyer_outcome": true,
           "landing_page_must_have_direct_cta": true,
           "public_url_must_not_use_internal_packet_id": true,
@@ -1608,6 +1739,7 @@
         },
         "score": 100,
         "signals": {
+          "buyer_context": true,
           "buyer_outcome": true,
           "commercial_copy_score": 100,
           "commercial_copy_status": "commercial_copy_ready",
@@ -1616,6 +1748,7 @@
           "direct_cta": true,
           "expected_target_ref": "Bitcoindefi/Open-Stellar#28",
           "h1_text": "Prevent retry, receipt, and duplicate-charge failures in Open Stellar issue #28",
+          "no_pressure_boundary": true,
           "path": "/pay/agent-payment/open-stellar-issue-28-518b2d45",
           "payment_options": true,
           "privacy_boundary": true,
