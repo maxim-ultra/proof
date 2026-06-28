@@ -8,7 +8,7 @@
   "landing_page_quality_status": "landing_page_quality_ready",
   "pages": [
     {
-      "html_sha256": "3e4842b4990e068103c4b806c0baaa4bd38956503c74545d10cd1a3b97943439",
+      "html_sha256": "bc83c2674ebc9df1a06789b84969c2b91e28481a08782fdcdef5cb23d844e56c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -19,6 +19,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -93,7 +94,7 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
-      "html_sha256": "4a09ed8aae560a2546d6b6e3afa071a5b08b1cd5f0819dab0d462824537b2273",
+      "html_sha256": "e0213eba35f913d9c4bacf025aa3967290c3ea30a1b495c594de2a7ac358d47f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -104,6 +105,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -178,7 +180,7 @@
       "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"
     },
     {
-      "html_sha256": "6c22b59730886259ca0246a3e269dfd473a6cd38113fefe26e918e44973e7714",
+      "html_sha256": "f4352eff68d493cb57d0080e4f53557087380027695bf8936e261cb47b41a6f9",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -189,6 +191,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -263,7 +266,7 @@
       "target_ref": "mmd-rehan/textile-pos#32"
     },
     {
-      "html_sha256": "f8921e87e836fbc1d3d29c06a9ecbd74f692e5be6eecdf737efeb5022a4c7aae",
+      "html_sha256": "182603ce817da5f68ae9356245a27e8591263b59263d1233eefb323b6fb6d9e7",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -274,6 +277,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -348,7 +352,7 @@
       "target_ref": "huanlongAI/hl-dispatch#298"
     },
     {
-      "html_sha256": "722ea4563b17e70f9885b1ead69e107ed4e691da630cb5d3f43263ed3e51c87d",
+      "html_sha256": "ebec0d5f108ef0be7519d739a459b454510c9beca23715b556c0b89f4ae6d81c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -359,6 +363,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -433,7 +438,7 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
-      "html_sha256": "c6556e73ea1e6d5b959b7ca23b0387c4b1b50e9cf179a0431c3d60edc5ba7f0a",
+      "html_sha256": "bbba35d5ed15afcffe7950f64daf7a9c9fad24f4ff5014a03dfe5022fc1c9499",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -444,6 +449,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -518,7 +524,7 @@
       "target_ref": "devEunicee/pulsar-contracts#272"
     },
     {
-      "html_sha256": "3ead40d5f9953551a1ab30708c5bc64bb429b79dd50b0d92100755183d7568de",
+      "html_sha256": "7e7bd8f6430ba19d2f09896056543d507deee1b0468a39592892c84a61f2b94a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -529,6 +535,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -603,7 +610,7 @@
       "target_ref": "d-hinders/Haven-AI#491"
     },
     {
-      "html_sha256": "f7479f6a3bc098fa11e3e568ece785ce20ed2c24c06ba0069e63a44b55fda742",
+      "html_sha256": "ff57e00b063c7736c0b5a1c7f6fc96a381f2e204622b36b21138ceec9917c9b3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -614,6 +621,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -688,7 +696,7 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
-      "html_sha256": "5cdf4e89589f31eb6fe4df0bb8563abab59464f4dfbec7844f4768d5533a8c10",
+      "html_sha256": "4f31d727c2c1c2bdaa89ab358e1c95ec6c90e01dc67d5612adc90ad6586b8f0b",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -699,6 +707,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -773,7 +782,7 @@
       "target_ref": "creativeghq/material-kai-vision-platform#218"
     },
     {
-      "html_sha256": "04cae0311a34a1ed97ea4a1d3a13e4e9e10cdb1df37544a947077f17810aa092",
+      "html_sha256": "549311cc018e13bbda5b991077dcbbb986bfd515c3ecd86b321b90652314ae65",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -784,6 +793,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -858,7 +868,7 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
-      "html_sha256": "ad946b6de8594547d91f57e0f22b5405ef081cb97bb685f16d37ec7c7b8d6c2a",
+      "html_sha256": "66a5ce1bc68f914bbd560ab00d13a568d3115feeedb7077cac6705a1fd653570",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -869,6 +879,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -943,7 +954,7 @@
       "target_ref": "Ramc4685/academy-manager#235"
     },
     {
-      "html_sha256": "ab17df1d939b27427026affb433f49f2f1bcd032d738891512adea432f3dd56c",
+      "html_sha256": "d332e87cb808520542ed4f7804e5174ff38247c332c385c52f5add430b7fa126",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -954,6 +965,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1028,7 +1040,7 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
-      "html_sha256": "35f83286fd4066f4396a14d140f8d5e1379b7370b00eaa85480b0c55176d6a82",
+      "html_sha256": "82bb2af3665f4aed911510aa0bf26ecd2e98dba64f96c4310a64ba02032d6b3a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1039,6 +1051,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1113,7 +1126,7 @@
       "target_ref": "OJamals/masest#24"
     },
     {
-      "html_sha256": "e32833c10b2c66770f83d981da9a5c44da3ea8e5d3f41206347b8d6a5f657d12",
+      "html_sha256": "ca167d434630ee63a414489b2e41ca0cee24b5b9977e5512dd7da7c242465208",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1124,6 +1137,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1198,7 +1212,7 @@
       "target_ref": "JustineDevs/E-Commerce#12"
     },
     {
-      "html_sha256": "28c7b012b5a691038df02bf44f8db85116eb74182aacbce9c71c380fd4084a72",
+      "html_sha256": "11deb2c8fae5499f3e81f10c44b3697bfd7119f7fc54146aed8b2b337787b4fc",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1209,6 +1223,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1283,7 +1298,7 @@
       "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
     },
     {
-      "html_sha256": "7b41c485a819843acdef24682eec032dd6baf301bf9d82f70213779aa2a6d85d",
+      "html_sha256": "20170e0c713db6f56c9891c29036a26df91ab28e2f9cfca6989f25ff33f93d99",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1294,6 +1309,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1368,7 +1384,7 @@
       "target_ref": "Expensify/App#91584"
     },
     {
-      "html_sha256": "5360784b9f075773569c1887d68d8db2c06d7a16d8b7109d8e029c8ff6afb65e",
+      "html_sha256": "25693855c00c6273c3ef7aeb89d18163d74d409a246d228dd8cc04973baf255f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1379,6 +1395,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1453,7 +1470,7 @@
       "target_ref": "DogStark/PetChain-MobileApp#524"
     },
     {
-      "html_sha256": "829ffce5c21cebebedd0e26ad0f0e2d4513e6b5e243c6b663b97af4602e77c45",
+      "html_sha256": "d1b8c61105d26b95ab35f50e0888043d02db08735cf2589a97a751404fcbcaec",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1464,6 +1481,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
@@ -1538,7 +1556,7 @@
       "target_ref": "Ding-Payments/ding-server#23"
     },
     {
-      "html_sha256": "d2e5fc9dd56f622f50dc24989ecd00a9b3dd59321c108d5fcfc21e0862f2310f",
+      "html_sha256": "ba1efca0051c0636e885122eee268e888872d0aa8ea5368aafc9210908b2d2b3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1549,6 +1567,7 @@
             "clear_next_step",
             "complete_low_friction_offer_ladder",
             "evidence_anchor",
+            "how_to_pay",
             "low_risk_boundary",
             "payment_instructions",
             "privacy_boundary",
