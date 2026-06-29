@@ -4,6 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
+  <meta name="maxim-funnel-page-id" content="e-commerce-issue-12-1ac1c44e" />
+  <meta name="maxim-funnel-packet-id" content="agent_payment_proof_3246_justinedevs_e_commerce_12" />
+  <meta name="maxim-funnel-target-ref" content="JustineDevs/E-Commerce#12" />
+  <meta name="maxim-funnel-source-url" content="https://github.com/JustineDevs/E-Commerce/issues/12" />
+  <meta name="maxim-funnel-payment-page-url" content="https://maximultra.dev/pay/agent-payment/e-commerce-issue-12-1ac1c44e" />
+  <meta name="maxim-funnel-record-route" content="/api/revenue-funnel-event-ledger/record" />
+  <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
   <title>Prevent retry, receipt, and duplicate-charge failures in E Commerce issue #12</title>
   <style>
     :root {
@@ -155,5 +162,49 @@
     </section>
     
   </main>
+  <script data-maxim-funnel-page="agent-payment">
+    (function () {
+      var basePayload = {"packet_id": "agent_payment_proof_3246_justinedevs_e_commerce_12", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/e-commerce-issue-12-1ac1c44e", "source_url": "https://github.com/JustineDevs/E-Commerce/issues/12", "target_ref": "JustineDevs/E-Commerce#12"};
+      var localOrigin = /^https?:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(window.location.origin);
+      var configuredCollector =
+        window.MAXIM_FUNNEL_COLLECTOR_URL ||
+        document.documentElement.getAttribute("data-maxim-funnel-collector") ||
+        "";
+      var endpoint = configuredCollector || (localOrigin ? window.location.origin + "/api/revenue-funnel-event-ledger/record" : "");
+      var visitorKind = localOrigin ? "owner_preview" : (configuredCollector ? "buyer_or_public" : "unknown");
+      if (!endpoint) return;
+      function send(eventType) {
+        var payload = Object.assign({}, basePayload, {
+          event_type: eventType,
+          source: localOrigin ? "agent_payment_checkout_local_preview" : "agent_payment_checkout_public_page",
+          visitor_kind: visitorKind,
+          real_world: visitorKind === "buyer_or_public",
+          synthetic: false,
+          note: visitorKind === "owner_preview"
+            ? "Local owner preview; useful for QA but not commercial exposure."
+            : "Public buyer checkout funnel event; not revenue without receipt evidence."
+        });
+        try {
+          if (navigator.sendBeacon) {
+            var blob = new Blob([JSON.stringify(payload)], { type: "application/json" });
+            if (navigator.sendBeacon(endpoint, blob)) return;
+          }
+        } catch (error) {}
+        try {
+          fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+            keepalive: true
+          }).catch(function () {});
+        } catch (error) {}
+      }
+      send("page_visit");
+      document.addEventListener("click", function (event) {
+        var target = event.target && event.target.closest ? event.target.closest(".primary-cta") : null;
+        if (target) send("cta_click");
+      }, true);
+    })();
+  </script>
 </body>
 </html>
