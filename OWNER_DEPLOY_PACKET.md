@@ -4,15 +4,15 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `22`
-- Exported pages: `22`
+- Ready pages: `25`
+- Exported pages: `25`
 - Landing page quality blockers: `0`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `e6efd49caafe559e`
+- Manifest digest: `020941686e0fc16d`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy e6efd49caafe559e`
-- Local export refreshed at: `2026-06-30T13:28:36.019075+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 020941686e0fc16d`
+- Local export refreshed at: `2026-06-30T14:02:47.316783+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad
@@ -34,9 +34,12 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2
 - `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/ding-server-issue-23-42e1e240
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/open-stellar-issue-28-518b2d45
+- `ACertainArchangel/pinenote-on-q64a` -> https://maximultra.dev/pay/agent-payment/acertainarchangel-pinenote-on-q64a-c575d6bb
+- `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/goldenmcp-issue-64-38148c02
+- `greyw0rks/bountyscout#30` -> https://maximultra.dev/pay/agent-payment/bountyscout-issue-30-06ccf5e2
 - `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/charles-microbounties-issue-1876-f2f69da3
-- `carinosas-app/carihub#67` -> https://maximultra.dev/pay/agent-payment/carihub-issue-67-c4a38345
-- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/openomni-issue-201-46a4973f
+- `carinosas-app/carihub#67` -> https://maximultra.dev/pay/agent-payment/carihub-issue-67-9c0f8994
+- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/openomni-issue-201-7114e37f
 
 ## Manual Deploy Gate
 
