@@ -14,6 +14,9 @@
   <meta name="maxim-funnel-public-collector-url" content="" />
   <meta name="maxim-funnel-static-attribution-token" content="maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f" />
   <meta name="maxim-funnel-static-attribution-query" content="maxim_ref=maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f" />
+  <meta name="maxim-active-invoice-id" content="scusdc_d29748e530cc55b1" />
+  <meta name="maxim-active-invoice-amount-usd" content="30.0" />
+  <meta name="maxim-active-invoice-expires-at" content="2026-07-07T13:18:11.211256+00:00" />
   <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
   <title>Prevent retry, receipt, and duplicate-charge failures in Charles Microbounties issue #1876</title>
   <style>
@@ -150,6 +153,15 @@
 	      <p>Network: <code>Ethereum / ERC-20</code></p>
 	      <p>Receive address: <code>0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code></p>
 	      
+          <div class="invoice-box">
+            <strong>Current active invoice</strong>
+            <p>Invoice ID: <code>scusdc_d29748e530cc55b1</code></p>
+            <p>Pay exactly: <code>30.00 USDC</code></p>
+            <p>Network: <code>Ethereum / ERC-20</code></p>
+            <p>Expires: <code>2026-07-07T13:18:11.211256+00:00</code></p>
+            <p class="muted">Use this invoice ID in the receipt reply. If you want a smaller scope than this active invoice, ask for a fresh invoice before paying.</p>
+          </div>
+        
 	      <p>Start with $9, $15, or $30 only if this fixed scope is useful. No subscription, no hidden charge, and no browser wallet prompt is requested. After payment, paste the public transaction hash into the owner-reviewed receipt flow. This page does not verify or count revenue by itself.</p>
 	      <a class="primary-cta" href="https://github.com/charles-openclaw/charles-microbounties/issues/1876?maxim_ref=maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f" rel="noopener noreferrer">Reply with transaction hash after payment</a>
 	    </section>
@@ -157,8 +169,8 @@
       <strong>Reply on the original issue</strong>
 	      <p>After payment, reply on <a href="https://github.com/charles-openclaw/charles-microbounties/issues/1876?maxim_ref=maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f" rel="noopener noreferrer">the original public issue</a> with this line and the public transaction hash. MAXIM will only count revenue after owner-attributed receipt evidence is verified.</p>
 	      <p>Payment reference code: <code>maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f</code></p>
-	      
-	      <p><code>Paid: Charles Microbounties issue #1876 | amount: $9/$15/$30 | asset: USDC | network: Ethereum / ERC-20 | public tx:  | MAXIM reference: maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f</code></p>
+	      <p>Invoice reference: <code>scusdc_d29748e530cc55b1</code></p>
+	      <p><code>Paid: Charles Microbounties issue #1876 | amount: $9/$15/$30 | asset: USDC | network: Ethereum / ERC-20 | public tx:  | MAXIM reference: maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f | invoice: scusdc_d29748e530cc55b1</code></p>
 	    </section>
     <section>
       <strong>Proof and boundaries</strong>
@@ -172,7 +184,7 @@
   </main>
   <script data-maxim-funnel-page="agent-payment">
     (function () {
-      var basePayload = {"active_invoice_id": "", "packet_id": "agent_payment_proof_5130_charles_openclaw_charles_microbounties_1876", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/charles-microbounties-issue-1876-f2f69da3", "source_url": "https://github.com/charles-openclaw/charles-microbounties/issues/1876", "static_attribution_token": "maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f", "target_ref": "charles-openclaw/charles-microbounties#1876"};
+      var basePayload = {"active_invoice_id": "scusdc_d29748e530cc55b1", "packet_id": "agent_payment_proof_5130_charles_openclaw_charles_microbounties_1876", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/charles-microbounties-issue-1876-f2f69da3", "source_url": "https://github.com/charles-openclaw/charles-microbounties/issues/1876", "static_attribution_token": "maxim-charles-microbounties-issue-1876-f2f69da3-a106c95e3f", "target_ref": "charles-openclaw/charles-microbounties#1876"};
       var localOrigin = /^https?:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(window.location.origin);
       var configuredCollector =
         window.MAXIM_FUNNEL_COLLECTOR_URL ||
