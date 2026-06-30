@@ -9,10 +9,10 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Landing page quality blockers: `0`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `e98a3f5fcc149a1c`
+- Manifest digest: `eb836eb4194b947a`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy e98a3f5fcc149a1c`
-- Local export refreshed at: `2026-06-29T10:33:22.340984+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy eb836eb4194b947a`
+- Local export refreshed at: `2026-06-29T23:50:11.694350+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad

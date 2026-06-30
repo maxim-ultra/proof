@@ -10,6 +10,10 @@
   <meta name="maxim-funnel-source-url" content="https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31" />
   <meta name="maxim-funnel-payment-page-url" content="https://maximultra.dev/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5" />
   <meta name="maxim-funnel-record-route" content="/api/revenue-funnel-event-ledger/record" />
+  <meta name="maxim-funnel-public-collector-configured" content="false" />
+  <meta name="maxim-funnel-public-collector-url" content="" />
+  <meta name="maxim-funnel-static-attribution-token" content="maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294" />
+  <meta name="maxim-funnel-static-attribution-query" content="maxim_ref=maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294" />
   <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
   <title>Prevent retry, receipt, and duplicate-charge failures in Preview Checkout Streaming Bugs issue #31</title>
   <style>
@@ -54,10 +58,11 @@
     a { color: #1956d8; overflow-wrap: anywhere; }
     .cta { margin-top: 18px; border-color: #b7d7d3; background: #f5fbfa; }
     .cta h2 { color: var(--accent-strong); }
-    .primary-cta { display: inline-block; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 800; margin-top: 8px; text-decoration: none; }
-    .primary-cta:focus, .primary-cta:hover { background: var(--accent-strong); }
-    .muted { color: var(--muted); }
-  </style>
+	    .primary-cta { display: inline-block; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 800; margin-top: 8px; text-decoration: none; }
+	    .primary-cta:focus, .primary-cta:hover { background: var(--accent-strong); }
+	    .muted { color: var(--muted); }
+	    .invoice-box { border: 1px solid #9bd8d0; background: #effbf8; border-radius: 10px; margin: 14px 0; padding: 14px; }
+	  </style>
 </head>
 <body>
   <main>
@@ -141,17 +146,20 @@
         </div>
     <section class="cta">
       <h2>Payment instructions</h2>
-      <p>Asset: <code>USDC</code></p>
-      <p>Network: <code>Ethereum / ERC-20</code></p>
-      <p>Receive address: <code>0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code></p>
-      <p>Start with $9, $15, or $30 only if this fixed scope is useful. No subscription, no hidden charge, and no browser wallet prompt is requested. After payment, paste the public transaction hash into the owner-reviewed receipt flow. This page does not verify or count revenue by itself.</p>
-      <a class="primary-cta" href="https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31" rel="noopener noreferrer">Reply with transaction hash after payment</a>
-    </section>
+	      <p>Asset: <code>USDC</code></p>
+	      <p>Network: <code>Ethereum / ERC-20</code></p>
+	      <p>Receive address: <code>0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code></p>
+	      
+	      <p>Start with $9, $15, or $30 only if this fixed scope is useful. No subscription, no hidden charge, and no browser wallet prompt is requested. After payment, paste the public transaction hash into the owner-reviewed receipt flow. This page does not verify or count revenue by itself.</p>
+	      <a class="primary-cta" href="https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31?maxim_ref=maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294" rel="noopener noreferrer">Reply with transaction hash after payment</a>
+	    </section>
     <section>
       <strong>Reply on the original issue</strong>
-      <p>After payment, reply on <a href="https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31" rel="noopener noreferrer">the original public issue</a> with this line and the public transaction hash. MAXIM will only count revenue after owner-attributed receipt evidence is verified.</p>
-      <p><code>Paid: Preview Checkout Streaming Bugs issue #31 | amount: $9/$15/$30 | asset: USDC | network: Ethereum / ERC-20 | public tx: </code></p>
-    </section>
+	      <p>After payment, reply on <a href="https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31?maxim_ref=maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294" rel="noopener noreferrer">the original public issue</a> with this line and the public transaction hash. MAXIM will only count revenue after owner-attributed receipt evidence is verified.</p>
+	      <p>Payment reference code: <code>maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294</code></p>
+	      
+	      <p><code>Paid: Preview Checkout Streaming Bugs issue #31 | amount: $9/$15/$30 | asset: USDC | network: Ethereum / ERC-20 | public tx:  | MAXIM reference: maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294</code></p>
+	    </section>
     <section>
       <strong>Proof and boundaries</strong>
       <ul><li>Uses public context only.</li><li>No production access, private keys, browser wallet prompt, or customer data.</li><li>Paid work starts only after buyer or owner-attributed payment evidence is logged.</li></ul>
@@ -164,11 +172,12 @@
   </main>
   <script data-maxim-funnel-page="agent-payment">
     (function () {
-      var basePayload = {"packet_id": "agent_payment_proof_0_shahnawaz_cmd_preview_checkout_streaming_bugs_31", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5", "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31", "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"};
+      var basePayload = {"active_invoice_id": "", "packet_id": "agent_payment_proof_0_shahnawaz_cmd_preview_checkout_streaming_bugs_31", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5", "source_url": "https://github.com/shahnawaz-cmd/Preview-Checkout-Streaming-Bugs/issues/31", "static_attribution_token": "maxim-preview-checkout-streaming-bugs-issue-31-b-7baa741294", "target_ref": "shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31"};
       var localOrigin = /^https?:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(window.location.origin);
       var configuredCollector =
         window.MAXIM_FUNNEL_COLLECTOR_URL ||
         document.documentElement.getAttribute("data-maxim-funnel-collector") ||
+        basePayload.public_collector_url ||
         "";
       var endpoint = configuredCollector || (localOrigin ? window.location.origin + "/api/revenue-funnel-event-ledger/record" : "");
       var visitorKind = localOrigin ? "owner_preview" : (configuredCollector ? "buyer_or_public" : "unknown");
