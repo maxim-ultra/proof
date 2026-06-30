@@ -9,10 +9,10 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Landing page quality blockers: `0`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `1be7b726e87af3dd`
+- Manifest digest: `e6efd49caafe559e`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 1be7b726e87af3dd`
-- Local export refreshed at: `2026-06-30T13:18:50.829210+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy e6efd49caafe559e`
+- Local export refreshed at: `2026-06-30T13:28:36.019075+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad
@@ -36,7 +36,7 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/open-stellar-issue-28-518b2d45
 - `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/charles-microbounties-issue-1876-f2f69da3
 - `carinosas-app/carihub#67` -> https://maximultra.dev/pay/agent-payment/carihub-issue-67-c4a38345
-- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/openomni-issue-201-ee145866
+- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/openomni-issue-201-46a4973f
 
 ## Manual Deploy Gate
 
