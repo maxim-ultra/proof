@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-maxim-checkout-version="professional-v2">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
   <meta name="maxim-active-invoice-amount-usd" content="30.0" />
   <meta name="maxim-active-invoice-expires-at" content="2026-07-07T14:02:35.232962+00:00" />
   <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
-  <title>Prevent retry failures in Goldenmcp issue #64</title>
+  <title>Clarify retry and receipt risk in Goldenmcp issue #64</title>
   <style>
     :root {
       color-scheme: light;
@@ -32,50 +32,131 @@
       --shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: linear-gradient(180deg, #f8fbfa 0%, #edf4f2 100%); color: var(--ink); }
-    main { max-width: 680px; margin: 0 auto; padding: 22px 16px 32px; }
-    .hero, .payment-card, .bad { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
-    .hero { padding: clamp(18px, 4vw, 26px); box-shadow: var(--shadow); }
-    h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.04; margin: 0 0 9px; letter-spacing: 0; max-width: 680px; }
-    h2 { font-size: 16px; line-height: 1.2; margin: 0 0 6px; letter-spacing: 0; }
+    body { margin: 0; background: #f4f7f6; color: var(--ink); }
+    main { max-width: 920px; margin: 0 auto; padding: 26px 18px 36px; }
+    .checkout-shell {
+      background: var(--panel);
+      border: 1px solid #d7e0e8;
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .header {
+      display: grid;
+      gap: 12px;
+      padding: clamp(22px, 4vw, 34px);
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff 0%, #f8fbfb 100%);
+    }
+    .eyebrow {
+      color: var(--accent-strong);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 { font-size: clamp(26px, 4.2vw, 44px); line-height: 1.04; margin: 0; letter-spacing: 0; max-width: 760px; }
+    h2 { font-size: 15px; line-height: 1.2; margin: 0; letter-spacing: 0; }
     p { margin: 0; }
-    .lede { font-size: 15px; line-height: 1.38; max-width: 590px; color: #2f3a47; }
-    .payment-card { display: grid; gap: 12px; margin: 12px 0; padding: 14px; grid-template-columns: minmax(0, 1fr) minmax(215px, 0.72fr); box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05); }
+    .lede { font-size: 15px; line-height: 1.5; max-width: 660px; color: #334155; }
+    .trust-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill {
+      border: 1px solid #d7e5e2;
+      background: #f7fbfa;
+      border-radius: 999px;
+      color: #1f3b36;
+      font-size: 12px;
+      font-weight: 760;
+      padding: 6px 9px;
+    }
+    .payment-card { display: grid; gap: 0; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr); }
+    .detail-panel, .pay-line { padding: clamp(20px, 3vw, 28px); }
+    .detail-panel { display: grid; align-content: start; gap: 16px; }
     .muted, li { color: var(--muted); line-height: 1.45; }
-    .pay-line { display: grid; gap: 6px; border: 1px solid #d7e5e2; background: #f8fdfc; border-radius: 12px; padding: 12px; }
-    code { background: #eef2f5; padding: 2px 5px; border-radius: 5px; overflow-wrap: anywhere; }
-    .address { display: block; margin-top: 4px; padding: 10px; border-radius: 10px; background: #eef2f5; }
-    .primary-cta { display: inline-flex; width: fit-content; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 850; margin-top: 10px; text-decoration: none; }
+    .deliverables { display: grid; gap: 8px; padding: 0; margin: 0; list-style: none; }
+    .deliverables li::before { content: "✓"; color: var(--accent); font-weight: 900; margin-right: 8px; }
+    .pay-line {
+      display: grid;
+      gap: 14px;
+      border-left: 1px solid var(--line);
+      background: #f8fbfa;
+    }
+    .price { font-size: clamp(34px, 5vw, 48px); font-weight: 900; letter-spacing: 0; line-height: 1; }
+    .scope { color: #475569; font-size: 14px; }
+    .payment-method {
+      display: grid;
+      gap: 8px;
+      border: 1px solid #d7e5e2;
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .chain-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    code { background: #eef2f5; padding: 2px 6px; border-radius: 6px; overflow-wrap: anywhere; }
+    .address {
+      display: block;
+      margin-top: 2px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #eef2f5;
+      font-size: 13px;
+      line-height: 1.35;
+      word-break: break-all;
+    }
+    .primary-cta { display: inline-flex; justify-content: center; border-radius: 999px; background: var(--accent); color: #fff; padding: 11px 15px; font-weight: 850; text-decoration: none; }
     .primary-cta:focus, .primary-cta:hover { background: var(--accent-strong); }
     .bad { padding: 15px; }
     .invoice-proof { display: none; }
     .bad { border-color: #d45757; background: #fff1f1; margin-top: 12px; }
     a { color: #1956d8; overflow-wrap: anywhere; }
-    @media (max-width: 760px) { .payment-card { grid-template-columns: 1fr; } }
+    @media (max-width: 760px) {
+      main { padding: 12px; }
+      .payment-card { grid-template-columns: 1fr; }
+      .pay-line { border-left: 0; border-top: 1px solid var(--line); }
+    }
 	  </style>
 </head>
 <body>
   <main>
-    <div class="hero">
-      <h1>Prevent retry failures in Goldenmcp issue #64</h1>
-	      <p class="lede">Public source only. No wallet connection. No private data.</p>
-    </div>
-
-    <section class="payment-card">
-      <div>
-		        <p class="muted">One fixed-scope review: $30. Send USDC; reply tx hash.</p>
-        <a class="primary-cta" href="https://github.com/vhspace/goldenmcp/issues/64?maxim_ref=maxim-checkout-38148c02356b-bcd770e4b4" rel="noopener noreferrer">Reply tx</a>
+    <section class="checkout-shell" aria-label="MAXIM payment checkout">
+      <div class="header">
+        <p class="eyebrow">MAXIM fixed-scope review</p>
+        <h1>Clarify retry and receipt risk in Goldenmcp issue #64</h1>
+        <p class="lede">A public-source check for retry and receipt risk in Goldenmcp issue #64. No wallet connection, private access, or private data.</p>
+        <div class="trust-row" aria-label="Trust boundary">
+          <span class="pill">Public issue only</span>
+          <span class="pill">No credentials</span>
+          <span class="pill">No private data</span>
+          <span class="pill">No subscription</span>
+        </div>
       </div>
-      <div class="pay-line" aria-label="Payment instructions">
-	        <h2>You get</h2>
-	        <p class="muted">Failure map, checklist, fix direction.</p>
-	        <p class="muted">Source matched: <a href="https://github.com/vhspace/goldenmcp/issues/64" rel="noopener noreferrer">public issue</a>. Only if useful.</p>
-        <p><code>USDC</code> <code>Ethereum / ERC-20</code></p>
-        <code class="address">0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code>
-        
+
+      <div class="payment-card">
+        <div class="detail-panel">
+          <h2>What you get</h2>
+          <ul class="deliverables">
+            <li>Failure map</li>
+            <li>Acceptance checklist</li>
+            <li>Fix direction</li>
+          </ul>
+          <p class="muted">Verified public source: <a href="https://github.com/vhspace/goldenmcp/issues/64" rel="noopener noreferrer">public issue</a>. No obligation; pay only if useful.</p>
+        </div>
+        <div class="pay-line" aria-label="Payment instructions">
+          <div>
+            <div class="price">$30</div>
+            <p class="scope">fixed-scope review</p>
+          </div>
+          <p class="muted">Payment option: $30 fixed-scope review. Send USDC and reply with transaction hash.</p>
+          <div class="payment-method">
+            <h2>How to pay</h2>
+            <p class="chain-row"><code>USDC</code><code>Ethereum / ERC-20</code><code>0x395577...6cc84b</code></p>
+            <code class="address" data-payment-address="0x395577ce2a2461249cf8f1ec87dae462ee6cc84b" data-address-preview="0x395577...6cc84b">0x395577ce2a2461249cf8f1ec87dae462ee6cc84b</code>
+            
           <span class="invoice-proof" data-invoice-id="scusdc_8974bc229ff79c62" data-invoice-amount-usd="30.00" data-invoice-asset="USDC" data-invoice-network="Ethereum / ERC-20"></span>
         
-      </div>
+          </div>
+          <a class="primary-cta" href="https://github.com/vhspace/goldenmcp/issues/64?maxim_ref=maxim-checkout-38148c02356b-bcd770e4b4" rel="noopener noreferrer">Reply with tx hash</a>
+        </div>
     </section>
   </main>
   <script data-maxim-funnel-page="agent-payment">
