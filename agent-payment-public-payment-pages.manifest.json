@@ -9,7 +9,7 @@
   "landing_page_quality_blocker_count": 0,
   "landing_page_quality_status": "landing_page_quality_ready",
   "max_visible_section_count": 1,
-  "max_visible_word_count": 47,
+  "max_visible_word_count": 48,
   "opaque_checkout_url_required": true,
   "owner_preview_counts_as_commercial_exposure": false,
   "pages": [
@@ -53,7 +53,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "strands-agents/harness-sdk#2884"
       },
-      "html_sha256": "b50bd6a8c9845cfc9dc5fbdbab8746096fd0643a9a285a1aa5f25693545a1abe",
+      "html_sha256": "7a38838614363491b1273112302054c4b840f09de2314e8f21da60cfab206267",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -62,7 +62,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -161,7 +161,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -216,7 +216,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "mmd-rehan/textile-pos#32"
       },
-      "html_sha256": "286ff43c6f25effe9a5b761d06328873e98e36a72527b1916fc4f2bf6959bc90",
+      "html_sha256": "bbf255ff02d6999cdeb4b8d83158c4e976ad92ab049dd6a7c312fcb1bb0947e1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -225,7 +225,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -322,7 +322,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -377,7 +377,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "huanlongAI/hl-dispatch#298"
       },
-      "html_sha256": "446c06111fc662ed826a1efab20219ec0fafbcc0b8e346bca843720c879c2543",
+      "html_sha256": "e837d1d51c560777279af116ef747e085c53cc568e156557ee15931882e0925c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -386,7 +386,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -483,7 +483,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -538,7 +538,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "emrekayat/Query402#4"
       },
-      "html_sha256": "b11e246392d4fbffd8fff8f0e0044b2211eeb41a80bbe2accb242a99dce8d9c0",
+      "html_sha256": "0aabcd3e02359f6b7f8bf2204816c0d477c26151c07445fceb86132265de4b9d",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -547,7 +547,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -644,7 +644,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -699,7 +699,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "devEunicee/pulsar-contracts#272"
       },
-      "html_sha256": "cb5313b1386712d15529f3df3d768ff18c6caaa1d507569024c942f90beb4afd",
+      "html_sha256": "ec34169f707b65e345f0186160fd954c9a7edc6132fe98b1cf3947fe1a90f363",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -708,7 +708,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -805,7 +805,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -860,7 +860,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "d-hinders/Haven-AI#491"
       },
-      "html_sha256": "6d6de5d8d5ccf8b86a562cdfdad333877b17d3bf2279a52e1ec46ddaf50bad4d",
+      "html_sha256": "b703a025cd527c178005599dbdc22c3bd34b4fbb7410e49711992cbf9715d662",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -869,7 +869,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -966,7 +966,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1021,7 +1021,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "crewAIInc/crewAI#5802"
       },
-      "html_sha256": "9721ba2b4d7585110a5f99a98267a3a2091aab3485e988ff008f51b11be952e8",
+      "html_sha256": "60109d6b889849660127b1ffd615e90996b14fd625213b6e93967b342fdfcfa4",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1030,7 +1030,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1127,7 +1127,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1182,7 +1182,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Stash-Mobile-App-Group-90/stash#3"
       },
-      "html_sha256": "50470794d8db21a4433375b947c1d6a0393a3e4c0e858de27243355050ea5f5a",
+      "html_sha256": "5e114a19855ac7a652f32164ce38262157615ff412211362ac489cc9f56d644d",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1191,7 +1191,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1288,7 +1288,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1343,7 +1343,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Ramc4685/academy-manager#235"
       },
-      "html_sha256": "ecdc4a93cc799222dc09c831ca5761dcdcffc3f908a197115198f5bb5ca524f3",
+      "html_sha256": "bdd765cfeb60e52bfc352547f17b6e08fff2373fc1c50ac838427604371edee2",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1352,7 +1352,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1449,7 +1449,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1504,7 +1504,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Pidoko257/proxypay#5"
       },
-      "html_sha256": "4eae1f42d62ad25d76da1bed74e9dc2cfb06a787eee322bc3f2eebb87237cd40",
+      "html_sha256": "ac517eb867b2bd706d3b1dcce5ad0d850551f58a83410b14b874c695173fa749",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1513,7 +1513,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1610,7 +1610,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1665,7 +1665,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "OJamals/masest#24"
       },
-      "html_sha256": "67a429c7dae94281c3d55342dc14ee97202b494d881bfa6060e288398c14bbae",
+      "html_sha256": "18928bd409ec3c17028f93d05c6b2ecfa757d18aa29b8b47e3beec99e33b6c6c",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1674,7 +1674,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1771,7 +1771,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1826,7 +1826,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "JustineDevs/E-Commerce#12"
       },
-      "html_sha256": "ad270608d7c04302ac954cf3411c9a1f177b0f59a66f9cf21f3e379fee8ee1b8",
+      "html_sha256": "d323788553168e9d80886af7655a082428f9d0ebdec2dee9281d417a3416d9d7",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1835,7 +1835,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -1932,7 +1932,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -1987,7 +1987,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
       },
-      "html_sha256": "cb2dc73484a205e59eb0ff61c55b9749f0c05371ad838d3dd82c5bf99fd135f7",
+      "html_sha256": "95864caac5dab63c43db7f21f97890f43a2db392b15597f18312efab4efd2c7f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1996,7 +1996,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2093,7 +2093,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2148,7 +2148,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Expensify/App#91584"
       },
-      "html_sha256": "38c60efe58918421788545295e3b2a6c7585e84962d9092b95d98e1803b4580f",
+      "html_sha256": "02ef583739ff94e29dc4f1c17d7943de4e63466aa952649258f04230997a4cc3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2157,7 +2157,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2254,7 +2254,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2309,7 +2309,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "DogStark/PetChain-MobileApp#524"
       },
-      "html_sha256": "b302bc68e8ed724506bf7b23e95a90f5a4ab47557ef499e613dfd35e25c7dde2",
+      "html_sha256": "77bfadab69b716db2a29a52139d78005539a6a96885e684dcdceaf5aca38684b",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2318,7 +2318,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2415,7 +2415,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2470,7 +2470,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Ding-Payments/ding-server#23"
       },
-      "html_sha256": "ac9c23eb2cb0e186488364a4735482c6cb04b64de2e17084283505023f81a883",
+      "html_sha256": "f08ae8375e8ea836267f5097aca50e8a46fd9a53b3757d765cf841ee69dd750e",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2479,7 +2479,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2576,7 +2576,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2631,7 +2631,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Bitcoindefi/Open-Stellar#28"
       },
-      "html_sha256": "e9a64bc04374cf4808144faab63db8c66c3ad117c59aedee793d50fc3a91f3cb",
+      "html_sha256": "cd1434b57117aba1a8f5ec885a6e4504d54ae3ead51e0facc42b80ef398ec08a",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2640,7 +2640,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2737,7 +2737,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2792,7 +2792,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "ACertainArchangel/pinenote-on-q64a"
       },
-      "html_sha256": "059ca2db9ce1257c00adabfc049d18f0b23dc55c8188a52169ae58a74fa7d182",
+      "html_sha256": "c71bd38e8c5dc084b3dc2185afbd4017a5f87395e55a9ed6286f152160257264",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2801,7 +2801,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -2898,7 +2898,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -2961,7 +2961,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "vhspace/goldenmcp#64"
       },
-      "html_sha256": "14a31a051680ceaedbf9becd460502270294b1508d8a343fce30735fce4c4b55",
+      "html_sha256": "c908d643773e1f44b50fb00dfff802a8fe7effee4e165ccf2d5aa3e9a4726a36",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2970,7 +2970,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 46
+            "visible_word_count": 47
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -3069,7 +3069,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 46
+          "visible_word_count": 47
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -3132,7 +3132,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "ubounty-app/ubounty-demo#9"
       },
-      "html_sha256": "8be123cc0ea4a225e3d12a72be4e22e900363829e41d9d2ce08c68f4a5d31138",
+      "html_sha256": "ea0cb316fe9eb8b0c6120dbaf55fef449faf0ac4ba61a861c77b26b2aaae86b0",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3141,7 +3141,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -3240,7 +3240,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -3303,7 +3303,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "charles-openclaw/charles-microbounties#1876"
       },
-      "html_sha256": "b77c36a9ec5819fcf8c41af51a6da5230cc3787b1f2692bc017212c24dc0e92b",
+      "html_sha256": "c8ae1788b19e2d0ae1982aed2256fc65613964a0bea091ed0172c5aa418e2650",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3312,7 +3312,7 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 48
           },
           "positive_signals": [
             "buyer_outcome_headline",
@@ -3411,7 +3411,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 48
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,

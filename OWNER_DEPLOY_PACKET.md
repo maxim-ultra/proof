@@ -7,16 +7,16 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Ready pages: `21`
 - Exported pages: `21`
 - Landing page quality blockers: `0`
-- Max visible words: `47` / `48`
+- Max visible words: `48` / `48`
 - Max visible sections: `1` / `1`
 - Opaque checkout URLs: `21` / `21`
 - Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `03629bc3d2634ee5`
+- Manifest digest: `e6d0a6cbaa4f5498`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 03629bc3d2634ee5`
-- Local export refreshed at: `2026-06-30T23:06:22.709356+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy e6d0a6cbaa4f5498`
+- Local export refreshed at: `2026-07-01T05:43:08.972305+00:00`
 
 ## Pages
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/checkout-980dbdad01aa
