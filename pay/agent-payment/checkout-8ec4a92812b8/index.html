@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="maxim-funnel-page-id" content="checkout-8ec4a92812b8" />
+  <meta name="maxim-funnel-payment-page-url" content="https://maximultra.dev/pay/agent-payment/checkout-8ec4a92812b8" />
+  <meta name="maxim-funnel-record-route" content="/api/revenue-funnel-event-ledger/record" />
+  <meta name="maxim-funnel-public-collector-configured" content="false" />
+  <meta name="maxim-funnel-public-collector-url" content="" />
+  <meta name="maxim-funnel-static-attribution-token" content="maxim-checkout-8ec4a92812b8-974f627953" />
+  <meta name="maxim-funnel-static-attribution-query" content="maxim_ref=maxim-checkout-8ec4a92812b8-974f627953" />
+  <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
+  <title>Prevent retry failures in Hazina Escrow issue #488</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --ink: #111827;
+      --muted: #5b6472;
+      --line: #dfe5ec;
+      --panel: #ffffff;
+      --soft: #f6f8fb;
+      --accent: #0f766e;
+      --accent-strong: #0b5f59;
+      --accent-soft: #e6f7f4;
+      --blue: #1d4ed8;
+      --shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: linear-gradient(180deg, #f8fbfa 0%, #edf4f2 100%); color: var(--ink); }
+    main { max-width: 680px; margin: 0 auto; padding: 22px 16px 32px; }
+    .hero, .payment-card, .bad { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+    .hero { padding: clamp(18px, 4vw, 26px); box-shadow: var(--shadow); }
+    h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.04; margin: 0 0 9px; letter-spacing: 0; max-width: 680px; }
+    h2 { font-size: 16px; line-height: 1.2; margin: 0 0 6px; letter-spacing: 0; }
+    p { margin: 0; }
+    .lede { font-size: 15px; line-height: 1.38; max-width: 590px; color: #2f3a47; }
+    .payment-card { display: grid; gap: 12px; margin: 12px 0; padding: 14px; grid-template-columns: minmax(0, 1fr) minmax(215px, 0.72fr); box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05); }
+    .muted, li { color: var(--muted); line-height: 1.45; }
+    .pay-line { display: grid; gap: 6px; border: 1px solid #d7e5e2; background: #f8fdfc; border-radius: 12px; padding: 12px; }
+    code { background: #eef2f5; padding: 2px 5px; border-radius: 5px; overflow-wrap: anywhere; }
+    .address { display: block; margin-top: 4px; padding: 10px; border-radius: 10px; background: #eef2f5; }
+    .primary-cta { display: inline-flex; width: fit-content; border-radius: 999px; background: var(--accent); color: #fff; padding: 10px 14px; font-weight: 850; margin-top: 10px; text-decoration: none; }
+    .primary-cta:focus, .primary-cta:hover { background: var(--accent-strong); }
+    .bad { padding: 15px; }
+    .invoice-proof { display: none; }
+    .bad { border-color: #d45757; background: #fff1f1; margin-top: 12px; }
+    a { color: #1956d8; overflow-wrap: anywhere; }
+    @media (max-width: 760px) { .payment-card { grid-template-columns: 1fr; } }
+	  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <h1>Prevent retry failures in Hazina Escrow issue #488</h1>
+	      <p class="lede">Public source only. No wallet connection. No private data.</p>
+    </div>
+
+    <section class="payment-card">
+      <div>
+        <h2>Pay</h2>
+	        <p class="muted">Fixed-scope $9/$15/$30. Send USDC; reply tx hash.</p>
+        <a class="primary-cta" href="https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488?maxim_ref=maxim-checkout-8ec4a92812b8-974f627953" rel="noopener noreferrer">Reply tx</a>
+      </div>
+      <div class="pay-line" aria-label="Payment instructions">
+	        <h2>You get</h2>
+	        <p class="muted">Failure map, checklist, fix direction.</p>
+	        <p class="muted">Source matched: <a href="https://github.com/Hazina-Escrow/Hazina-Escrow/issues/488" rel="noopener noreferrer">public issue</a>. Only if useful.</p>
+        <p><code>USDC</code> <code>Ethereum / ERC-20</code></p>
+        <code class="address">0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code>
+        
+      </div>
+    </section>
+  </main>
+  <script data-maxim-funnel-page="agent-payment">
+    (function () {
+      var basePayload = {"active_invoice_id": "", "page_id": "checkout-8ec4a92812b8", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-8ec4a92812b8", "static_attribution_token": "maxim-checkout-8ec4a92812b8-974f627953"};
+      var localOrigin = /^https?:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(window.location.origin);
+      var configuredCollector =
+        window.MAXIM_FUNNEL_COLLECTOR_URL ||
+        document.documentElement.getAttribute("data-maxim-funnel-collector") ||
+        basePayload.public_collector_url ||
+        "";
+      var endpoint = configuredCollector || (localOrigin ? window.location.origin + "/api/revenue-funnel-event-ledger/record" : "");
+      var visitorKind = localOrigin ? "owner_preview" : (configuredCollector ? "buyer_or_public" : "unknown");
+      if (!endpoint) return;
+      function send(eventType) {
+        var payload = Object.assign({}, basePayload, {
+          event_type: eventType,
+          source: localOrigin ? "agent_payment_checkout_local_preview" : "agent_payment_checkout_public_page",
+          visitor_kind: visitorKind,
+          real_world: visitorKind === "buyer_or_public",
+          synthetic: false,
+          note: visitorKind === "owner_preview"
+            ? "Local owner preview; useful for QA but not commercial exposure."
+            : "Public buyer checkout funnel event; not revenue without receipt evidence."
+        });
+        try {
+          if (navigator.sendBeacon) {
+            var blob = new Blob([JSON.stringify(payload)], { type: "application/json" });
+            if (navigator.sendBeacon(endpoint, blob)) return;
+          }
+        } catch (error) {}
+        try {
+          fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+            keepalive: true
+          }).catch(function () {});
+        } catch (error) {}
+      }
+      send("page_visit");
+      document.addEventListener("click", function (event) {
+        var target = event.target && event.target.closest ? event.target.closest(".primary-cta") : null;
+        if (target) send("cta_click");
+      }, true);
+    })();
+  </script>
+</body>
+</html>

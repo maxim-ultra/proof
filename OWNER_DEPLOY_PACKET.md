@@ -4,42 +4,42 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `25`
-- Exported pages: `25`
+- Ready pages: `21`
+- Exported pages: `21`
 - Landing page quality blockers: `0`
+- Max visible words: `47` / `48`
+- Max visible sections: `1` / `1`
+- Opaque checkout URLs: `21` / `21`
+- Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `4d5ab4ff7926df22`
+- Manifest digest: `03629bc3d2634ee5`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 4d5ab4ff7926df22`
-- Local export refreshed at: `2026-06-30T14:19:18.597339+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 03629bc3d2634ee5`
+- Local export refreshed at: `2026-06-30T23:06:22.709356+00:00`
 
 ## Pages
-- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/harness-sdk-issue-2884-980dbdad
-- `shahnawaz-cmd/Preview-Checkout-Streaming-Bugs#31` -> https://maximultra.dev/pay/agent-payment/preview-checkout-streaming-bugs-issue-31-bc08e8e5
-- `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/textile-pos-issue-32-290bffcc
-- `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/hl-dispatch-issue-298-b286433f
-- `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/query402-issue-4-6e27c9b8
-- `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/pulsar-contracts-issue-272-6fb60a81
-- `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/haven-ai-issue-491-85dfb36c
-- `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/crewai-issue-5802-735861da
-- `creativeghq/material-kai-vision-platform#218` -> https://maximultra.dev/pay/agent-payment/material-kai-vision-platform-issue-218-78f52cb0
-- `Stash-Mobile-App-Group-90/stash#3` -> https://maximultra.dev/pay/agent-payment/stash-issue-3-9e5fcae7
-- `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/academy-manager-issue-235-f7268f3a
-- `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/proxypay-issue-5-b37d68e0
-- `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/masest-issue-24-17f01e69
-- `JustineDevs/E-Commerce#12` -> https://maximultra.dev/pay/agent-payment/e-commerce-issue-12-1ac1c44e
-- `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/hazina-escrow-issue-488-8ec4a928
-- `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/app-issue-91584-b63420f0
-- `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/petchain-mobileapp-issue-524-aa8569f2
-- `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/ding-server-issue-23-42e1e240
-- `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/open-stellar-issue-28-518b2d45
-- `ACertainArchangel/pinenote-on-q64a` -> https://maximultra.dev/pay/agent-payment/acertainarchangel-pinenote-on-q64a-c575d6bb
-- `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/goldenmcp-issue-64-38148c02
-- `greyw0rks/bountyscout#30` -> https://maximultra.dev/pay/agent-payment/bountyscout-issue-30-06ccf5e2
-- `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/charles-microbounties-issue-1876-f2f69da3
-- `carinosas-app/carihub#67` -> https://maximultra.dev/pay/agent-payment/carihub-issue-67-60dd46e6
-- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/openomni-issue-201-23837d94
+- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/checkout-980dbdad01aa
+- `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/checkout-290bffcc9487
+- `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/checkout-b286433f4d9c
+- `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/checkout-6e27c9b8cf11
+- `devEunicee/pulsar-contracts#272` -> https://maximultra.dev/pay/agent-payment/checkout-6fb60a81bce2
+- `d-hinders/Haven-AI#491` -> https://maximultra.dev/pay/agent-payment/checkout-85dfb36c1c72
+- `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/checkout-735861da2d1d
+- `Stash-Mobile-App-Group-90/stash#3` -> https://maximultra.dev/pay/agent-payment/checkout-9e5fcae7c564
+- `Ramc4685/academy-manager#235` -> https://maximultra.dev/pay/agent-payment/checkout-f7268f3a6803
+- `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/checkout-b37d68e03124
+- `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/checkout-17f01e690ba2
+- `JustineDevs/E-Commerce#12` -> https://maximultra.dev/pay/agent-payment/checkout-1ac1c44e5d4f
+- `Hazina-Escrow/Hazina-Escrow#488` -> https://maximultra.dev/pay/agent-payment/checkout-8ec4a92812b8
+- `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/checkout-b63420f0a2ac
+- `DogStark/PetChain-MobileApp#524` -> https://maximultra.dev/pay/agent-payment/checkout-aa8569f28f71
+- `Ding-Payments/ding-server#23` -> https://maximultra.dev/pay/agent-payment/checkout-42e1e240fc63
+- `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/checkout-518b2d4593ce
+- `ACertainArchangel/pinenote-on-q64a` -> https://maximultra.dev/pay/agent-payment/checkout-c575d6bb07d6
+- `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/checkout-38148c02356b
+- `ubounty-app/ubounty-demo#9` -> https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771
+- `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/checkout-f2f69da30afa
 
 ## Manual Deploy Gate
 
