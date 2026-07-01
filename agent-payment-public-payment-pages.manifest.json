@@ -53,7 +53,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "anthropics/claude-code#65550"
       },
-      "html_sha256": "19ba20882fc8e68dc327dc1d1a6b7c078d4db5e55cfedc41f9f39a28fd93a4ce",
+      "html_sha256": "16bf28a558f30fc32a530e18560b2cd45779c6e89a4b52d272550abcba6448b3",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -62,12 +62,11 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 48
+            "visible_word_count": 46
           },
           "positive_signals": [
             "buyer_outcome_headline",
             "clear_next_step",
-            "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
             "low_risk_boundary",
@@ -75,6 +74,7 @@
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
+            "single_active_invoice_scope",
             "single_screen_checkout_structure",
             "specific_deliverable",
             "specific_outcome",
@@ -161,7 +161,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 48
+          "visible_word_count": 46
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -224,7 +224,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "NousResearch/hermes-agent#40215"
       },
-      "html_sha256": "f06be7983e28e206ad3d55a4592e51a4eb45c358ab3c4335143f011509d51417",
+      "html_sha256": "663be95942402c7d26098dde0e88894eb6f9a8544b94b10382dc0773f27d3a20",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -233,12 +233,11 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 48
+            "visible_word_count": 46
           },
           "positive_signals": [
             "buyer_outcome_headline",
             "clear_next_step",
-            "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
             "low_risk_boundary",
@@ -246,6 +245,7 @@
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
+            "single_active_invoice_scope",
             "single_screen_checkout_structure",
             "specific_deliverable",
             "specific_outcome",
@@ -332,7 +332,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 48
+          "visible_word_count": 46
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -395,7 +395,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "strands-agents/harness-sdk#2884"
       },
-      "html_sha256": "83936f5bde1068f591e1d3887a5ea018a77ed830bf06874de52b61ac1fabd8d7",
+      "html_sha256": "cb277c0dae691b0687d315ce9f99966af1007c1e7e25abe9ecf756e8ed587612",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -404,12 +404,11 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 48
+            "visible_word_count": 46
           },
           "positive_signals": [
             "buyer_outcome_headline",
             "clear_next_step",
-            "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
             "low_risk_boundary",
@@ -417,6 +416,7 @@
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
+            "single_active_invoice_scope",
             "single_screen_checkout_structure",
             "specific_deliverable",
             "specific_outcome",
@@ -503,7 +503,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 48
+          "visible_word_count": 46
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -3303,7 +3303,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "vhspace/goldenmcp#64"
       },
-      "html_sha256": "1ebf0b9a3078ae692fba21ba413bf1acd23c8bb8ffaf252c5f5683ca9f82bfbc",
+      "html_sha256": "5dd58198cf512522db43358d14fb0acc553424eaea1cbe669019bea9daeeeb96",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3312,12 +3312,11 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 47
+            "visible_word_count": 45
           },
           "positive_signals": [
             "buyer_outcome_headline",
             "clear_next_step",
-            "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
             "low_risk_boundary",
@@ -3325,6 +3324,7 @@
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
+            "single_active_invoice_scope",
             "single_screen_checkout_structure",
             "specific_deliverable",
             "specific_outcome",
@@ -3411,7 +3411,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 47
+          "visible_word_count": 45
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,
@@ -3474,7 +3474,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "charles-openclaw/charles-microbounties#1876"
       },
-      "html_sha256": "215ee9c6618971003abfa73ecf5d91c3e153b035f71935e0972cfb4a44414ea1",
+      "html_sha256": "47adbeef0ba365a312347822fac12f140afa1f7ccd68f42282af8479de438205",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3483,12 +3483,11 @@
           "copy_metrics": {
             "visible_cta_count": 1,
             "visible_section_count": 1,
-            "visible_word_count": 48
+            "visible_word_count": 46
           },
           "positive_signals": [
             "buyer_outcome_headline",
             "clear_next_step",
-            "complete_low_friction_offer_ladder",
             "evidence_anchor",
             "how_to_pay",
             "low_risk_boundary",
@@ -3496,6 +3495,7 @@
             "payment_instructions",
             "privacy_boundary",
             "receipt_next_step",
+            "single_active_invoice_scope",
             "single_screen_checkout_structure",
             "specific_deliverable",
             "specific_outcome",
@@ -3582,7 +3582,7 @@
           "url_privacy_required": true,
           "visible_cta_count": 1,
           "visible_section_count": 1,
-          "visible_word_count": 48
+          "visible_word_count": 46
         },
         "status": "landing_page_quality_ready",
         "warning_count": 1,

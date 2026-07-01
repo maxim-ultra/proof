@@ -13,10 +13,10 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `0b864f4a7bf63081`
+- Manifest digest: `a03fb6871a71466e`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 0b864f4a7bf63081`
-- Local export refreshed at: `2026-07-01T11:33:20.094990+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy a03fb6871a71466e`
+- Local export refreshed at: `2026-07-01T12:34:18.787170+00:00`
 
 ## Pages
 - `anthropics/claude-code#65550` -> https://maximultra.dev/pay/agent-payment/checkout-911152d4dbfe
