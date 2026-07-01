@@ -3,7 +3,7 @@
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 21,
+  "exported_page_count": 22,
   "external_action_allowed": false,
   "funnel_instrumentation_status": "commercial_funnel_instrumentation_ready",
   "landing_page_quality_blocker_count": 0,
@@ -13,6 +13,348 @@
   "opaque_checkout_url_required": true,
   "owner_preview_counts_as_commercial_exposure": false,
   "pages": [
+    {
+      "funnel_instrumentation": {
+        "active_invoice": {
+          "amount_usd": 150.0,
+          "asset": "USDC",
+          "buyer_reference": "anthropics/claude-code#65550",
+          "expires_at": "2026-07-08T11:32:13.634686+00:00",
+          "id": "scusdc_ea4af20c6c80bce3",
+          "network": "Ethereum / ERC-20",
+          "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b"
+        },
+        "active_invoice_expires_at": "2026-07-08T11:32:13.634686+00:00",
+        "active_invoice_id": "scusdc_ea4af20c6c80bce3",
+        "active_invoice_ready": true,
+        "counts_as_revenue": false,
+        "local_preview_visitor_kind": "owner_preview",
+        "owner_preview_counts_as_commercial_exposure": false,
+        "packet_id": "scusdc_ea4af20c6c80bce3",
+        "page_id": "checkout-911152d4dbfe",
+        "public_buyer_visitor_kind": "buyer_or_public",
+        "public_collector_url": "",
+        "public_funnel_automated_collector_ready": false,
+        "public_funnel_collector_configured": false,
+        "public_funnel_learning_gap": "",
+        "public_funnel_learning_ready": true,
+        "public_funnel_measurement_mode": "static_attribution_reply_fallback",
+        "public_funnel_measurement_ready": false,
+        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-911152d4dbfe",
+        "public_static_attribution_ready": true,
+        "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+        "public_static_requires_reachable_collector": true,
+        "receipt_reply_reference": "MAXIM reference: maxim-checkout-911152d4dbfe-a4e94d93d8",
+        "record_route": "/api/revenue-funnel-event-ledger/record",
+        "source_url": "https://github.com/anthropics/claude-code/issues/65550",
+        "static_attribution_cta_param": "maxim_ref",
+        "static_attribution_query": "maxim_ref=maxim-checkout-911152d4dbfe-a4e94d93d8",
+        "static_attribution_token": "maxim-checkout-911152d4dbfe-a4e94d93d8",
+        "status": "commercial_funnel_instrumentation_ready",
+        "target_ref": "anthropics/claude-code#65550"
+      },
+      "html_sha256": "19ba20882fc8e68dc327dc1d1a6b7c078d4db5e55cfedc41f9f39a28fd93a4ce",
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "copy_metrics": {
+            "visible_cta_count": 1,
+            "visible_section_count": 1,
+            "visible_word_count": 48
+          },
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "how_to_pay",
+            "low_risk_boundary",
+            "no_pressure_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "single_screen_checkout_structure",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get"
+          ],
+          "rules": {
+            "buyer_attention_span_blocks_dense_checkout_pages": true,
+            "cta_must_be_real_link_not_fake_button": true,
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow_concisely": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true,
+            "no_robotic_placeholder_copy": true,
+            "single_buyer_checkout_not_directory": true,
+            "visible_copy_warning_limit": 42,
+            "visible_copy_word_limit": 48,
+            "visible_section_limit": 1
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": [
+            "landing_copy_near_density_limit"
+          ]
+        },
+        "rules": {
+          "buyer_attention_span_blocks_dense_checkout_pages": true,
+          "buyer_trust_boundaries_required": true,
+          "checkout_copy_density_blocks_bloated_pages": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
+          "commercial_funnel_instrumentation_required": true,
+          "generated_payment_pages_must_not_expose_target_identity_in_public_path": true,
+          "generated_payment_pages_require_opaque_buyer_safe_url": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
+          "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
+          "one_screen_checkout_standard_required": true,
+          "owner_preview_must_not_count_as_buyer_exposure": true,
+          "public_url_must_not_use_internal_packet_id": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "static_pages_without_collector_require_attributed_reply_fallback": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 94,
+        "signals": {
+          "active_invoice_body_present": true,
+          "active_invoice_expires_at": "2026-07-08T11:32:13.634686+00:00",
+          "active_invoice_id": "scusdc_ea4af20c6c80bce3",
+          "active_invoice_meta_present": true,
+          "active_invoice_ready": true,
+          "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
+          "deliverable_clarity": true,
+          "direct_cta": true,
+          "expected_target_ref": "anthropics/claude-code#65550",
+          "funnel_instrumentation_ready": true,
+          "h1_text": "Prevent retry failures in Claude Code issue #65550",
+          "missing_funnel_instrumentation_markers": [],
+          "no_pressure_boundary": true,
+          "opaque_public_checkout_slug": true,
+          "path": "/pay/agent-payment/checkout-911152d4dbfe",
+          "payment_options": true,
+          "privacy_boundary": true,
+          "private_access_boundary": true,
+          "public_funnel_collector_configured": false,
+          "public_funnel_measurement_ready": false,
+          "public_only_boundary": true,
+          "public_path_leaks_target_identity": false,
+          "public_static_attribution_fallback_active": true,
+          "public_static_attribution_ready": true,
+          "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+          "public_url_privacy_preserved": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/anthropics/claude-code/issues/65550",
+          "static_attribution_token": "maxim-checkout-911152d4dbfe-a4e94d93d8",
+          "target_ref": "anthropics/claude-code#65550",
+          "trust_proof": true,
+          "url_privacy_required": true,
+          "visible_cta_count": 1,
+          "visible_section_count": 1,
+          "visible_word_count": 48
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 1,
+        "warnings": [
+          "commercial_copy_landing_copy_near_density_limit"
+        ]
+      },
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/checkout-911152d4dbfe/index.html",
+      "packet_id": "scusdc_ea4af20c6c80bce3",
+      "page_id": "checkout-911152d4dbfe",
+      "path": "/pay/agent-payment/checkout-911152d4dbfe",
+      "public_url": "https://maximultra.dev/pay/agent-payment/checkout-911152d4dbfe",
+      "source": "first_receipt_recovery_checkout_invoice",
+      "source_url": "https://github.com/anthropics/claude-code/issues/65550",
+      "target_display": {
+        "context_label": "Anthropics / Claude Code",
+        "expected_target_ref": "anthropics/claude-code#65550",
+        "short_label": "Claude Code issue #65550",
+        "source_label": "Claude Code issue #65550"
+      },
+      "target_ref": "anthropics/claude-code#65550"
+    },
+    {
+      "funnel_instrumentation": {
+        "active_invoice": {
+          "amount_usd": 150.0,
+          "asset": "USDC",
+          "buyer_reference": "NousResearch/hermes-agent#40215",
+          "expires_at": "2026-07-08T09:46:33.116985+00:00",
+          "id": "scusdc_2f03feff7738bee2",
+          "network": "Ethereum / ERC-20",
+          "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b"
+        },
+        "active_invoice_expires_at": "2026-07-08T09:46:33.116985+00:00",
+        "active_invoice_id": "scusdc_2f03feff7738bee2",
+        "active_invoice_ready": true,
+        "counts_as_revenue": false,
+        "local_preview_visitor_kind": "owner_preview",
+        "owner_preview_counts_as_commercial_exposure": false,
+        "packet_id": "scusdc_2f03feff7738bee2",
+        "page_id": "checkout-a3de2e06d893",
+        "public_buyer_visitor_kind": "buyer_or_public",
+        "public_collector_url": "",
+        "public_funnel_automated_collector_ready": false,
+        "public_funnel_collector_configured": false,
+        "public_funnel_learning_gap": "",
+        "public_funnel_learning_ready": true,
+        "public_funnel_measurement_mode": "static_attribution_reply_fallback",
+        "public_funnel_measurement_ready": false,
+        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893",
+        "public_static_attribution_ready": true,
+        "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+        "public_static_requires_reachable_collector": true,
+        "receipt_reply_reference": "MAXIM reference: maxim-checkout-a3de2e06d893-0618fac799",
+        "record_route": "/api/revenue-funnel-event-ledger/record",
+        "source_url": "https://github.com/NousResearch/hermes-agent/issues/40215",
+        "static_attribution_cta_param": "maxim_ref",
+        "static_attribution_query": "maxim_ref=maxim-checkout-a3de2e06d893-0618fac799",
+        "static_attribution_token": "maxim-checkout-a3de2e06d893-0618fac799",
+        "status": "commercial_funnel_instrumentation_ready",
+        "target_ref": "NousResearch/hermes-agent#40215"
+      },
+      "html_sha256": "f06be7983e28e206ad3d55a4592e51a4eb45c358ab3c4335143f011509d51417",
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "copy_metrics": {
+            "visible_cta_count": 1,
+            "visible_section_count": 1,
+            "visible_word_count": 48
+          },
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "complete_low_friction_offer_ladder",
+            "evidence_anchor",
+            "how_to_pay",
+            "low_risk_boundary",
+            "no_pressure_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "single_screen_checkout_structure",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get"
+          ],
+          "rules": {
+            "buyer_attention_span_blocks_dense_checkout_pages": true,
+            "cta_must_be_real_link_not_fake_button": true,
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow_concisely": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true,
+            "no_robotic_placeholder_copy": true,
+            "single_buyer_checkout_not_directory": true,
+            "visible_copy_warning_limit": 42,
+            "visible_copy_word_limit": 48,
+            "visible_section_limit": 1
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": [
+            "landing_copy_near_density_limit"
+          ]
+        },
+        "rules": {
+          "buyer_attention_span_blocks_dense_checkout_pages": true,
+          "buyer_trust_boundaries_required": true,
+          "checkout_copy_density_blocks_bloated_pages": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
+          "commercial_funnel_instrumentation_required": true,
+          "generated_payment_pages_must_not_expose_target_identity_in_public_path": true,
+          "generated_payment_pages_require_opaque_buyer_safe_url": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
+          "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
+          "one_screen_checkout_standard_required": true,
+          "owner_preview_must_not_count_as_buyer_exposure": true,
+          "public_url_must_not_use_internal_packet_id": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "source_url_target_ref_must_match": true,
+          "static_pages_without_collector_require_attributed_reply_fallback": true,
+          "target_specific_pages_should_be_noindex": true
+        },
+        "score": 94,
+        "signals": {
+          "active_invoice_body_present": true,
+          "active_invoice_expires_at": "2026-07-08T09:46:33.116985+00:00",
+          "active_invoice_id": "scusdc_2f03feff7738bee2",
+          "active_invoice_meta_present": true,
+          "active_invoice_ready": true,
+          "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
+          "deliverable_clarity": true,
+          "direct_cta": true,
+          "expected_target_ref": "NousResearch/hermes-agent#40215",
+          "funnel_instrumentation_ready": true,
+          "h1_text": "Prevent retry failures in Hermes Agent issue #40215",
+          "missing_funnel_instrumentation_markers": [],
+          "no_pressure_boundary": true,
+          "opaque_public_checkout_slug": true,
+          "path": "/pay/agent-payment/checkout-a3de2e06d893",
+          "payment_options": true,
+          "privacy_boundary": true,
+          "private_access_boundary": true,
+          "public_funnel_collector_configured": false,
+          "public_funnel_measurement_ready": false,
+          "public_only_boundary": true,
+          "public_path_leaks_target_identity": false,
+          "public_static_attribution_fallback_active": true,
+          "public_static_attribution_ready": true,
+          "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+          "public_url_privacy_preserved": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/NousResearch/hermes-agent/issues/40215",
+          "static_attribution_token": "maxim-checkout-a3de2e06d893-0618fac799",
+          "target_ref": "NousResearch/hermes-agent#40215",
+          "trust_proof": true,
+          "url_privacy_required": true,
+          "visible_cta_count": 1,
+          "visible_section_count": 1,
+          "visible_word_count": 48
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 1,
+        "warnings": [
+          "commercial_copy_landing_copy_near_density_limit"
+        ]
+      },
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/checkout-a3de2e06d893/index.html",
+      "packet_id": "scusdc_2f03feff7738bee2",
+      "page_id": "checkout-a3de2e06d893",
+      "path": "/pay/agent-payment/checkout-a3de2e06d893",
+      "public_url": "https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893",
+      "source": "first_receipt_recovery_checkout_invoice",
+      "source_url": "https://github.com/NousResearch/hermes-agent/issues/40215",
+      "target_display": {
+        "context_label": "Nousresearch / Hermes Agent",
+        "expected_target_ref": "NousResearch/hermes-agent#40215",
+        "short_label": "Hermes Agent issue #40215",
+        "source_label": "Hermes Agent issue #40215"
+      },
+      "target_ref": "NousResearch/hermes-agent#40215"
+    },
     {
       "funnel_instrumentation": {
         "active_invoice": {
@@ -53,7 +395,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "strands-agents/harness-sdk#2884"
       },
-      "html_sha256": "7a38838614363491b1273112302054c4b840f09de2314e8f21da60cfab206267",
+      "html_sha256": "83936f5bde1068f591e1d3887a5ea018a77ed830bf06874de52b61ac1fabd8d7",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -216,7 +558,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "mmd-rehan/textile-pos#32"
       },
-      "html_sha256": "bbf255ff02d6999cdeb4b8d83158c4e976ad92ab049dd6a7c312fcb1bb0947e1",
+      "html_sha256": "dc2e4a3cc58142499d99645d0033da140439bc4203e478b0daae39229f436887",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -377,7 +719,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "huanlongAI/hl-dispatch#298"
       },
-      "html_sha256": "e837d1d51c560777279af116ef747e085c53cc568e156557ee15931882e0925c",
+      "html_sha256": "c68b065a30c927fa0ee9bbf5266dd39e4e1b24ffaab6f0dd8f79f909c93737d1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -538,7 +880,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "emrekayat/Query402#4"
       },
-      "html_sha256": "0aabcd3e02359f6b7f8bf2204816c0d477c26151c07445fceb86132265de4b9d",
+      "html_sha256": "43b953ccfd85da5f8c2cb665e0edc11e6175a9042e941343b9dd9bb02183376b",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -699,7 +1041,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "devEunicee/pulsar-contracts#272"
       },
-      "html_sha256": "ec34169f707b65e345f0186160fd954c9a7edc6132fe98b1cf3947fe1a90f363",
+      "html_sha256": "5ecae67ad07a110fb63c3a0db516b70b2be84fde2c8fdce0a636802a7e8efc0f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -860,7 +1202,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "d-hinders/Haven-AI#491"
       },
-      "html_sha256": "b703a025cd527c178005599dbdc22c3bd34b4fbb7410e49711992cbf9715d662",
+      "html_sha256": "9a04b5fa22a73f1c77843af7c6359fab882ef784e430e057555c25506643d2ed",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1021,7 +1363,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "crewAIInc/crewAI#5802"
       },
-      "html_sha256": "60109d6b889849660127b1ffd615e90996b14fd625213b6e93967b342fdfcfa4",
+      "html_sha256": "4550650a39cf00c67956336461aa6925f24e1e81a37b16883244f0b633046fcd",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1182,7 +1524,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Stash-Mobile-App-Group-90/stash#3"
       },
-      "html_sha256": "5e114a19855ac7a652f32164ce38262157615ff412211362ac489cc9f56d644d",
+      "html_sha256": "539ab04ab1289ecdbf754b76ea542109517ee9a7ab1bee325caa46eb815ce79f",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1343,7 +1685,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Ramc4685/academy-manager#235"
       },
-      "html_sha256": "bdd765cfeb60e52bfc352547f17b6e08fff2373fc1c50ac838427604371edee2",
+      "html_sha256": "c90a3a635e5b438e4676f8aeca7b5b1509ff21fe879935fbc7b0d6e6ce0bcfc8",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1504,7 +1846,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Pidoko257/proxypay#5"
       },
-      "html_sha256": "ac517eb867b2bd706d3b1dcce5ad0d850551f58a83410b14b874c695173fa749",
+      "html_sha256": "cc60a7bc174b8914df2acfd2aab23cc0829c65046ce3d0ab73afa60a6d23eaff",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1665,7 +2007,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "OJamals/masest#24"
       },
-      "html_sha256": "18928bd409ec3c17028f93d05c6b2ecfa757d18aa29b8b47e3beec99e33b6c6c",
+      "html_sha256": "b6110ce674a2302aa638eb63da9c02d906d0212b8b42044236d43326834616f6",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1826,7 +2168,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "JustineDevs/E-Commerce#12"
       },
-      "html_sha256": "d323788553168e9d80886af7655a082428f9d0ebdec2dee9281d417a3416d9d7",
+      "html_sha256": "f54a0751dbc4e823af861cf8271f83c67c04c952babaaff892f002de446b8779",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -1987,7 +2329,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Hazina-Escrow/Hazina-Escrow#488"
       },
-      "html_sha256": "95864caac5dab63c43db7f21f97890f43a2db392b15597f18312efab4efd2c7f",
+      "html_sha256": "612ee8438eaf607ee92f486dc88ea7ebc67729819d95b79d0997ba667367ee7b",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2148,7 +2490,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Expensify/App#91584"
       },
-      "html_sha256": "02ef583739ff94e29dc4f1c17d7943de4e63466aa952649258f04230997a4cc3",
+      "html_sha256": "f891317fe1db0888197d7469bf94a0dae656f96249f2178b14bff424f05674ec",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2309,7 +2651,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "DogStark/PetChain-MobileApp#524"
       },
-      "html_sha256": "77bfadab69b716db2a29a52139d78005539a6a96885e684dcdceaf5aca38684b",
+      "html_sha256": "de7ab594b50dbef3489e9d0f0eb15d5c260824f7230e6970efef9376d12ae9c1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2470,7 +2812,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Ding-Payments/ding-server#23"
       },
-      "html_sha256": "f08ae8375e8ea836267f5097aca50e8a46fd9a53b3757d765cf841ee69dd750e",
+      "html_sha256": "f9717bcf38ec3d10e3e13baa41182f18b831281aac381714e070f7d359207d34",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2631,7 +2973,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "Bitcoindefi/Open-Stellar#28"
       },
-      "html_sha256": "cd1434b57117aba1a8f5ec885a6e4504d54ae3ead51e0facc42b80ef398ec08a",
+      "html_sha256": "d84d430a4fa13ebcea53f631193f4576a82be4be59e26d65ea97528276b18a58",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2792,7 +3134,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "ACertainArchangel/pinenote-on-q64a"
       },
-      "html_sha256": "c71bd38e8c5dc084b3dc2185afbd4017a5f87395e55a9ed6286f152160257264",
+      "html_sha256": "ac92265bc7ebf14b846c159612da8ff48cf22743500aebba9b5afeeb178264ac",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -2961,7 +3303,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "vhspace/goldenmcp#64"
       },
-      "html_sha256": "c908d643773e1f44b50fb00dfff802a8fe7effee4e165ccf2d5aa3e9a4726a36",
+      "html_sha256": "1ebf0b9a3078ae692fba21ba413bf1acd23c8bb8ffaf252c5f5683ca9f82bfbc",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3097,177 +3439,6 @@
         "active_invoice": {
           "amount_usd": 30.0,
           "asset": "USDC",
-          "buyer_reference": "ubounty-app/ubounty-demo#9",
-          "expires_at": "2026-07-07T22:59:52.453411+00:00",
-          "id": "scusdc_2ad30a3e358e2218",
-          "network": "Ethereum / ERC-20",
-          "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b"
-        },
-        "active_invoice_expires_at": "2026-07-07T22:59:52.453411+00:00",
-        "active_invoice_id": "scusdc_2ad30a3e358e2218",
-        "active_invoice_ready": true,
-        "counts_as_revenue": false,
-        "local_preview_visitor_kind": "owner_preview",
-        "owner_preview_counts_as_commercial_exposure": false,
-        "packet_id": "agent_payment_proof_3551_ubounty_app_ubounty_demo_9",
-        "page_id": "checkout-4f0a537d9771",
-        "public_buyer_visitor_kind": "buyer_or_public",
-        "public_collector_url": "",
-        "public_funnel_automated_collector_ready": false,
-        "public_funnel_collector_configured": false,
-        "public_funnel_learning_gap": "",
-        "public_funnel_learning_ready": true,
-        "public_funnel_measurement_mode": "static_attribution_reply_fallback",
-        "public_funnel_measurement_ready": false,
-        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771",
-        "public_static_attribution_ready": true,
-        "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
-        "public_static_requires_reachable_collector": true,
-        "receipt_reply_reference": "MAXIM reference: maxim-checkout-4f0a537d9771-632e70d55d",
-        "record_route": "/api/revenue-funnel-event-ledger/record",
-        "source_url": "https://github.com/ubounty-app/ubounty-demo/issues/9",
-        "static_attribution_cta_param": "maxim_ref",
-        "static_attribution_query": "maxim_ref=maxim-checkout-4f0a537d9771-632e70d55d",
-        "static_attribution_token": "maxim-checkout-4f0a537d9771-632e70d55d",
-        "status": "commercial_funnel_instrumentation_ready",
-        "target_ref": "ubounty-app/ubounty-demo#9"
-      },
-      "html_sha256": "ea0cb316fe9eb8b0c6120dbaf55fef449faf0ac4ba61a861c77b26b2aaae86b0",
-      "landing_page_quality_audit": {
-        "blocker_count": 0,
-        "blockers": [],
-        "commercial_copy_review": {
-          "blockers": [],
-          "copy_metrics": {
-            "visible_cta_count": 1,
-            "visible_section_count": 1,
-            "visible_word_count": 48
-          },
-          "positive_signals": [
-            "buyer_outcome_headline",
-            "clear_next_step",
-            "complete_low_friction_offer_ladder",
-            "evidence_anchor",
-            "how_to_pay",
-            "low_risk_boundary",
-            "no_pressure_boundary",
-            "payment_instructions",
-            "privacy_boundary",
-            "receipt_next_step",
-            "single_screen_checkout_structure",
-            "specific_deliverable",
-            "specific_outcome",
-            "speed_or_scope",
-            "what_you_get"
-          ],
-          "rules": {
-            "buyer_attention_span_blocks_dense_checkout_pages": true,
-            "cta_must_be_real_link_not_fake_button": true,
-            "hero_must_sell_buyer_outcome": true,
-            "must_offer_low_friction_entry_ladder": true,
-            "must_show_trust_privacy_deliverable_payment_and_receipt_flow_concisely": true,
-            "no_internal_artifact_terms": true,
-            "no_multi_customer_directory_exposure": true,
-            "no_robotic_placeholder_copy": true,
-            "single_buyer_checkout_not_directory": true,
-            "visible_copy_warning_limit": 42,
-            "visible_copy_word_limit": 48,
-            "visible_section_limit": 1
-          },
-          "score": 100,
-          "status": "commercial_copy_ready",
-          "warnings": [
-            "landing_copy_near_density_limit"
-          ]
-        },
-        "rules": {
-          "buyer_attention_span_blocks_dense_checkout_pages": true,
-          "buyer_trust_boundaries_required": true,
-          "checkout_copy_density_blocks_bloated_pages": true,
-          "commercial_copy_review_blocks_weak_buyer_pages": true,
-          "commercial_funnel_instrumentation_required": true,
-          "generated_payment_pages_must_not_expose_target_identity_in_public_path": true,
-          "generated_payment_pages_require_opaque_buyer_safe_url": true,
-          "generic_internal_payment_copy_blocks_export": true,
-          "internal_artifact_language_blocks_export": true,
-          "landing_page_copy_must_read_buyer_first": true,
-          "landing_page_must_explain_buyer_context_and_no_pressure": true,
-          "landing_page_must_have_buyer_outcome": true,
-          "landing_page_must_have_direct_cta": true,
-          "one_screen_checkout_standard_required": true,
-          "owner_preview_must_not_count_as_buyer_exposure": true,
-          "public_url_must_not_use_internal_packet_id": true,
-          "raw_internal_target_ref_must_not_be_hero_copy": true,
-          "source_url_target_ref_must_match": true,
-          "static_pages_without_collector_require_attributed_reply_fallback": true,
-          "target_specific_pages_should_be_noindex": true
-        },
-        "score": 94,
-        "signals": {
-          "active_invoice_body_present": true,
-          "active_invoice_expires_at": "2026-07-07T22:59:52.453411+00:00",
-          "active_invoice_id": "scusdc_2ad30a3e358e2218",
-          "active_invoice_meta_present": true,
-          "active_invoice_ready": true,
-          "buyer_outcome": true,
-          "commercial_copy_score": 100,
-          "commercial_copy_status": "commercial_copy_ready",
-          "deliverable_clarity": true,
-          "direct_cta": true,
-          "expected_target_ref": "ubounty-app/ubounty-demo#9",
-          "funnel_instrumentation_ready": true,
-          "h1_text": "Prevent retry failures in Ubounty Demo issue #9",
-          "missing_funnel_instrumentation_markers": [],
-          "no_pressure_boundary": true,
-          "opaque_public_checkout_slug": true,
-          "path": "/pay/agent-payment/checkout-4f0a537d9771",
-          "payment_options": true,
-          "privacy_boundary": true,
-          "private_access_boundary": true,
-          "public_funnel_collector_configured": false,
-          "public_funnel_measurement_ready": false,
-          "public_only_boundary": true,
-          "public_path_leaks_target_identity": false,
-          "public_static_attribution_fallback_active": true,
-          "public_static_attribution_ready": true,
-          "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
-          "public_url_privacy_preserved": true,
-          "receipt_next_step": true,
-          "source_url": "https://github.com/ubounty-app/ubounty-demo/issues/9",
-          "static_attribution_token": "maxim-checkout-4f0a537d9771-632e70d55d",
-          "target_ref": "ubounty-app/ubounty-demo#9",
-          "trust_proof": true,
-          "url_privacy_required": true,
-          "visible_cta_count": 1,
-          "visible_section_count": 1,
-          "visible_word_count": 48
-        },
-        "status": "landing_page_quality_ready",
-        "warning_count": 1,
-        "warnings": [
-          "commercial_copy_landing_copy_near_density_limit"
-        ]
-      },
-      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/checkout-4f0a537d9771/index.html",
-      "packet_id": "agent_payment_proof_3551_ubounty_app_ubounty_demo_9",
-      "page_id": "checkout-4f0a537d9771",
-      "path": "/pay/agent-payment/checkout-4f0a537d9771",
-      "public_url": "https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771",
-      "source": "agent_payment_action_workbench",
-      "source_url": "https://github.com/ubounty-app/ubounty-demo/issues/9",
-      "target_display": {
-        "context_label": "Ubounty App / Ubounty Demo",
-        "expected_target_ref": "ubounty-app/ubounty-demo#9",
-        "short_label": "Ubounty Demo issue #9",
-        "source_label": "Ubounty Demo issue #9"
-      },
-      "target_ref": "ubounty-app/ubounty-demo#9"
-    },
-    {
-      "funnel_instrumentation": {
-        "active_invoice": {
-          "amount_usd": 30.0,
-          "asset": "USDC",
           "buyer_reference": "charles-openclaw/charles-microbounties#1876",
           "expires_at": "2026-07-07T13:18:11.211256+00:00",
           "id": "scusdc_d29748e530cc55b1",
@@ -3303,7 +3474,7 @@
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "charles-openclaw/charles-microbounties#1876"
       },
-      "html_sha256": "c8ae1788b19e2d0ae1982aed2256fc65613964a0bea091ed0172c5aa418e2650",
+      "html_sha256": "215ee9c6618971003abfa73ecf5d91c3e153b035f71935e0972cfb4a44414ea1",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -3445,8 +3616,8 @@
   "public_funnel_measurement_mode": "static_attribution_reply_fallback",
   "public_funnel_measurement_ready": false,
   "public_static_requires_reachable_collector": true,
-  "public_url_privacy_preserved_count": 21,
-  "ready_page_count": 21,
+  "public_url_privacy_preserved_count": 22,
+  "ready_page_count": 22,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only",
   "visible_section_limit": 1,

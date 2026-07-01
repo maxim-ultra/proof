@@ -4,18 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
-  <meta name="maxim-funnel-page-id" content="checkout-4f0a537d9771" />
-  <meta name="maxim-funnel-payment-page-url" content="https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771" />
+  <meta name="maxim-funnel-page-id" content="checkout-a3de2e06d893" />
+  <meta name="maxim-funnel-payment-page-url" content="https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893" />
   <meta name="maxim-funnel-record-route" content="/api/revenue-funnel-event-ledger/record" />
   <meta name="maxim-funnel-public-collector-configured" content="false" />
   <meta name="maxim-funnel-public-collector-url" content="" />
-  <meta name="maxim-funnel-static-attribution-token" content="maxim-checkout-4f0a537d9771-632e70d55d" />
-  <meta name="maxim-funnel-static-attribution-query" content="maxim_ref=maxim-checkout-4f0a537d9771-632e70d55d" />
-  <meta name="maxim-active-invoice-id" content="scusdc_2ad30a3e358e2218" />
-  <meta name="maxim-active-invoice-amount-usd" content="30.0" />
-  <meta name="maxim-active-invoice-expires-at" content="2026-07-07T22:59:52.453411+00:00" />
+  <meta name="maxim-funnel-static-attribution-token" content="maxim-checkout-a3de2e06d893-0618fac799" />
+  <meta name="maxim-funnel-static-attribution-query" content="maxim_ref=maxim-checkout-a3de2e06d893-0618fac799" />
+  <meta name="maxim-active-invoice-id" content="scusdc_2f03feff7738bee2" />
+  <meta name="maxim-active-invoice-amount-usd" content="150.0" />
+  <meta name="maxim-active-invoice-expires-at" content="2026-07-08T09:46:33.116985+00:00" />
   <meta name="maxim-funnel-commercial-rule" content="buyer_or_public events only; owner_preview is QA only" />
-  <title>Prevent retry failures in Ubounty Demo issue #9</title>
+  <title>Prevent retry failures in Hermes Agent issue #40215</title>
   <style>
     :root {
       color-scheme: light;
@@ -57,31 +57,30 @@
 <body>
   <main>
     <div class="hero">
-      <h1>Prevent retry failures in Ubounty Demo issue #9</h1>
-	      <p class="lede">Public source. No wallet connection. No private data.</p>
+      <h1>Prevent retry failures in Hermes Agent issue #40215</h1>
+	      <p class="lede">Public source only. No wallet connection. No private data.</p>
     </div>
 
     <section class="payment-card">
       <div>
-        <h2>Pay</h2>
-		        <p class="muted">Start with $9/$15/$30 fixed-scope. Send USDC; reply tx hash.</p>
-        <a class="primary-cta" href="https://github.com/ubounty-app/ubounty-demo/issues/9?maxim_ref=maxim-checkout-4f0a537d9771-632e70d55d" rel="noopener noreferrer">Reply tx</a>
+		        <p class="muted">Send USDC. $150 invoice. $9/$15/$30 fixed-scope. Reply tx hash.</p>
+        <a class="primary-cta" href="https://github.com/NousResearch/hermes-agent/issues/40215?maxim_ref=maxim-checkout-a3de2e06d893-0618fac799" rel="noopener noreferrer">Reply tx</a>
       </div>
       <div class="pay-line" aria-label="Payment instructions">
 	        <h2>You get</h2>
 	        <p class="muted">Failure map, checklist, fix direction.</p>
-	        <p class="muted">Source matched: <a href="https://github.com/ubounty-app/ubounty-demo/issues/9" rel="noopener noreferrer">public issue</a>. Only if useful.</p>
+	        <p class="muted">Source matched: <a href="https://github.com/NousResearch/hermes-agent/issues/40215" rel="noopener noreferrer">public issue</a>. Only if useful.</p>
         <p><code>USDC</code> <code>Ethereum / ERC-20</code></p>
         <code class="address">0x395577cE2A2461249cF8f1Ec87DAE462eE6Cc84b</code>
         
-          <span class="invoice-proof" data-invoice-id="scusdc_2ad30a3e358e2218" data-invoice-amount-usd="30.00" data-invoice-asset="USDC" data-invoice-network="Ethereum / ERC-20"></span>
+          <span class="invoice-proof" data-invoice-id="scusdc_2f03feff7738bee2" data-invoice-amount-usd="150.00" data-invoice-asset="USDC" data-invoice-network="Ethereum / ERC-20"></span>
         
       </div>
     </section>
   </main>
   <script data-maxim-funnel-page="agent-payment">
     (function () {
-      var basePayload = {"active_invoice_id": "scusdc_2ad30a3e358e2218", "page_id": "checkout-4f0a537d9771", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771", "static_attribution_token": "maxim-checkout-4f0a537d9771-632e70d55d"};
+      var basePayload = {"active_invoice_id": "scusdc_2f03feff7738bee2", "page_id": "checkout-a3de2e06d893", "public_collector_url": "", "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893", "static_attribution_token": "maxim-checkout-a3de2e06d893-0618fac799"};
       var localOrigin = /^https?:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(window.location.origin);
       var configuredCollector =
         window.MAXIM_FUNNEL_COLLECTOR_URL ||

@@ -4,21 +4,23 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `21`
-- Exported pages: `21`
+- Ready pages: `22`
+- Exported pages: `22`
 - Landing page quality blockers: `0`
 - Max visible words: `48` / `48`
 - Max visible sections: `1` / `1`
-- Opaque checkout URLs: `21` / `21`
+- Opaque checkout URLs: `22` / `22`
 - Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `e6d0a6cbaa4f5498`
+- Manifest digest: `0b864f4a7bf63081`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy e6d0a6cbaa4f5498`
-- Local export refreshed at: `2026-07-01T05:43:08.972305+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 0b864f4a7bf63081`
+- Local export refreshed at: `2026-07-01T11:33:20.094990+00:00`
 
 ## Pages
+- `anthropics/claude-code#65550` -> https://maximultra.dev/pay/agent-payment/checkout-911152d4dbfe
+- `NousResearch/hermes-agent#40215` -> https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/checkout-980dbdad01aa
 - `mmd-rehan/textile-pos#32` -> https://maximultra.dev/pay/agent-payment/checkout-290bffcc9487
 - `huanlongAI/hl-dispatch#298` -> https://maximultra.dev/pay/agent-payment/checkout-b286433f4d9c
@@ -38,7 +40,6 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `Bitcoindefi/Open-Stellar#28` -> https://maximultra.dev/pay/agent-payment/checkout-518b2d4593ce
 - `ACertainArchangel/pinenote-on-q64a` -> https://maximultra.dev/pay/agent-payment/checkout-c575d6bb07d6
 - `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/checkout-38148c02356b
-- `ubounty-app/ubounty-demo#9` -> https://maximultra.dev/pay/agent-payment/checkout-4f0a537d9771
 - `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/checkout-f2f69da30afa
 
 ## Manual Deploy Gate
