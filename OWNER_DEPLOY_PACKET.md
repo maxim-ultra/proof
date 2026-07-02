@@ -4,23 +4,31 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `13`
-- Exported pages: `13`
+- Ready pages: `22`
+- Exported pages: `22`
 - Landing page quality blockers: `0`
 - Max visible words: `91` / `92`
 - Max visible sections: `1` / `1`
-- Opaque checkout URLs: `13` / `13`
+- Opaque checkout URLs: `22` / `22`
 - Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `58e765da9243343b`
+- Manifest digest: `484ae2661eeca2f3`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 58e765da9243343b`
-- Local export refreshed at: `2026-07-01T13:56:01.720345+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 484ae2661eeca2f3`
+- Local export refreshed at: `2026-07-02T19:02:38.486762+00:00`
 
 ## Pages
-- `anthropics/claude-code#65550` -> https://maximultra.dev/pay/agent-payment/checkout-911152d4dbfe
-- `NousResearch/hermes-agent#40215` -> https://maximultra.dev/pay/agent-payment/checkout-a3de2e06d893
+- `la-rebelion/hapimcp#3` -> https://maximultra.dev/pay/agent-payment/checkout-3138ec59521d
+- `anthropics/claude-code#65550` -> https://maximultra.dev/pay/agent-payment/checkout-18c20bb09f46
+- `NousResearch/hermes-agent#40215` -> https://maximultra.dev/pay/agent-payment/checkout-5917fdbf732a
+- `ubounty-app/ubounty-demo#9` -> https://maximultra.dev/pay/agent-payment/checkout-8f8e0949a6d7
+- `greyw0rks/bountyscout#30` -> https://maximultra.dev/pay/agent-payment/checkout-343cb5445a40
+- `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/checkout-5210caa2b7f1
+- `carinosas-app/carihub#67` -> https://maximultra.dev/pay/agent-payment/checkout-0d5cdbc76164
+- `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/checkout-6c2492561bf2
+- `INONONO66/openomni#201` -> https://maximultra.dev/pay/agent-payment/checkout-8b7df1955dcc
+- `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/checkout-617ef4b8250a
 - `strands-agents/harness-sdk#2884` -> https://maximultra.dev/pay/agent-payment/checkout-980dbdad01aa
 - `emrekayat/Query402#4` -> https://maximultra.dev/pay/agent-payment/checkout-6e27c9b8cf11
 - `crewAIInc/crewAI#5802` -> https://maximultra.dev/pay/agent-payment/checkout-735861da2d1d
@@ -30,6 +38,7 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 - `Pidoko257/proxypay#5` -> https://maximultra.dev/pay/agent-payment/checkout-b37d68e03124
 - `OJamals/masest#24` -> https://maximultra.dev/pay/agent-payment/checkout-17f01e690ba2
 - `Expensify/App#91584` -> https://maximultra.dev/pay/agent-payment/checkout-b63420f0a2ac
+- `edgarfloresguerra2011-a11y/marketnow#2` -> https://maximultra.dev/pay/agent-payment/checkout-6178e6eeb8bf
 - `vhspace/goldenmcp#64` -> https://maximultra.dev/pay/agent-payment/checkout-38148c02356b
 - `charles-openclaw/charles-microbounties#1876` -> https://maximultra.dev/pay/agent-payment/checkout-f2f69da30afa
 
