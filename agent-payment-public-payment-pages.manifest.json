@@ -1,9 +1,11 @@
 {
   "buyer_copy_profile": "ultra_concise_single_buyer_checkout",
+  "cache_escape_alias_enabled": true,
+  "cache_escape_alias_salt": "live-cache-escape-2026-07-03T1030Z",
   "confirmed_revenue_usd": 0.0,
   "counts_as_revenue": false,
   "deployment_target_hint": "Copy the contents of public_ready/ into the maxim-ultra/proof GitHub Pages repo after exact owner approval, then live-check every public_url before using it in public close copy.",
-  "exported_page_count": 26,
+  "exported_page_count": 27,
   "external_action_allowed": false,
   "funnel_instrumentation_status": "commercial_funnel_instrumentation_ready",
   "landing_page_quality_blocker_count": 0,
@@ -14,24 +16,27 @@
   "owner_preview_counts_as_commercial_exposure": false,
   "pages": [
     {
+      "cache_escape_alias": true,
+      "cache_escape_alias_source_page_id": "checkout-bda873ad7dc1",
+      "cache_escape_alias_source_path": "/pay/agent-payment/checkout-bda873ad7dc1",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
           "asset": "USDC",
           "buyer_reference": "x402-foundation/x402#2691",
-          "expires_at": "2026-07-10T07:30:22.062164+00:00",
-          "id": "scusdc_8c93ac5a9ede8c3d",
+          "expires_at": "2026-07-10T10:30:31.223934+00:00",
+          "id": "scusdc_96573deb76366183",
           "network": "Ethereum / ERC-20",
           "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b"
         },
-        "active_invoice_expires_at": "2026-07-10T07:30:22.062164+00:00",
-        "active_invoice_id": "scusdc_8c93ac5a9ede8c3d",
+        "active_invoice_expires_at": "2026-07-10T10:30:31.223934+00:00",
+        "active_invoice_id": "scusdc_96573deb76366183",
         "active_invoice_ready": true,
         "counts_as_revenue": false,
         "local_preview_visitor_kind": "owner_preview",
         "owner_preview_counts_as_commercial_exposure": false,
         "packet_id": "scusdc_8c93ac5a9ede8c3d",
-        "page_id": "checkout-bda873ad7dc1",
+        "page_id": "checkout-85a63f42bb2e",
         "public_buyer_visitor_kind": "buyer_or_public",
         "public_collector_url": "",
         "public_funnel_automated_collector_ready": false,
@@ -40,20 +45,20 @@
         "public_funnel_learning_ready": true,
         "public_funnel_measurement_mode": "static_attribution_reply_fallback",
         "public_funnel_measurement_ready": false,
-        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-bda873ad7dc1",
+        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-85a63f42bb2e",
         "public_static_attribution_ready": true,
         "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
         "public_static_requires_reachable_collector": true,
-        "receipt_reply_reference": "MAXIM reference: maxim-checkout-bda873ad7dc1-47acf6c2fb",
+        "receipt_reply_reference": "MAXIM reference: maxim-checkout-85a63f42bb2e-122a44f4b1",
         "record_route": "/api/revenue-funnel-event-ledger/record",
         "source_url": "https://github.com/x402-foundation/x402/issues/2691",
         "static_attribution_cta_param": "maxim_ref",
-        "static_attribution_query": "maxim_ref=maxim-checkout-bda873ad7dc1-47acf6c2fb",
-        "static_attribution_token": "maxim-checkout-bda873ad7dc1-47acf6c2fb",
+        "static_attribution_query": "maxim_ref=maxim-checkout-85a63f42bb2e-122a44f4b1",
+        "static_attribution_token": "maxim-checkout-85a63f42bb2e-122a44f4b1",
         "status": "commercial_funnel_instrumentation_ready",
         "target_ref": "x402-foundation/x402#2691"
       },
-      "html_sha256": "5dddbc06158cf2914576e1cb170e576fb0e4081bc0d8d708b118eafae5e6c756",
+      "html_sha256": "cce72d1958d9d17e6c6bfbe1bb7adecadd80292ff7e05d607f25d556386c7937",
       "landing_page_quality_audit": {
         "blocker_count": 0,
         "blockers": [],
@@ -129,8 +134,188 @@
         "score": 94,
         "signals": {
           "active_invoice_body_present": true,
-          "active_invoice_expires_at": "2026-07-10T07:30:22.062164+00:00",
-          "active_invoice_id": "scusdc_8c93ac5a9ede8c3d",
+          "active_invoice_expires_at": "2026-07-10T10:30:31.223934+00:00",
+          "active_invoice_id": "scusdc_96573deb76366183",
+          "active_invoice_meta_present": true,
+          "active_invoice_ready": true,
+          "buyer_outcome": true,
+          "commercial_copy_score": 100,
+          "commercial_copy_status": "commercial_copy_ready",
+          "deliverable_clarity": true,
+          "direct_cta": true,
+          "expected_target_ref": "x402-foundation/x402#2691",
+          "funnel_instrumentation_ready": true,
+          "h1_text": "Clarify retry and receipt risk in x402 issue #2691",
+          "missing_funnel_instrumentation_markers": [],
+          "no_pressure_boundary": true,
+          "opaque_public_checkout_slug": true,
+          "path": "/pay/agent-payment/checkout-85a63f42bb2e",
+          "payment_options": true,
+          "privacy_boundary": true,
+          "private_access_boundary": true,
+          "professional_checkout_shell": true,
+          "public_funnel_collector_configured": false,
+          "public_funnel_measurement_ready": false,
+          "public_only_boundary": true,
+          "public_path_leaks_target_identity": false,
+          "public_static_attribution_fallback_active": true,
+          "public_static_attribution_ready": true,
+          "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+          "public_url_privacy_preserved": true,
+          "readable_payment_address": true,
+          "receipt_next_step": true,
+          "source_url": "https://github.com/x402-foundation/x402/issues/2691",
+          "static_attribution_token": "maxim-checkout-85a63f42bb2e-122a44f4b1",
+          "target_ref": "x402-foundation/x402#2691",
+          "trust_badges_present": true,
+          "trust_proof": true,
+          "url_privacy_required": true,
+          "visible_cta_count": 1,
+          "visible_section_count": 1,
+          "visible_word_count": 89
+        },
+        "status": "landing_page_quality_ready",
+        "warning_count": 1,
+        "warnings": [
+          "commercial_copy_landing_copy_near_density_limit"
+        ]
+      },
+      "local_file": "/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready/pay/agent-payment/checkout-85a63f42bb2e/index.html",
+      "packet_id": "scusdc_8c93ac5a9ede8c3d",
+      "page_id": "checkout-85a63f42bb2e",
+      "path": "/pay/agent-payment/checkout-85a63f42bb2e",
+      "public_url": "https://maximultra.dev/pay/agent-payment/checkout-85a63f42bb2e",
+      "source": "self_custody_checkout_invoice",
+      "source_url": "https://github.com/x402-foundation/x402/issues/2691",
+      "target_display": {
+        "context_label": "x402 Foundation / x402",
+        "expected_target_ref": "x402-foundation/x402#2691",
+        "short_label": "x402 issue #2691",
+        "source_label": "x402 issue #2691"
+      },
+      "target_ref": "x402-foundation/x402#2691"
+    },
+    {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
+      "funnel_instrumentation": {
+        "active_invoice": {
+          "amount_usd": 149.0,
+          "asset": "USDC",
+          "buyer_reference": "x402-foundation/x402#2691",
+          "expires_at": "2026-07-10T10:30:31.223934+00:00",
+          "id": "scusdc_96573deb76366183",
+          "network": "Ethereum / ERC-20",
+          "receive_address": "0x395577ce2a2461249cf8f1ec87dae462ee6cc84b"
+        },
+        "active_invoice_expires_at": "2026-07-10T10:30:31.223934+00:00",
+        "active_invoice_id": "scusdc_96573deb76366183",
+        "active_invoice_ready": true,
+        "counts_as_revenue": false,
+        "local_preview_visitor_kind": "owner_preview",
+        "owner_preview_counts_as_commercial_exposure": false,
+        "packet_id": "scusdc_8c93ac5a9ede8c3d",
+        "page_id": "checkout-bda873ad7dc1",
+        "public_buyer_visitor_kind": "buyer_or_public",
+        "public_collector_url": "",
+        "public_funnel_automated_collector_ready": false,
+        "public_funnel_collector_configured": false,
+        "public_funnel_learning_gap": "",
+        "public_funnel_learning_ready": true,
+        "public_funnel_measurement_mode": "static_attribution_reply_fallback",
+        "public_funnel_measurement_ready": false,
+        "public_payment_page_url": "https://maximultra.dev/pay/agent-payment/checkout-bda873ad7dc1",
+        "public_static_attribution_ready": true,
+        "public_static_measurement_fallback": "buyer_must_reply_with_tx_hash_or_visible_request_on_source_issue_and_maxim_reference",
+        "public_static_requires_reachable_collector": true,
+        "receipt_reply_reference": "MAXIM reference: maxim-checkout-bda873ad7dc1-47acf6c2fb",
+        "record_route": "/api/revenue-funnel-event-ledger/record",
+        "source_url": "https://github.com/x402-foundation/x402/issues/2691",
+        "static_attribution_cta_param": "maxim_ref",
+        "static_attribution_query": "maxim_ref=maxim-checkout-bda873ad7dc1-47acf6c2fb",
+        "static_attribution_token": "maxim-checkout-bda873ad7dc1-47acf6c2fb",
+        "status": "commercial_funnel_instrumentation_ready",
+        "target_ref": "x402-foundation/x402#2691"
+      },
+      "html_sha256": "0bfe5bdd5f654d07f237e28f9ef34d34d3f069bafb2e413d2703bf29ae86834f",
+      "landing_page_quality_audit": {
+        "blocker_count": 0,
+        "blockers": [],
+        "commercial_copy_review": {
+          "blockers": [],
+          "copy_metrics": {
+            "visible_cta_count": 1,
+            "visible_section_count": 1,
+            "visible_word_count": 89
+          },
+          "positive_signals": [
+            "buyer_outcome_headline",
+            "clear_next_step",
+            "evidence_anchor",
+            "how_to_pay",
+            "low_risk_boundary",
+            "no_pressure_boundary",
+            "payment_instructions",
+            "privacy_boundary",
+            "receipt_next_step",
+            "single_active_invoice_scope",
+            "single_screen_checkout_structure",
+            "specific_deliverable",
+            "specific_outcome",
+            "speed_or_scope",
+            "what_you_get"
+          ],
+          "rules": {
+            "buyer_attention_span_blocks_dense_checkout_pages": true,
+            "cta_must_be_real_link_not_fake_button": true,
+            "hero_must_sell_buyer_outcome": true,
+            "must_offer_low_friction_entry_ladder": true,
+            "must_show_trust_privacy_deliverable_payment_and_receipt_flow_concisely": true,
+            "no_internal_artifact_terms": true,
+            "no_multi_customer_directory_exposure": true,
+            "no_robotic_placeholder_copy": true,
+            "single_buyer_checkout_not_directory": true,
+            "visible_copy_warning_limit": 78,
+            "visible_copy_word_limit": 92,
+            "visible_section_limit": 1
+          },
+          "score": 100,
+          "status": "commercial_copy_ready",
+          "warnings": [
+            "landing_copy_near_density_limit"
+          ]
+        },
+        "rules": {
+          "buyer_attention_span_blocks_dense_checkout_pages": true,
+          "buyer_trust_boundaries_required": true,
+          "checkout_copy_density_blocks_bloated_pages": true,
+          "commercial_copy_review_blocks_weak_buyer_pages": true,
+          "commercial_funnel_instrumentation_required": true,
+          "generated_payment_pages_must_not_expose_target_identity_in_public_path": true,
+          "generated_payment_pages_require_opaque_buyer_safe_url": true,
+          "generic_internal_payment_copy_blocks_export": true,
+          "internal_artifact_language_blocks_export": true,
+          "landing_page_copy_must_read_buyer_first": true,
+          "landing_page_must_explain_buyer_context_and_no_pressure": true,
+          "landing_page_must_have_buyer_outcome": true,
+          "landing_page_must_have_direct_cta": true,
+          "one_screen_checkout_standard_required": true,
+          "owner_preview_must_not_count_as_buyer_exposure": true,
+          "professional_checkout_shell_required": true,
+          "public_url_must_not_use_internal_packet_id": true,
+          "raw_internal_target_ref_must_not_be_hero_copy": true,
+          "readable_payment_address_required": true,
+          "source_url_target_ref_must_match": true,
+          "static_pages_without_collector_require_attributed_reply_fallback": true,
+          "target_specific_pages_should_be_noindex": true,
+          "trust_badges_required": true
+        },
+        "score": 94,
+        "signals": {
+          "active_invoice_body_present": true,
+          "active_invoice_expires_at": "2026-07-10T10:30:31.223934+00:00",
+          "active_invoice_id": "scusdc_96573deb76366183",
           "active_invoice_meta_present": true,
           "active_invoice_ready": true,
           "buyer_outcome": true,
@@ -191,6 +376,9 @@
       "target_ref": "x402-foundation/x402#2691"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
@@ -368,6 +556,9 @@
       "target_ref": "AcePeak/naturo#889"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
@@ -545,6 +736,9 @@
       "target_ref": "NousResearch/hermes-agent#57533"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
@@ -722,6 +916,9 @@
       "target_ref": "NousResearch/hermes-agent#57364"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
@@ -899,6 +1096,9 @@
       "target_ref": "senara-solutions/mika#1719"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 149.0,
@@ -1076,6 +1276,9 @@
       "target_ref": "explorium-ai/mcp-explorium#32"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -1253,6 +1456,9 @@
       "target_ref": "edgarfloresguerra2011-a11y/marketnow#2"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -1430,6 +1636,9 @@
       "target_ref": "la-rebelion/hapimcp#3"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 150.0,
@@ -1607,6 +1816,9 @@
       "target_ref": "anthropics/claude-code#65550"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 150.0,
@@ -1784,6 +1996,9 @@
       "target_ref": "NousResearch/hermes-agent#40215"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -1961,6 +2176,9 @@
       "target_ref": "ubounty-app/ubounty-demo#9"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -2138,6 +2356,9 @@
       "target_ref": "greyw0rks/bountyscout#30"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -2315,6 +2536,9 @@
       "target_ref": "vhspace/goldenmcp#64"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -2492,6 +2716,9 @@
       "target_ref": "carinosas-app/carihub#67"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -2669,6 +2896,9 @@
       "target_ref": "charles-openclaw/charles-microbounties#1876"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -2846,6 +3076,9 @@
       "target_ref": "INONONO66/openomni#201"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -3023,6 +3256,9 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {
           "amount_usd": 30.0,
@@ -3200,6 +3436,9 @@
       "target_ref": "strands-agents/harness-sdk#2884"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -3367,6 +3606,9 @@
       "target_ref": "emrekayat/Query402#4"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -3534,6 +3776,9 @@
       "target_ref": "crewAIInc/crewAI#5802"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -3701,6 +3946,9 @@
       "target_ref": "botho-project/botho#458"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -3868,6 +4116,9 @@
       "target_ref": "Stash-Mobile-App-Group-90/stash#3"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -4035,6 +4286,9 @@
       "target_ref": "Smartdevs17/agenticpay#453"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -4202,6 +4456,9 @@
       "target_ref": "Pidoko257/proxypay#5"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -4369,6 +4626,9 @@
       "target_ref": "OJamals/masest#24"
     },
     {
+      "cache_escape_alias": false,
+      "cache_escape_alias_source_page_id": "",
+      "cache_escape_alias_source_path": "",
       "funnel_instrumentation": {
         "active_invoice": {},
         "active_invoice_expires_at": "",
@@ -4546,8 +4806,8 @@
   "public_funnel_measurement_mode": "static_attribution_reply_fallback",
   "public_funnel_measurement_ready": false,
   "public_static_requires_reachable_collector": true,
-  "public_url_privacy_preserved_count": 26,
-  "ready_page_count": 26,
+  "public_url_privacy_preserved_count": 27,
+  "ready_page_count": 27,
   "send_allowed": false,
   "status": "agent_payment_public_payment_pages_exported_local_only",
   "visible_section_limit": 1,

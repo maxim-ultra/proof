@@ -4,21 +4,22 @@ Local-only export. No public deploy, post, send, payment movement, wallet action
 
 - Public domain: `https://maximultra.dev`
 - Export folder: `/Users/farbodsalehi/Documents/New project/crypto-opportunity-sprint/maxim-os/reports/agent_payment_buyer_pages/public_ready`
-- Ready pages: `26`
-- Exported pages: `26`
+- Ready pages: `27`
+- Exported pages: `27`
 - Landing page quality blockers: `0`
 - Max visible words: `91` / `92`
 - Max visible sections: `1` / `1`
-- Opaque checkout URLs: `26` / `26`
+- Opaque checkout URLs: `27` / `27`
 - Buyer copy profile: `ultra_concise_single_buyer_checkout`
 - Funnel instrumentation: `commercial_funnel_instrumentation_ready`
 - Public buyer visits require a reachable collector; local previews are logged as `owner_preview` and do not count as commercial exposure.
-- Manifest digest: `628bd7f76a5f102b`
+- Manifest digest: `1b548bb5fc42dc7b`
 - Exact deploy route: `/api/agent-payment-reliability-kit/public-payment-page-deploy-workbench/run`
-- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 628bd7f76a5f102b`
-- Local export refreshed at: `2026-07-03T07:30:32.072074+00:00`
+- Exact deploy approval phrase: `MAXIM approve Agent Payment public payment page deploy 1b548bb5fc42dc7b`
+- Local export refreshed at: `2026-07-03T10:33:24.553394+00:00`
 
 ## Pages
+- `x402-foundation/x402#2691` -> https://maximultra.dev/pay/agent-payment/checkout-85a63f42bb2e
 - `x402-foundation/x402#2691` -> https://maximultra.dev/pay/agent-payment/checkout-bda873ad7dc1
 - `AcePeak/naturo#889` -> https://maximultra.dev/pay/agent-payment/checkout-17333c31831d
 - `NousResearch/hermes-agent#57533` -> https://maximultra.dev/pay/agent-payment/checkout-c58b1fc7e272
